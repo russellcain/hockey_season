@@ -29,3 +29,16 @@ This visits each NHL team's cap page and writes `player-salaries.json` in the cu
 ```
 
 Retired players and unsigned free agents (RFA/UFA) are excluded. Positions are simplified to `F`, `D`, or `G`.
+
+### Seed the player database
+
+After running the scraper, populate `data/hockey_season.db` with all NHL players and their NHL-assigned IDs:
+
+```bash
+cd draft
+go run ./seed
+```
+
+This runs `data/migrations/001_create_nhl_players.sql` (creating the `nhl_players` table if needed), then fetches each team's active roster from the NHL API to resolve player IDs by name. The script is safe to re-run — existing rows are skipped. Players whose names couldn't be matched are inserted with a `null` NHL ID and printed to stderr for manual review.
+
+> **Each season**: update the `nhlSeason` constant in `draft/seed/main.go` before re-running.
