@@ -122,7 +122,7 @@ func main() {
 		}
 	}
 
-	out := "player-salaries.json"
+	out := "../data/player-salaries.json"
 	data, _ := json.MarshalIndent(players, "", "  ")
 	if err := os.WriteFile(out, data, 0644); err != nil {
 		log.Fatal(err)
