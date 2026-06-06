@@ -1,6 +1,8 @@
-import { useMemo, useState } from 'react'
+import { useCallback, useMemo, useState } from 'react'
 import { AVAILABLE_PLAYERS, TEAMS, DRAFT_STATE, currentPickingTeamIndex, CAP_LIMIT, SLOT_TARGETS, formatSalary, type Player, type Position } from '../../data/mockDraft'
 import { DraftViolationModal, type Violation } from './DraftViolationModal'
+import { DraftSnackbar } from './DraftSnackbar'
+import { filterPlayers } from './filterLogic'
 import { POS_COLORS } from './shared'
 
 const initialDraftedBy = new Map<string, string>()
@@ -122,6 +124,8 @@ export function AvailablePlayerList() {
   const [draftedBy, setDraftedBy] = useState<Map<string, string>>(initialDraftedBy)
   const [sessionCapUsed, setSessionCapUsed] = useState(() => TEAMS.find(t => t.isMe)!.capUsed)
   const [violation, setViolation] = useState<Violation | null>(null)
+  const [draftedPlayer, setDraftedPlayer] = useState<Player | null>(null)
+  const dismissSnackbar = useCallback(() => setDraftedPlayer(null), [])
 
   const me = TEAMS.find(t => t.isMe)!
   const pickingIdx = currentPickingTeamIndex(DRAFT_STATE)
@@ -156,16 +160,9 @@ export function AvailablePlayerList() {
     [draftedBy, capRemaining, fullPositions]
   )
 
-  const filtered = AVAILABLE_PLAYERS.filter(p => {
-    if (showDraftable) {
-      if (draftedBy.has(p.id)) return false
-      if (p.salary > capRemaining) return false
-      if (fullPositions.has(p.position)) return false
-    } else if (hideTaken && draftedBy.has(p.id)) return false
-    if (posFilter !== 'ALL' && p.position !== posFilter) return false
-    if (nhlTeamFilter !== 'ALL' && p.team !== nhlTeamFilter) return false
-    if (query && !p.name.toLowerCase().includes(query.toLowerCase())) return false
-    return true
+  const filtered = filterPlayers(AVAILABLE_PLAYERS, {
+    query, posFilter, nhlTeamFilter, hideTaken, showDraftable,
+    draftedBy, capRemaining, fullPositions,
   })
 
   function handleAttemptDraft(player: Player) {
@@ -182,12 +179,16 @@ export function AvailablePlayerList() {
     }
     setDraftedBy(prev => new Map(prev).set(player.id, TEAMS[pickingIdx].name))
     setSessionCapUsed(prev => prev + player.salary)
+    setDraftedPlayer(player)
   }
 
   return (
     <>
       {violation && (
         <DraftViolationModal violation={violation} onDismiss={() => setViolation(null)} />
+      )}
+      {draftedPlayer && (
+        <DraftSnackbar player={draftedPlayer} onDismiss={dismissSnackbar} />
       )}
 
       <div className="flex flex-col h-full">
