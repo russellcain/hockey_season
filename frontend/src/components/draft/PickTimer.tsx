@@ -1,10 +1,15 @@
-import { useState, useEffect } from 'react'
-import { DRAFT_STATE, TEAMS, currentPickingTeamIndex } from '../../data/mockDraft'
+import { useEffect, useState } from 'react'
+import { currentPickingTeamIndex } from '../../data/mockDraft'
+import { useDraft } from '../../context/DraftContext'
 
 export function PickTimer() {
-  const [seconds, setSeconds] = useState(DRAFT_STATE.secondsRemaining)
-  const pickingTeam = TEAMS[currentPickingTeamIndex(DRAFT_STATE)]
-  const isMe = pickingTeam.isMe
+  const { draftState, teams } = useDraft()
+  const [seconds, setSeconds] = useState(draftState?.secondsRemaining ?? 90)
+
+  // Reset countdown whenever the active pick changes
+  useEffect(() => {
+    if (draftState) setSeconds(draftState.secondsRemaining)
+  }, [draftState?.currentRound, draftState?.currentPick])
 
   useEffect(() => {
     if (seconds <= 0) return
@@ -12,7 +17,11 @@ export function PickTimer() {
     return () => clearInterval(id)
   }, [seconds])
 
-  const pct = seconds / 90
+  if (!draftState || teams.length === 0) return null
+
+  const pickingTeam = teams[currentPickingTeamIndex(draftState)]
+  const isMe = pickingTeam?.isMe ?? false
+  const pct = seconds / (draftState.secondsRemaining || 90)
   const urgent = seconds <= 20
   const circumference = 2 * Math.PI * 20
 
@@ -35,18 +44,20 @@ export function PickTimer() {
           'absolute inset-0 flex items-center justify-center text-xs font-mono font-bold',
           urgent ? 'text-red-400' : isMe ? 'text-amber-400' : 'text-slate-200',
         ].join(' ')}>
-          {seconds > 59 ? `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, '0')}` : seconds}
+          {seconds > 59
+            ? `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, '0')}`
+            : seconds}
         </span>
       </div>
 
       <div>
         <div className="text-xs text-slate-500 uppercase tracking-wider">Now Picking</div>
         <div className={['text-sm font-semibold', isMe ? 'text-amber-300' : 'text-slate-200'].join(' ')}>
-          {pickingTeam.name}
+          {pickingTeam?.name ?? '—'}
           {isMe && <span className="ml-1 text-amber-400"> — that's you!</span>}
         </div>
         <div className="text-xs text-slate-500">
-          Round {DRAFT_STATE.currentRound}, Pick {DRAFT_STATE.currentPick} of {DRAFT_STATE.totalTeams}
+          Round {draftState.currentRound}, Pick {draftState.currentPick} of {draftState.totalTeams}
         </div>
       </div>
     </div>

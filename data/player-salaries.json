@@ -45,63 +45,21 @@
     "name": "Ryan Poehling",
     "age": "27",
     "pos": "F",
-    "salary_cap_hit": "1,900,000",
-    "team": "Anaheim Ducks"
-  },
-  {
-    "name": "Ross Johnston",
-    "age": "32",
-    "pos": "F",
-    "salary_cap_hit": "1,100,000",
-    "team": "Anaheim Ducks"
-  },
-  {
-    "name": "Cutter Gauthier",
-    "age": "22",
-    "pos": "F",
-    "salary_cap_hit": "950,000",
-    "team": "Anaheim Ducks"
-  },
-  {
-    "name": "Leo Carlsson",
-    "age": "21",
-    "pos": "F",
-    "salary_cap_hit": "950,000",
+    "salary_cap_hit": "3,750,000",
     "team": "Anaheim Ducks"
   },
   {
     "name": "Beckett Sennecke",
     "age": "20",
     "pos": "F",
-    "salary_cap_hit": "942,500",
+    "salary_cap_hit": "953,750",
     "team": "Anaheim Ducks"
   },
   {
-    "name": "Jansen Harkins",
-    "age": "29",
-    "pos": "F",
-    "salary_cap_hit": "787,500",
-    "team": "Anaheim Ducks"
-  },
-  {
-    "name": "Jacob Trouba",
-    "age": "32",
+    "name": "Jackson LaCombe",
+    "age": "25",
     "pos": "D",
-    "salary_cap_hit": "8,000,000",
-    "team": "Anaheim Ducks"
-  },
-  {
-    "name": "John Carlson",
-    "age": "36",
-    "pos": "D",
-    "salary_cap_hit": "8,000,000",
-    "team": "Anaheim Ducks"
-  },
-  {
-    "name": "Radko Gudas",
-    "age": "36",
-    "pos": "D",
-    "salary_cap_hit": "4,000,000",
+    "salary_cap_hit": "9,000,000",
     "team": "Anaheim Ducks"
   },
   {
@@ -112,34 +70,6 @@
     "team": "Anaheim Ducks"
   },
   {
-    "name": "Jackson LaCombe",
-    "age": "25",
-    "pos": "D",
-    "salary_cap_hit": "925,000",
-    "team": "Anaheim Ducks"
-  },
-  {
-    "name": "Ian Moore",
-    "age": "24",
-    "pos": "D",
-    "salary_cap_hit": "925,000",
-    "team": "Anaheim Ducks"
-  },
-  {
-    "name": "Pavel Mintyukov",
-    "age": "22",
-    "pos": "D",
-    "salary_cap_hit": "918,333",
-    "team": "Anaheim Ducks"
-  },
-  {
-    "name": "Olen Zellweger",
-    "age": "22",
-    "pos": "D",
-    "salary_cap_hit": "844,167",
-    "team": "Anaheim Ducks"
-  },
-  {
     "name": "Lukas Dostal",
     "age": "25",
     "pos": "G",
@@ -147,24 +77,31 @@
     "team": "Anaheim Ducks"
   },
   {
-    "name": "Petr Mrazek",
-    "age": "34",
-    "pos": "G",
-    "salary_cap_hit": "4,250,000",
+    "name": "Roger Mcqueen",
+    "age": "19",
+    "pos": "F",
+    "salary_cap_hit": "1,075,000",
     "team": "Anaheim Ducks"
   },
   {
-    "name": "Cam Fowler",
-    "age": "34",
-    "pos": "D",
-    "salary_cap_hit": "2,500,000",
+    "name": "Ethan Procyszyn",
+    "age": "19",
+    "pos": "F",
+    "salary_cap_hit": "1,040,000",
+    "team": "Anaheim Ducks"
+  },
+  {
+    "name": "Herman Traff",
+    "age": "20",
+    "pos": "F",
+    "salary_cap_hit": "990,000",
     "team": "Anaheim Ducks"
   },
   {
     "name": "Lucas Pettersson",
     "age": "20",
     "pos": "F",
-    "salary_cap_hit": "919,050",
+    "salary_cap_hit": "962,700",
     "team": "Anaheim Ducks"
   },
   {
@@ -196,24 +133,10 @@
     "team": "Anaheim Ducks"
   },
   {
-    "name": "Jaxsen Wiebe",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "852,500",
-    "team": "Anaheim Ducks"
-  },
-  {
     "name": "Sam Colangelo",
     "age": "24",
     "pos": "F",
     "salary_cap_hit": "850,000",
-    "team": "Anaheim Ducks"
-  },
-  {
-    "name": "Sasha Pastujov",
-    "age": "22",
-    "pos": "F",
-    "salary_cap_hit": "825,000",
     "team": "Anaheim Ducks"
   },
   {
@@ -231,24 +154,10 @@
     "team": "Anaheim Ducks"
   },
   {
-    "name": "Jan Mysak",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Anaheim Ducks"
-  },
-  {
-    "name": "Jeffrey Viel",
-    "age": "29",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Anaheim Ducks"
-  },
-  {
     "name": "Stian Solberg",
     "age": "20",
     "pos": "D",
-    "salary_cap_hit": "942,500",
+    "salary_cap_hit": "941,667",
     "team": "Anaheim Ducks"
   },
   {
@@ -273,20 +182,6 @@
     "team": "Anaheim Ducks"
   },
   {
-    "name": "Tyson Hinds",
-    "age": "23",
-    "pos": "D",
-    "salary_cap_hit": "829,444",
-    "team": "Anaheim Ducks"
-  },
-  {
-    "name": "Jeremie Biakabutuka",
-    "age": "24",
-    "pos": "D",
-    "salary_cap_hit": "825,000",
-    "team": "Anaheim Ducks"
-  },
-  {
     "name": "Ville Husso",
     "age": "31",
     "pos": "G",
@@ -294,31 +189,17 @@
     "team": "Anaheim Ducks"
   },
   {
+    "name": "Damian Clara",
+    "age": "21",
+    "pos": "G",
+    "salary_cap_hit": "934,167",
+    "team": "Anaheim Ducks"
+  },
+  {
     "name": "Tomas Suchanek",
     "age": "23",
     "pos": "G",
     "salary_cap_hit": "895,000",
-    "team": "Anaheim Ducks"
-  },
-  {
-    "name": "Damian Clara",
-    "age": "21",
-    "pos": "G",
-    "salary_cap_hit": "888,333",
-    "team": "Anaheim Ducks"
-  },
-  {
-    "name": "Vyacheslav Buteyets",
-    "age": "24",
-    "pos": "G",
-    "salary_cap_hit": "852,500",
-    "team": "Anaheim Ducks"
-  },
-  {
-    "name": "Calle Clang",
-    "age": "24",
-    "pos": "G",
-    "salary_cap_hit": "775,000",
     "team": "Anaheim Ducks"
   },
   {
@@ -357,13 +238,6 @@
     "team": "Boston Bruins"
   },
   {
-    "name": "Viktor Arvidsson",
-    "age": "33",
-    "pos": "F",
-    "salary_cap_hit": "4,000,000",
-    "team": "Boston Bruins"
-  },
-  {
     "name": "Tanner Jeannot",
     "age": "29",
     "pos": "F",
@@ -375,6 +249,13 @@
     "age": "33",
     "pos": "F",
     "salary_cap_hit": "1,850,000",
+    "team": "Boston Bruins"
+  },
+  {
+    "name": "Alex Steeves",
+    "age": "26",
+    "pos": "F",
+    "salary_cap_hit": "1,625,000",
     "team": "Boston Bruins"
   },
   {
@@ -399,17 +280,10 @@
     "team": "Boston Bruins"
   },
   {
-    "name": "Alex Steeves",
-    "age": "26",
-    "pos": "F",
-    "salary_cap_hit": "850,000",
-    "team": "Boston Bruins"
-  },
-  {
     "name": "Fraser Minten",
     "age": "21",
     "pos": "F",
-    "salary_cap_hit": "837,500",
+    "salary_cap_hit": "879,167",
     "team": "Boston Bruins"
   },
   {
@@ -448,20 +322,6 @@
     "team": "Boston Bruins"
   },
   {
-    "name": "Andrew Peeke",
-    "age": "28",
-    "pos": "D",
-    "salary_cap_hit": "2,750,000",
-    "team": "Boston Bruins"
-  },
-  {
-    "name": "Jordan Harris",
-    "age": "25",
-    "pos": "D",
-    "salary_cap_hit": "825,000",
-    "team": "Boston Bruins"
-  },
-  {
     "name": "Jeremy Swayman",
     "age": "27",
     "pos": "G",
@@ -486,7 +346,7 @@
     "name": "Lukas Reichel",
     "age": "24",
     "pos": "F",
-    "salary_cap_hit": "50,000",
+    "salary_cap_hit": "950,000",
     "team": "Boston Bruins"
   },
   {
@@ -497,6 +357,13 @@
     "team": "Boston Bruins"
   },
   {
+    "name": "Lukas Reichel",
+    "age": "24",
+    "pos": "F",
+    "salary_cap_hit": "950,000",
+    "team": "Boston Bruins"
+  },
+  {
     "name": "Dans Locmelis",
     "age": "22",
     "pos": "F",
@@ -504,150 +371,52 @@
     "team": "Boston Bruins"
   },
   {
-    "name": "Matej Blumel",
-    "age": "26",
-    "pos": "F",
-    "salary_cap_hit": "875,000",
-    "team": "Boston Bruins"
-  },
-  {
-    "name": "Matthew Poitras",
-    "age": "22",
-    "pos": "F",
-    "salary_cap_hit": "870,000",
-    "team": "Boston Bruins"
-  },
-  {
-    "name": "Riley Duran",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "867,500",
-    "team": "Boston Bruins"
-  },
-  {
-    "name": "Fabian Lysell",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "863,333",
-    "team": "Boston Bruins"
-  },
-  {
-    "name": "Alexis Gendron",
-    "age": "22",
-    "pos": "F",
-    "salary_cap_hit": "860,000",
-    "team": "Boston Bruins"
-  },
-  {
-    "name": "John Farinacci",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Boston Bruins"
-  },
-  {
-    "name": "Patrick Brown",
-    "age": "34",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Boston Bruins"
-  },
-  {
-    "name": "Georgii Merkulov",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Boston Bruins"
-  },
-  {
-    "name": "Riley Tufte",
-    "age": "28",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Boston Bruins"
-  },
-  {
     "name": "Navrin Mutter",
     "age": "25",
     "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Boston Bruins"
-  },
-  {
-    "name": "Lukas Reichel",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "50,000",
+    "salary_cap_hit": "850,000",
     "team": "Boston Bruins"
   },
   {
     "name": "Loke Johansson",
     "age": "20",
     "pos": "D",
-    "salary_cap_hit": "881,667",
-    "team": "Boston Bruins"
-  },
-  {
-    "name": "Frederic Brunet",
-    "age": "22",
-    "pos": "D",
-    "salary_cap_hit": "860,000",
-    "team": "Boston Bruins"
-  },
-  {
-    "name": "Maximus Wanner",
-    "age": "23",
-    "pos": "D",
-    "salary_cap_hit": "828,333",
-    "team": "Boston Bruins"
-  },
-  {
-    "name": "Victor Soderstrom",
-    "age": "25",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Boston Bruins"
-  },
-  {
-    "name": "Michael Callahan",
-    "age": "26",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Boston Bruins"
-  },
-  {
-    "name": "Billy Sweezey",
-    "age": "30",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
+    "salary_cap_hit": "928,333",
     "team": "Boston Bruins"
   },
   {
     "name": "Jonathan Aspirot",
     "age": "27",
     "pos": "D",
-    "salary_cap_hit": "775,000",
+    "salary_cap_hit": "887,500",
     "team": "Boston Bruins"
   },
   {
-    "name": "Simon Zajicek",
+    "name": "Frederic Brunet",
+    "age": "22",
+    "pos": "D",
+    "salary_cap_hit": "875,000",
+    "team": "Boston Bruins"
+  },
+  {
+    "name": "Billy Sweezey",
+    "age": "30",
+    "pos": "D",
+    "salary_cap_hit": "850,000",
+    "team": "Boston Bruins"
+  },
+  {
+    "name": "Max Lundgren",
     "age": "24",
     "pos": "G",
-    "salary_cap_hit": "872,500",
+    "salary_cap_hit": "952,500",
     "team": "Boston Bruins"
   },
   {
     "name": "Michael DiPietro",
-    "age": "26",
+    "age": "27",
     "pos": "G",
     "salary_cap_hit": "812,500",
-    "team": "Boston Bruins"
-  },
-  {
-    "name": "Luke Cavallin",
-    "age": "25",
-    "pos": "G",
-    "salary_cap_hit": "790,000",
     "team": "Boston Bruins"
   },
   {
@@ -665,17 +434,17 @@
     "team": "Buffalo Sabres"
   },
   {
+    "name": "Josh Doan",
+    "age": "24",
+    "pos": "F",
+    "salary_cap_hit": "6,950,000",
+    "team": "Buffalo Sabres"
+  },
+  {
     "name": "Ryan McLeod",
     "age": "26",
     "pos": "F",
     "salary_cap_hit": "5,000,000",
-    "team": "Buffalo Sabres"
-  },
-  {
-    "name": "Alex Tuch",
-    "age": "30",
-    "pos": "F",
-    "salary_cap_hit": "4,750,000",
     "team": "Buffalo Sabres"
   },
   {
@@ -707,34 +476,6 @@
     "team": "Buffalo Sabres"
   },
   {
-    "name": "Peyton Krebs",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "1,450,000",
-    "team": "Buffalo Sabres"
-  },
-  {
-    "name": "Beck Malenstyn",
-    "age": "28",
-    "pos": "F",
-    "salary_cap_hit": "1,350,000",
-    "team": "Buffalo Sabres"
-  },
-  {
-    "name": "Zach Benson",
-    "age": "21",
-    "pos": "F",
-    "salary_cap_hit": "950,000",
-    "team": "Buffalo Sabres"
-  },
-  {
-    "name": "Josh Doan",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "925,000",
-    "team": "Buffalo Sabres"
-  },
-  {
     "name": "Jiri Kulich",
     "age": "22",
     "pos": "F",
@@ -757,7 +498,7 @@
   },
   {
     "name": "Bowen Byram",
-    "age": "24",
+    "age": "25",
     "pos": "D",
     "salary_cap_hit": "6,250,000",
     "team": "Buffalo Sabres"
@@ -774,27 +515,6 @@
     "age": "27",
     "pos": "D",
     "salary_cap_hit": "2,200,000",
-    "team": "Buffalo Sabres"
-  },
-  {
-    "name": "Michael Kesselring",
-    "age": "26",
-    "pos": "D",
-    "salary_cap_hit": "1,400,000",
-    "team": "Buffalo Sabres"
-  },
-  {
-    "name": "Luke Schenn",
-    "age": "36",
-    "pos": "D",
-    "salary_cap_hit": "1,375,000",
-    "team": "Buffalo Sabres"
-  },
-  {
-    "name": "Logan Stanley",
-    "age": "28",
-    "pos": "D",
-    "salary_cap_hit": "1,250,000",
     "team": "Buffalo Sabres"
   },
   {
@@ -815,19 +535,19 @@
     "name": "Jeff Skinner",
     "age": "34",
     "pos": "F",
-    "salary_cap_hit": "4,444,444",
+    "salary_cap_hit": "6,444,444",
+    "team": "Buffalo Sabres"
+  },
+  {
+    "name": "Jake Richard",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "1,013,750",
     "team": "Buffalo Sabres"
   },
   {
     "name": "Sam Carrick",
     "age": "34",
-    "pos": "F",
-    "salary_cap_hit": "1,000,000",
-    "team": "Buffalo Sabres"
-  },
-  {
-    "name": "Tanner Pearson",
-    "age": "33",
     "pos": "F",
     "salary_cap_hit": "1,000,000",
     "team": "Buffalo Sabres"
@@ -843,7 +563,7 @@
     "name": "Konsta Helenius",
     "age": "20",
     "pos": "F",
-    "salary_cap_hit": "942,500",
+    "salary_cap_hit": "953,750",
     "team": "Buffalo Sabres"
   },
   {
@@ -854,24 +574,17 @@
     "team": "Buffalo Sabres"
   },
   {
+    "name": "Anton Wahlberg",
+    "age": "20",
+    "pos": "F",
+    "salary_cap_hit": "893,333",
+    "team": "Buffalo Sabres"
+  },
+  {
     "name": "Noah Ostlund",
     "age": "22",
     "pos": "F",
     "salary_cap_hit": "886,667",
-    "team": "Buffalo Sabres"
-  },
-  {
-    "name": "Anton Wahlberg",
-    "age": "20",
-    "pos": "F",
-    "salary_cap_hit": "858,333",
-    "team": "Buffalo Sabres"
-  },
-  {
-    "name": "Olivier Nadeau",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "836,667",
     "team": "Buffalo Sabres"
   },
   {
@@ -896,59 +609,31 @@
     "team": "Buffalo Sabres"
   },
   {
-    "name": "Jake Leschyshyn",
-    "age": "27",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
+    "name": "Maxim Strbak",
+    "age": "21",
+    "pos": "D",
+    "salary_cap_hit": "1,028,333",
     "team": "Buffalo Sabres"
   },
   {
-    "name": "Trevor Kuntar",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Buffalo Sabres"
-  },
-  {
-    "name": "Josh Dunne",
-    "age": "27",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
+    "name": "Gavin McCarthy",
+    "age": "21",
+    "pos": "D",
+    "salary_cap_hit": "990,833",
     "team": "Buffalo Sabres"
   },
   {
     "name": "Radim Mrtka",
-    "age": "18",
+    "age": "19",
     "pos": "D",
-    "salary_cap_hit": "975,000",
-    "team": "Buffalo Sabres"
-  },
-  {
-    "name": "Zac Jones",
-    "age": "25",
-    "pos": "D",
-    "salary_cap_hit": "900,000",
-    "team": "Buffalo Sabres"
-  },
-  {
-    "name": "Isaac Belliveau",
-    "age": "23",
-    "pos": "D",
-    "salary_cap_hit": "875,000",
-    "team": "Buffalo Sabres"
-  },
-  {
-    "name": "Nikita Novikov",
-    "age": "22",
-    "pos": "D",
-    "salary_cap_hit": "867,500",
+    "salary_cap_hit": "974,167",
     "team": "Buffalo Sabres"
   },
   {
     "name": "Vsevolod Komarov",
     "age": "22",
     "pos": "D",
-    "salary_cap_hit": "860,000",
+    "salary_cap_hit": "910,000",
     "team": "Buffalo Sabres"
   },
   {
@@ -966,17 +651,10 @@
     "team": "Buffalo Sabres"
   },
   {
-    "name": "Gavin Bayreuther",
-    "age": "32",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Buffalo Sabres"
-  },
-  {
-    "name": "Zach Metsa",
-    "age": "27",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
+    "name": "Scott Ratzlaff",
+    "age": "21",
+    "pos": "G",
+    "salary_cap_hit": "935,000",
     "team": "Buffalo Sabres"
   },
   {
@@ -984,13 +662,6 @@
     "age": "22",
     "pos": "G",
     "salary_cap_hit": "920,000",
-    "team": "Buffalo Sabres"
-  },
-  {
-    "name": "Scott Ratzlaff",
-    "age": "21",
-    "pos": "G",
-    "salary_cap_hit": "885,000",
     "team": "Buffalo Sabres"
   },
   {
@@ -1050,13 +721,6 @@
     "team": "Calgary Flames"
   },
   {
-    "name": "Mikael Backlund",
-    "age": "37",
-    "pos": "F",
-    "salary_cap_hit": "4,500,000",
-    "team": "Calgary Flames"
-  },
-  {
     "name": "Morgan Frost",
     "age": "27",
     "pos": "F",
@@ -1071,17 +735,17 @@
     "team": "Calgary Flames"
   },
   {
-    "name": "Ryan Lomberg",
-    "age": "31",
+    "name": "Mikael Backlund",
+    "age": "37",
     "pos": "F",
-    "salary_cap_hit": "2,000,000",
+    "salary_cap_hit": "3,250,000",
     "team": "Calgary Flames"
   },
   {
-    "name": "Victor Olofsson",
-    "age": "30",
+    "name": "Martin Pospisil",
+    "age": "26",
     "pos": "F",
-    "salary_cap_hit": "1,575,000",
+    "salary_cap_hit": "2,500,000",
     "team": "Calgary Flames"
   },
   {
@@ -1089,20 +753,6 @@
     "age": "25",
     "pos": "F",
     "salary_cap_hit": "1,250,000",
-    "team": "Calgary Flames"
-  },
-  {
-    "name": "Martin Pospisil",
-    "age": "26",
-    "pos": "F",
-    "salary_cap_hit": "1,000,000",
-    "team": "Calgary Flames"
-  },
-  {
-    "name": "John Beecher",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "900,000",
     "team": "Calgary Flames"
   },
   {
@@ -1127,15 +777,8 @@
     "team": "Calgary Flames"
   },
   {
-    "name": "Jake Bean",
-    "age": "27",
-    "pos": "D",
-    "salary_cap_hit": "1,750,000",
-    "team": "Calgary Flames"
-  },
-  {
     "name": "Joel Hanley",
-    "age": "34",
+    "age": "35",
     "pos": "D",
     "salary_cap_hit": "1,750,000",
     "team": "Calgary Flames"
@@ -1151,35 +794,21 @@
     "name": "Zayne Parekh",
     "age": "20",
     "pos": "D",
-    "salary_cap_hit": "942,500",
+    "salary_cap_hit": "953,750",
     "team": "Calgary Flames"
   },
   {
     "name": "Dustin Wolf",
     "age": "25",
     "pos": "G",
-    "salary_cap_hit": "850,000",
+    "salary_cap_hit": "7,500,000",
     "team": "Calgary Flames"
   },
   {
     "name": "Devin Cooley",
     "age": "29",
     "pos": "G",
-    "salary_cap_hit": "775,000",
-    "team": "Calgary Flames"
-  },
-  {
-    "name": "Rasmus Andersson",
-    "age": "29",
-    "pos": "D",
-    "salary_cap_hit": "2,275,000",
-    "team": "Calgary Flames"
-  },
-  {
-    "name": "Jacob Markstrom",
-    "age": "36",
-    "pos": "G",
-    "salary_cap_hit": "1,875,000",
+    "salary_cap_hit": "1,350,000",
     "team": "Calgary Flames"
   },
   {
@@ -1190,10 +819,17 @@
     "team": "Calgary Flames"
   },
   {
-    "name": "Daniil Miromanov",
-    "age": "28",
-    "pos": "D",
-    "salary_cap_hit": "100,000",
+    "name": "Jonathan Castagna",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "1,075,000",
+    "team": "Calgary Flames"
+  },
+  {
+    "name": "Theo Stockselius",
+    "age": "18",
+    "pos": "F",
+    "salary_cap_hit": "1,015,833",
     "team": "Calgary Flames"
   },
   {
@@ -1207,7 +843,14 @@
     "name": "Matvei Gridin",
     "age": "20",
     "pos": "F",
-    "salary_cap_hit": "942,500",
+    "salary_cap_hit": "953,750",
+    "team": "Calgary Flames"
+  },
+  {
+    "name": "Andrew Basha",
+    "age": "20",
+    "pos": "F",
+    "salary_cap_hit": "932,500",
     "team": "Calgary Flames"
   },
   {
@@ -1218,52 +861,10 @@
     "team": "Calgary Flames"
   },
   {
-    "name": "William Stromgren",
-    "age": "22",
-    "pos": "F",
-    "salary_cap_hit": "900,833",
-    "team": "Calgary Flames"
-  },
-  {
-    "name": "Justin Kirkland",
-    "age": "29",
-    "pos": "F",
-    "salary_cap_hit": "900,000",
-    "team": "Calgary Flames"
-  },
-  {
-    "name": "Andrew Basha",
-    "age": "20",
-    "pos": "F",
-    "salary_cap_hit": "890,000",
-    "team": "Calgary Flames"
-  },
-  {
     "name": "Samuel Honzek",
     "age": "21",
     "pos": "F",
-    "salary_cap_hit": "886,667",
-    "team": "Calgary Flames"
-  },
-  {
-    "name": "Carter King",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "872,500",
-    "team": "Calgary Flames"
-  },
-  {
-    "name": "Brennan Othmann",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "863,333",
-    "team": "Calgary Flames"
-  },
-  {
-    "name": "Parker Bell",
-    "age": "22",
-    "pos": "F",
-    "salary_cap_hit": "857,500",
+    "salary_cap_hit": "909,167",
     "team": "Calgary Flames"
   },
   {
@@ -1274,31 +875,10 @@
     "team": "Calgary Flames"
   },
   {
-    "name": "Lucas Ciona",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "830,000",
-    "team": "Calgary Flames"
-  },
-  {
-    "name": "Clark Bishop",
-    "age": "30",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Calgary Flames"
-  },
-  {
-    "name": "Sam Morton",
-    "age": "26",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Calgary Flames"
-  },
-  {
-    "name": "Rory Kerins",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
+    "name": "Axel Hurtig",
+    "age": "21",
+    "pos": "D",
+    "salary_cap_hit": "990,000",
     "team": "Calgary Flames"
   },
   {
@@ -1319,21 +899,7 @@
     "name": "Etienne Morin",
     "age": "21",
     "pos": "D",
-    "salary_cap_hit": "896,667",
-    "team": "Calgary Flames"
-  },
-  {
-    "name": "Gavin White",
-    "age": "23",
-    "pos": "D",
-    "salary_cap_hit": "857,500",
-    "team": "Calgary Flames"
-  },
-  {
-    "name": "Artem Grushnikov",
-    "age": "23",
-    "pos": "D",
-    "salary_cap_hit": "814,167",
+    "salary_cap_hit": "938,333",
     "team": "Calgary Flames"
   },
   {
@@ -1344,24 +910,10 @@
     "team": "Calgary Flames"
   },
   {
-    "name": "Nick Cicek",
-    "age": "26",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Calgary Flames"
-  },
-  {
-    "name": "Daniil Miromanov",
-    "age": "28",
-    "pos": "D",
-    "salary_cap_hit": "100,000",
-    "team": "Calgary Flames"
-  },
-  {
-    "name": "Ivan Prosvetov",
-    "age": "27",
+    "name": "Kirill Zarubin",
+    "age": "20",
     "pos": "G",
-    "salary_cap_hit": "950,000",
+    "salary_cap_hit": "1,007,500",
     "team": "Calgary Flames"
   },
   {
@@ -1369,13 +921,6 @@
     "age": "23",
     "pos": "G",
     "salary_cap_hit": "903,750",
-    "team": "Calgary Flames"
-  },
-  {
-    "name": "Owen Say",
-    "age": "25",
-    "pos": "G",
-    "salary_cap_hit": "872,500",
     "team": "Calgary Flames"
   },
   {
@@ -1404,6 +949,20 @@
     "age": "24",
     "pos": "F",
     "salary_cap_hit": "7,420,087",
+    "team": "Carolina Hurricanes"
+  },
+  {
+    "name": "Logan Stankoven",
+    "age": "23",
+    "pos": "F",
+    "salary_cap_hit": "6,000,000",
+    "team": "Carolina Hurricanes"
+  },
+  {
+    "name": "Jackson Blake",
+    "age": "22",
+    "pos": "F",
+    "salary_cap_hit": "5,117,002",
     "team": "Carolina Hurricanes"
   },
   {
@@ -1442,10 +1001,10 @@
     "team": "Carolina Hurricanes"
   },
   {
-    "name": "Nicolas Deslauriers",
-    "age": "35",
+    "name": "Mark Jankowski",
+    "age": "31",
     "pos": "F",
-    "salary_cap_hit": "1,750,000",
+    "salary_cap_hit": "1,850,000",
     "team": "Carolina Hurricanes"
   },
   {
@@ -1453,27 +1012,6 @@
     "age": "30",
     "pos": "F",
     "salary_cap_hit": "1,700,000",
-    "team": "Carolina Hurricanes"
-  },
-  {
-    "name": "Jackson Blake",
-    "age": "22",
-    "pos": "F",
-    "salary_cap_hit": "905,833",
-    "team": "Carolina Hurricanes"
-  },
-  {
-    "name": "Logan Stankoven",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "814,167",
-    "team": "Carolina Hurricanes"
-  },
-  {
-    "name": "Mark Jankowski",
-    "age": "31",
-    "pos": "F",
-    "salary_cap_hit": "800,000",
     "team": "Carolina Hurricanes"
   },
   {
@@ -1512,27 +1050,6 @@
     "team": "Carolina Hurricanes"
   },
   {
-    "name": "Mike Reilly",
-    "age": "32",
-    "pos": "D",
-    "salary_cap_hit": "1,100,000",
-    "team": "Carolina Hurricanes"
-  },
-  {
-    "name": "Alexander Nikishin",
-    "age": "24",
-    "pos": "D",
-    "salary_cap_hit": "925,000",
-    "team": "Carolina Hurricanes"
-  },
-  {
-    "name": "Frederik Andersen",
-    "age": "36",
-    "pos": "G",
-    "salary_cap_hit": "2,750,000",
-    "team": "Carolina Hurricanes"
-  },
-  {
     "name": "Pyotr Kochetkov",
     "age": "26",
     "pos": "G",
@@ -1543,21 +1060,14 @@
     "name": "Brandon Bussi",
     "age": "27",
     "pos": "G",
-    "salary_cap_hit": "775,000",
-    "team": "Carolina Hurricanes"
-  },
-  {
-    "name": "Juuso Valimaki",
-    "age": "27",
-    "pos": "D",
-    "salary_cap_hit": "850,000",
+    "salary_cap_hit": "1,900,000",
     "team": "Carolina Hurricanes"
   },
   {
     "name": "Ivan Ryabkin",
     "age": "19",
     "pos": "F",
-    "salary_cap_hit": "918,333",
+    "salary_cap_hit": "952,222",
     "team": "Carolina Hurricanes"
   },
   {
@@ -1568,45 +1078,24 @@
     "team": "Carolina Hurricanes"
   },
   {
-    "name": "Gleb Trikozov",
-    "age": "21",
-    "pos": "F",
-    "salary_cap_hit": "887,500",
-    "team": "Carolina Hurricanes"
-  },
-  {
     "name": "Bradly Nadeau",
     "age": "21",
     "pos": "F",
-    "salary_cap_hit": "886,667",
-    "team": "Carolina Hurricanes"
-  },
-  {
-    "name": "Viktor Neuchev",
-    "age": "22",
-    "pos": "F",
-    "salary_cap_hit": "870,000",
+    "salary_cap_hit": "909,167",
     "team": "Carolina Hurricanes"
   },
   {
     "name": "Felix Unger Sorum",
     "age": "20",
     "pos": "F",
-    "salary_cap_hit": "853,333",
+    "salary_cap_hit": "903,333",
     "team": "Carolina Hurricanes"
   },
   {
-    "name": "Justin Robidas",
-    "age": "23",
+    "name": "Gleb Trikozov",
+    "age": "21",
     "pos": "F",
-    "salary_cap_hit": "825,000",
-    "team": "Carolina Hurricanes"
-  },
-  {
-    "name": "Noel Gunler",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "813,750",
+    "salary_cap_hit": "887,500",
     "team": "Carolina Hurricanes"
   },
   {
@@ -1617,45 +1106,24 @@
     "team": "Carolina Hurricanes"
   },
   {
-    "name": "Ryan Suzuki",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Carolina Hurricanes"
-  },
-  {
-    "name": "Givani Smith",
-    "age": "28",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Carolina Hurricanes"
-  },
-  {
-    "name": "Noah Philp",
-    "age": "27",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Carolina Hurricanes"
-  },
-  {
-    "name": "Josiah Slavin",
-    "age": "27",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Carolina Hurricanes"
-  },
-  {
-    "name": "Skyler Brind'Amour",
-    "age": "26",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Carolina Hurricanes"
-  },
-  {
     "name": "Joel Nystrom",
     "age": "24",
     "pos": "D",
-    "salary_cap_hit": "925,000",
+    "salary_cap_hit": "1,225,000",
+    "team": "Carolina Hurricanes"
+  },
+  {
+    "name": "Noel Fransen",
+    "age": "20",
+    "pos": "D",
+    "salary_cap_hit": "990,000",
+    "team": "Carolina Hurricanes"
+  },
+  {
+    "name": "Dominik Badinka",
+    "age": "20",
+    "pos": "D",
+    "salary_cap_hit": "932,500",
     "team": "Carolina Hurricanes"
   },
   {
@@ -1666,52 +1134,10 @@
     "team": "Carolina Hurricanes"
   },
   {
-    "name": "Dominik Badinka",
-    "age": "20",
-    "pos": "D",
-    "salary_cap_hit": "888,283",
-    "team": "Carolina Hurricanes"
-  },
-  {
-    "name": "Kyle Masters",
-    "age": "23",
-    "pos": "D",
-    "salary_cap_hit": "865,000",
-    "team": "Carolina Hurricanes"
-  },
-  {
     "name": "Bryce Montgomery",
     "age": "23",
     "pos": "D",
     "salary_cap_hit": "854,910",
-    "team": "Carolina Hurricanes"
-  },
-  {
-    "name": "Juuso Valimaki",
-    "age": "27",
-    "pos": "D",
-    "salary_cap_hit": "850,000",
-    "team": "Carolina Hurricanes"
-  },
-  {
-    "name": "Ronan Seeley",
-    "age": "23",
-    "pos": "D",
-    "salary_cap_hit": "813,750",
-    "team": "Carolina Hurricanes"
-  },
-  {
-    "name": "Aleksi Heimosalmi",
-    "age": "23",
-    "pos": "D",
-    "salary_cap_hit": "805,833",
-    "team": "Carolina Hurricanes"
-  },
-  {
-    "name": "Domenick Fensore",
-    "age": "24",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
     "team": "Carolina Hurricanes"
   },
   {
@@ -1722,25 +1148,11 @@
     "team": "Carolina Hurricanes"
   },
   {
-    "name": "Nikita Quapp",
-    "age": "23",
-    "pos": "G",
-    "salary_cap_hit": "775,000",
-    "team": "Carolina Hurricanes"
-  },
-  {
-    "name": "Amir Miftakhov",
-    "age": "26",
-    "pos": "G",
-    "salary_cap_hit": "775,000",
-    "team": "Carolina Hurricanes"
-  },
-  {
-    "name": "Cayden Primeau",
-    "age": "26",
-    "pos": "G",
-    "salary_cap_hit": "775,000",
-    "team": "Carolina Hurricanes"
+    "name": "Frank Nazar",
+    "age": "22",
+    "pos": "F",
+    "salary_cap_hit": "6,599,991",
+    "team": "Chicago Blackhawks"
   },
   {
     "name": "Tyler Bertuzzi",
@@ -1764,13 +1176,6 @@
     "team": "Chicago Blackhawks"
   },
   {
-    "name": "Ilya Mikheyev",
-    "age": "31",
-    "pos": "F",
-    "salary_cap_hit": "4,037,500",
-    "team": "Chicago Blackhawks"
-  },
-  {
     "name": "Ryan Donato",
     "age": "30",
     "pos": "F",
@@ -1782,27 +1187,6 @@
     "age": "30",
     "pos": "F",
     "salary_cap_hit": "3,600,000",
-    "team": "Chicago Blackhawks"
-  },
-  {
-    "name": "Sam Lafferty",
-    "age": "31",
-    "pos": "F",
-    "salary_cap_hit": "2,000,000",
-    "team": "Chicago Blackhawks"
-  },
-  {
-    "name": "Connor Bedard",
-    "age": "20",
-    "pos": "F",
-    "salary_cap_hit": "950,000",
-    "team": "Chicago Blackhawks"
-  },
-  {
-    "name": "Frank Nazar",
-    "age": "22",
-    "pos": "F",
-    "salary_cap_hit": "950,000",
     "team": "Chicago Blackhawks"
   },
   {
@@ -1820,24 +1204,17 @@
     "team": "Chicago Blackhawks"
   },
   {
+    "name": "Nick Lardis",
+    "age": "20",
+    "pos": "F",
+    "salary_cap_hit": "925,000",
+    "team": "Chicago Blackhawks"
+  },
+  {
     "name": "Landon Slaggert",
     "age": "23",
     "pos": "F",
     "salary_cap_hit": "900,000",
-    "team": "Chicago Blackhawks"
-  },
-  {
-    "name": "Nick Lardis",
-    "age": "20",
-    "pos": "F",
-    "salary_cap_hit": "890,000",
-    "team": "Chicago Blackhawks"
-  },
-  {
-    "name": "Shea Weber",
-    "age": "40",
-    "pos": "D",
-    "salary_cap_hit": "7,857,143",
     "team": "Chicago Blackhawks"
   },
   {
@@ -1862,13 +1239,6 @@
     "team": "Chicago Blackhawks"
   },
   {
-    "name": "Matt Grzelcyk",
-    "age": "32",
-    "pos": "D",
-    "salary_cap_hit": "1,000,000",
-    "team": "Chicago Blackhawks"
-  },
-  {
     "name": "Artyom Levshunov",
     "age": "20",
     "pos": "D",
@@ -1883,13 +1253,6 @@
     "team": "Chicago Blackhawks"
   },
   {
-    "name": "Kevin Korchinski",
-    "age": "21",
-    "pos": "D",
-    "salary_cap_hit": "918,333",
-    "team": "Chicago Blackhawks"
-  },
-  {
     "name": "Louis Crevier",
     "age": "25",
     "pos": "D",
@@ -1897,17 +1260,10 @@
     "team": "Chicago Blackhawks"
   },
   {
-    "name": "Ethan Del Mastro",
-    "age": "23",
-    "pos": "D",
-    "salary_cap_hit": "855,833",
-    "team": "Chicago Blackhawks"
-  },
-  {
     "name": "Spencer Knight",
     "age": "25",
     "pos": "G",
-    "salary_cap_hit": "4,500,000",
+    "salary_cap_hit": "5,833,333",
     "team": "Chicago Blackhawks"
   },
   {
@@ -1925,24 +1281,24 @@
     "team": "Chicago Blackhawks"
   },
   {
-    "name": "Connor Murphy",
-    "age": "33",
-    "pos": "D",
-    "salary_cap_hit": "2,200,000",
-    "team": "Chicago Blackhawks"
-  },
-  {
-    "name": "Jason Dickinson",
-    "age": "30",
-    "pos": "F",
-    "salary_cap_hit": "2,125,000",
-    "team": "Chicago Blackhawks"
-  },
-  {
     "name": "TJ Brodie",
-    "age": "35",
+    "age": "36",
     "pos": "D",
-    "salary_cap_hit": "3,233,333",
+    "salary_cap_hit": "258,333",
+    "team": "Chicago Blackhawks"
+  },
+  {
+    "name": "Roman Kantserov",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "1,075,000",
+    "team": "Chicago Blackhawks"
+  },
+  {
+    "name": "Jiri Felcman",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "996,667",
     "team": "Chicago Blackhawks"
   },
   {
@@ -1963,14 +1319,14 @@
     "name": "Marek Vanacker",
     "age": "20",
     "pos": "F",
-    "salary_cap_hit": "942,500",
+    "salary_cap_hit": "941,667",
     "team": "Chicago Blackhawks"
   },
   {
     "name": "Anthony (AJ) Spellacy",
     "age": "20",
     "pos": "F",
-    "salary_cap_hit": "906,667",
+    "salary_cap_hit": "922,917",
     "team": "Chicago Blackhawks"
   },
   {
@@ -1978,6 +1334,13 @@
     "age": "22",
     "pos": "F",
     "salary_cap_hit": "900,000",
+    "team": "Chicago Blackhawks"
+  },
+  {
+    "name": "Samuel Savoie",
+    "age": "22",
+    "pos": "F",
+    "salary_cap_hit": "896,667",
     "team": "Chicago Blackhawks"
   },
   {
@@ -1995,24 +1358,10 @@
     "team": "Chicago Blackhawks"
   },
   {
-    "name": "Samuel Savoie",
-    "age": "22",
-    "pos": "F",
-    "salary_cap_hit": "863,333",
-    "team": "Chicago Blackhawks"
-  },
-  {
     "name": "Dominic Toninato",
     "age": "32",
     "pos": "F",
     "salary_cap_hit": "850,000",
-    "team": "Chicago Blackhawks"
-  },
-  {
-    "name": "Joey Anderson",
-    "age": "27",
-    "pos": "F",
-    "salary_cap_hit": "800,000",
     "team": "Chicago Blackhawks"
   },
   {
@@ -2026,14 +1375,7 @@
     "name": "Jake Furlong",
     "age": "22",
     "pos": "D",
-    "salary_cap_hit": "858,333",
-    "team": "Chicago Blackhawks"
-  },
-  {
-    "name": "Ryan Mast",
-    "age": "23",
-    "pos": "D",
-    "salary_cap_hit": "830,556",
+    "salary_cap_hit": "891,667",
     "team": "Chicago Blackhawks"
   },
   {
@@ -2044,31 +1386,17 @@
     "team": "Chicago Blackhawks"
   },
   {
-    "name": "Dmitry Kuzmin",
-    "age": "23",
-    "pos": "D",
-    "salary_cap_hit": "795,556",
+    "name": "Adam Gajan",
+    "age": "22",
+    "pos": "G",
+    "salary_cap_hit": "1,050,000",
     "team": "Chicago Blackhawks"
   },
   {
     "name": "Stanislav Berezhnoy",
-    "age": "22",
-    "pos": "G",
-    "salary_cap_hit": "975,000",
-    "team": "Chicago Blackhawks"
-  },
-  {
-    "name": "Drew Commesso",
     "age": "23",
     "pos": "G",
-    "salary_cap_hit": "925,000",
-    "team": "Chicago Blackhawks"
-  },
-  {
-    "name": "Olivier Rodrigue",
-    "age": "25",
-    "pos": "G",
-    "salary_cap_hit": "775,000",
+    "salary_cap_hit": "975,000",
     "team": "Chicago Blackhawks"
   },
   {
@@ -2076,6 +1404,13 @@
     "age": "30",
     "pos": "F",
     "salary_cap_hit": "12,600,000",
+    "team": "Colorado Avalanche"
+  },
+  {
+    "name": "Martin Necas",
+    "age": "27",
+    "pos": "F",
+    "salary_cap_hit": "11,500,000",
     "team": "Colorado Avalanche"
   },
   {
@@ -2090,13 +1425,6 @@
     "age": "33",
     "pos": "F",
     "salary_cap_hit": "7,000,000",
-    "team": "Colorado Avalanche"
-  },
-  {
-    "name": "Martin Necas",
-    "age": "27",
-    "pos": "F",
-    "salary_cap_hit": "6,500,000",
     "team": "Colorado Avalanche"
   },
   {
@@ -2142,31 +1470,10 @@
     "team": "Colorado Avalanche"
   },
   {
-    "name": "Jack Drury",
-    "age": "26",
-    "pos": "F",
-    "salary_cap_hit": "1,725,000",
-    "team": "Colorado Avalanche"
-  },
-  {
-    "name": "Joel Kiviranta",
-    "age": "30",
-    "pos": "F",
-    "salary_cap_hit": "1,250,000",
-    "team": "Colorado Avalanche"
-  },
-  {
-    "name": "Zakhar Bardakov",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "867,500",
-    "team": "Colorado Avalanche"
-  },
-  {
     "name": "Parker Kelly",
     "age": "27",
     "pos": "F",
-    "salary_cap_hit": "825,000",
+    "salary_cap_hit": "1,700,000",
     "team": "Colorado Avalanche"
   },
   {
@@ -2184,38 +1491,17 @@
     "team": "Colorado Avalanche"
   },
   {
-    "name": "Josh Manson",
-    "age": "34",
-    "pos": "D",
-    "salary_cap_hit": "4,500,000",
-    "team": "Colorado Avalanche"
-  },
-  {
-    "name": "Brett Kulak",
-    "age": "32",
-    "pos": "D",
-    "salary_cap_hit": "2,750,000",
-    "team": "Colorado Avalanche"
-  },
-  {
     "name": "Sam Malinski",
     "age": "27",
     "pos": "D",
-    "salary_cap_hit": "1,400,000",
+    "salary_cap_hit": "4,750,000",
     "team": "Colorado Avalanche"
   },
   {
-    "name": "Brent Burns",
-    "age": "41",
+    "name": "Josh Manson",
+    "age": "34",
     "pos": "D",
-    "salary_cap_hit": "1,000,000",
-    "team": "Colorado Avalanche"
-  },
-  {
-    "name": "Nick Blankenburg",
-    "age": "28",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
+    "salary_cap_hit": "3,950,000",
     "team": "Colorado Avalanche"
   },
   {
@@ -2229,21 +1515,21 @@
     "name": "Scott Wedgewood",
     "age": "33",
     "pos": "G",
-    "salary_cap_hit": "1,500,000",
+    "salary_cap_hit": "2,500,000",
     "team": "Colorado Avalanche"
   },
   {
-    "name": "Gavin Brindley",
-    "age": "21",
+    "name": "Matthew DiMarsico",
+    "age": "22",
     "pos": "F",
-    "salary_cap_hit": "950,000",
+    "salary_cap_hit": "980,000",
     "team": "Colorado Avalanche"
   },
   {
-    "name": "Taylor Makar",
-    "age": "25",
+    "name": "T.J. Hughes",
+    "age": "24",
     "pos": "F",
-    "salary_cap_hit": "925,000",
+    "salary_cap_hit": "952,500",
     "team": "Colorado Avalanche"
   },
   {
@@ -2254,17 +1540,10 @@
     "team": "Colorado Avalanche"
   },
   {
-    "name": "Chase Bradley",
-    "age": "24",
+    "name": "Gavin Brindley",
+    "age": "21",
     "pos": "F",
-    "salary_cap_hit": "872,500",
-    "team": "Colorado Avalanche"
-  },
-  {
-    "name": "Ivan Ivan",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "845,000",
+    "salary_cap_hit": "875,000",
     "team": "Colorado Avalanche"
   },
   {
@@ -2282,52 +1561,10 @@
     "team": "Colorado Avalanche"
   },
   {
-    "name": "Matt Stienburg",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Colorado Avalanche"
-  },
-  {
-    "name": "Tye Felhaber",
-    "age": "27",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Colorado Avalanche"
-  },
-  {
-    "name": "Danil Gushchin",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Colorado Avalanche"
-  },
-  {
-    "name": "T.J. Tynan",
-    "age": "34",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Colorado Avalanche"
-  },
-  {
-    "name": "Valtteri Puustinen",
-    "age": "27",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Colorado Avalanche"
-  },
-  {
-    "name": "Alex Barré-Boulet",
-    "age": "29",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Colorado Avalanche"
-  },
-  {
-    "name": "Jason Polin",
-    "age": "26",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
+    "name": "Gustav Stjernberg",
+    "age": "23",
+    "pos": "D",
+    "salary_cap_hit": "980,000",
     "team": "Colorado Avalanche"
   },
   {
@@ -2348,7 +1585,7 @@
     "name": "Saige Weinstein",
     "age": "21",
     "pos": "D",
-    "salary_cap_hit": "833,333",
+    "salary_cap_hit": "883,333",
     "team": "Colorado Avalanche"
   },
   {
@@ -2366,24 +1603,10 @@
     "team": "Colorado Avalanche"
   },
   {
-    "name": "Ronnie Attard",
-    "age": "27",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Colorado Avalanche"
-  },
-  {
-    "name": "Jacob MacDonald",
-    "age": "33",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Colorado Avalanche"
-  },
-  {
-    "name": "Jack Ahcan",
-    "age": "29",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
+    "name": "Nikita Novosyolov",
+    "age": "22",
+    "pos": "G",
+    "salary_cap_hit": "979,500",
     "team": "Colorado Avalanche"
   },
   {
@@ -2408,31 +1631,24 @@
     "team": "Colorado Avalanche"
   },
   {
-    "name": "Sean Monahan",
-    "age": "31",
-    "pos": "F",
-    "salary_cap_hit": "5,500,000",
-    "team": "Columbus Blue Jackets"
-  },
-  {
     "name": "Charlie Coyle",
     "age": "34",
     "pos": "F",
-    "salary_cap_hit": "5,250,000",
+    "salary_cap_hit": "6,000,000",
     "team": "Columbus Blue Jackets"
   },
   {
     "name": "Conor Garland",
     "age": "30",
     "pos": "F",
-    "salary_cap_hit": "4,950,000",
+    "salary_cap_hit": "6,000,000",
     "team": "Columbus Blue Jackets"
   },
   {
-    "name": "Mason Marchment",
-    "age": "30",
+    "name": "Sean Monahan",
+    "age": "31",
     "pos": "F",
-    "salary_cap_hit": "4,500,000",
+    "salary_cap_hit": "5,500,000",
     "team": "Columbus Blue Jackets"
   },
   {
@@ -2450,13 +1666,6 @@
     "team": "Columbus Blue Jackets"
   },
   {
-    "name": "Boone Jenner",
-    "age": "32",
-    "pos": "F",
-    "salary_cap_hit": "3,750,000",
-    "team": "Columbus Blue Jackets"
-  },
-  {
     "name": "Mathieu Olivier",
     "age": "29",
     "pos": "F",
@@ -2471,20 +1680,6 @@
     "team": "Columbus Blue Jackets"
   },
   {
-    "name": "Cole Sillinger",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "2,250,000",
-    "team": "Columbus Blue Jackets"
-  },
-  {
-    "name": "Danton Heinen",
-    "age": "30",
-    "pos": "F",
-    "salary_cap_hit": "2,250,000",
-    "team": "Columbus Blue Jackets"
-  },
-  {
     "name": "Kent Johnson",
     "age": "23",
     "pos": "F",
@@ -2496,13 +1691,6 @@
     "age": "26",
     "pos": "F",
     "salary_cap_hit": "1,300,000",
-    "team": "Columbus Blue Jackets"
-  },
-  {
-    "name": "Adam Fantilli",
-    "age": "21",
-    "pos": "F",
-    "salary_cap_hit": "950,000",
     "team": "Columbus Blue Jackets"
   },
   {
@@ -2534,24 +1722,10 @@
     "team": "Columbus Blue Jackets"
   },
   {
-    "name": "Erik Gudbranson",
-    "age": "34",
-    "pos": "D",
-    "salary_cap_hit": "4,000,000",
-    "team": "Columbus Blue Jackets"
-  },
-  {
     "name": "Denton Mateychuk",
     "age": "21",
     "pos": "D",
     "salary_cap_hit": "886,667",
-    "team": "Columbus Blue Jackets"
-  },
-  {
-    "name": "Brendan Smith",
-    "age": "37",
-    "pos": "D",
-    "salary_cap_hit": "800,000",
     "team": "Columbus Blue Jackets"
   },
   {
@@ -2562,38 +1736,17 @@
     "team": "Columbus Blue Jackets"
   },
   {
-    "name": "Jet Greaves",
-    "age": "25",
-    "pos": "G",
-    "salary_cap_hit": "812,500",
-    "team": "Columbus Blue Jackets"
-  },
-  {
-    "name": "Alexander Wennberg",
-    "age": "31",
-    "pos": "F",
-    "salary_cap_hit": "891,667",
-    "team": "Columbus Blue Jackets"
-  },
-  {
-    "name": "Adam Boqvist",
-    "age": "25",
-    "pos": "D",
-    "salary_cap_hit": "533,334",
-    "team": "Columbus Blue Jackets"
-  },
-  {
-    "name": "Ivan Fedotov",
-    "age": "29",
-    "pos": "G",
-    "salary_cap_hit": "2,125,000",
-    "team": "Columbus Blue Jackets"
-  },
-  {
-    "name": "Jack Williams",
+    "name": "Joshua Eernisse",
     "age": "24",
     "pos": "F",
-    "salary_cap_hit": "923,750",
+    "salary_cap_hit": "952,500",
+    "team": "Columbus Blue Jackets"
+  },
+  {
+    "name": "Luca Pinelli",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "934,167",
     "team": "Columbus Blue Jackets"
   },
   {
@@ -2601,13 +1754,6 @@
     "age": "22",
     "pos": "F",
     "salary_cap_hit": "910,000",
-    "team": "Columbus Blue Jackets"
-  },
-  {
-    "name": "Luca Pinelli",
-    "age": "21",
-    "pos": "F",
-    "salary_cap_hit": "888,333",
     "team": "Columbus Blue Jackets"
   },
   {
@@ -2635,56 +1781,14 @@
     "name": "James Malatesta",
     "age": "23",
     "pos": "F",
-    "salary_cap_hit": "841,667",
+    "salary_cap_hit": "850,000",
     "team": "Columbus Blue Jackets"
   },
   {
-    "name": "Hunter McKown",
+    "name": "Boston Buckberger",
     "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "800,000",
-    "team": "Columbus Blue Jackets"
-  },
-  {
-    "name": "Owen Sillinger",
-    "age": "28",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Columbus Blue Jackets"
-  },
-  {
-    "name": "Hudson Fasching",
-    "age": "30",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Columbus Blue Jackets"
-  },
-  {
-    "name": "Mikael Pyyhtia",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Columbus Blue Jackets"
-  },
-  {
-    "name": "Brendan Gaunce",
-    "age": "32",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Columbus Blue Jackets"
-  },
-  {
-    "name": "Zach Aston-Reese",
-    "age": "31",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Columbus Blue Jackets"
-  },
-  {
-    "name": "Egor Zamula",
-    "age": "26",
     "pos": "D",
-    "salary_cap_hit": "1,000,000",
+    "salary_cap_hit": "1,050,000",
     "team": "Columbus Blue Jackets"
   },
   {
@@ -2698,14 +1802,14 @@
     "name": "Charlie Elick",
     "age": "20",
     "pos": "D",
-    "salary_cap_hit": "931,667",
+    "salary_cap_hit": "965,000",
     "team": "Columbus Blue Jackets"
   },
   {
-    "name": "Corson Ceulemans",
-    "age": "23",
+    "name": "Luca Marrelli",
+    "age": "20",
     "pos": "D",
-    "salary_cap_hit": "925,000",
+    "salary_cap_hit": "931,944",
     "team": "Columbus Blue Jackets"
   },
   {
@@ -2723,52 +1827,17 @@
     "team": "Columbus Blue Jackets"
   },
   {
-    "name": "Luca Marrelli",
-    "age": "20",
-    "pos": "D",
-    "salary_cap_hit": "889,167",
-    "team": "Columbus Blue Jackets"
-  },
-  {
-    "name": "Stanislav Svozil",
-    "age": "23",
-    "pos": "D",
-    "salary_cap_hit": "825,000",
-    "team": "Columbus Blue Jackets"
-  },
-  {
-    "name": "Dysin Mayo",
-    "age": "29",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Columbus Blue Jackets"
-  },
-  {
-    "name": "Ivan Fedotov",
-    "age": "29",
-    "pos": "G",
-    "salary_cap_hit": "2,125,000",
-    "team": "Columbus Blue Jackets"
-  },
-  {
     "name": "Evan Gardner",
     "age": "20",
     "pos": "G",
-    "salary_cap_hit": "920,833",
+    "salary_cap_hit": "963,889",
     "team": "Columbus Blue Jackets"
   },
   {
     "name": "Nolan Lalonde",
     "age": "22",
     "pos": "G",
-    "salary_cap_hit": "815,000",
-    "team": "Columbus Blue Jackets"
-  },
-  {
-    "name": "Zach Sawchenko",
-    "age": "28",
-    "pos": "G",
-    "salary_cap_hit": "775,000",
+    "salary_cap_hit": "860,556",
     "team": "Columbus Blue Jackets"
   },
   {
@@ -2800,22 +1869,8 @@
     "team": "Dallas Stars"
   },
   {
-    "name": "Jason Robertson",
-    "age": "26",
-    "pos": "F",
-    "salary_cap_hit": "7,750,000",
-    "team": "Dallas Stars"
-  },
-  {
     "name": "Matt Duchene",
     "age": "35",
-    "pos": "F",
-    "salary_cap_hit": "4,500,000",
-    "team": "Dallas Stars"
-  },
-  {
-    "name": "Michael Bunting",
-    "age": "30",
     "pos": "F",
     "salary_cap_hit": "4,500,000",
     "team": "Dallas Stars"
@@ -2835,24 +1890,10 @@
     "team": "Dallas Stars"
   },
   {
-    "name": "Jamie Benn",
-    "age": "36",
-    "pos": "F",
-    "salary_cap_hit": "1,000,000",
-    "team": "Dallas Stars"
-  },
-  {
-    "name": "Mavrik Bourque",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "950,000",
-    "team": "Dallas Stars"
-  },
-  {
     "name": "Justin Hryckowian",
     "age": "25",
     "pos": "F",
-    "salary_cap_hit": "870,000",
+    "salary_cap_hit": "950,000",
     "team": "Dallas Stars"
   },
   {
@@ -2870,6 +1911,13 @@
     "team": "Dallas Stars"
   },
   {
+    "name": "Thomas Harley",
+    "age": "24",
+    "pos": "D",
+    "salary_cap_hit": "10,587,000",
+    "team": "Dallas Stars"
+  },
+  {
     "name": "Miro Heiskanen",
     "age": "26",
     "pos": "D",
@@ -2884,13 +1932,6 @@
     "team": "Dallas Stars"
   },
   {
-    "name": "Thomas Harley",
-    "age": "24",
-    "pos": "D",
-    "salary_cap_hit": "4,000,000",
-    "team": "Dallas Stars"
-  },
-  {
     "name": "Ilya Lyubushkin",
     "age": "32",
     "pos": "D",
@@ -2898,17 +1939,17 @@
     "team": "Dallas Stars"
   },
   {
+    "name": "Nils Lundkvist",
+    "age": "25",
+    "pos": "D",
+    "salary_cap_hit": "1,750,000",
+    "team": "Dallas Stars"
+  },
+  {
     "name": "Tyler Myers",
     "age": "36",
     "pos": "D",
     "salary_cap_hit": "1,500,000",
-    "team": "Dallas Stars"
-  },
-  {
-    "name": "Nils Lundkvist",
-    "age": "25",
-    "pos": "D",
-    "salary_cap_hit": "1,250,000",
     "team": "Dallas Stars"
   },
   {
@@ -2933,31 +1974,31 @@
     "team": "Dallas Stars"
   },
   {
-    "name": "Ryan Suter",
-    "age": "41",
-    "pos": "D",
-    "salary_cap_hit": "1,433,333",
+    "name": "Dylan Hryckowian",
+    "age": "22",
+    "pos": "F",
+    "salary_cap_hit": "1,013,750",
     "team": "Dallas Stars"
   },
   {
-    "name": "Harrison Scott",
-    "age": "25",
+    "name": "Christian Fitzgerald",
+    "age": "24",
     "pos": "F",
-    "salary_cap_hit": "975,000",
-    "team": "Dallas Stars"
-  },
-  {
-    "name": "Emil Hemming",
-    "age": "19",
-    "pos": "F",
-    "salary_cap_hit": "942,500",
+    "salary_cap_hit": "952,500",
     "team": "Dallas Stars"
   },
   {
     "name": "Jaxon Fuder",
     "age": "20",
     "pos": "F",
-    "salary_cap_hit": "916,667",
+    "salary_cap_hit": "950,000",
+    "team": "Dallas Stars"
+  },
+  {
+    "name": "Emil Hemming",
+    "age": "19",
+    "pos": "F",
+    "salary_cap_hit": "941,667",
     "team": "Dallas Stars"
   },
   {
@@ -2982,48 +2023,6 @@
     "team": "Dallas Stars"
   },
   {
-    "name": "Kyle McDonald",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "870,000",
-    "team": "Dallas Stars"
-  },
-  {
-    "name": "Arttu Hyry",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "870,000",
-    "team": "Dallas Stars"
-  },
-  {
-    "name": "Chase Wheatcroft",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "862,500",
-    "team": "Dallas Stars"
-  },
-  {
-    "name": "Matthew Seminoff",
-    "age": "22",
-    "pos": "F",
-    "salary_cap_hit": "850,000",
-    "team": "Dallas Stars"
-  },
-  {
-    "name": "Samu Tuomaala",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "830,833",
-    "team": "Dallas Stars"
-  },
-  {
-    "name": "Francesco Arcuri",
-    "age": "22",
-    "pos": "F",
-    "salary_cap_hit": "825,000",
-    "team": "Dallas Stars"
-  },
-  {
     "name": "Cameron Hughes",
     "age": "29",
     "pos": "F",
@@ -3031,31 +2030,17 @@
     "team": "Dallas Stars"
   },
   {
-    "name": "Antonio Stranges",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
+    "name": "Aram Minnetian",
+    "age": "21",
+    "pos": "D",
+    "salary_cap_hit": "1,075,000",
     "team": "Dallas Stars"
   },
   {
-    "name": "Kole Lind",
-    "age": "27",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Dallas Stars"
-  },
-  {
-    "name": "Adam Erne",
-    "age": "31",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Dallas Stars"
-  },
-  {
-    "name": "Nathan Bastian",
-    "age": "28",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
+    "name": "Jack Anderson",
+    "age": "23",
+    "pos": "D",
+    "salary_cap_hit": "1,050,000",
     "team": "Dallas Stars"
   },
   {
@@ -3069,7 +2054,14 @@
     "name": "Niilopekka Muhonen",
     "age": "20",
     "pos": "D",
-    "salary_cap_hit": "900,000",
+    "salary_cap_hit": "950,000",
+    "team": "Dallas Stars"
+  },
+  {
+    "name": "Tristan Bertucci",
+    "age": "20",
+    "pos": "D",
+    "salary_cap_hit": "934,167",
     "team": "Dallas Stars"
   },
   {
@@ -3077,48 +2069,6 @@
     "age": "22",
     "pos": "D",
     "salary_cap_hit": "895,000",
-    "team": "Dallas Stars"
-  },
-  {
-    "name": "Tristan Bertucci",
-    "age": "20",
-    "pos": "D",
-    "salary_cap_hit": "888,333",
-    "team": "Dallas Stars"
-  },
-  {
-    "name": "Luke Krys",
-    "age": "25",
-    "pos": "D",
-    "salary_cap_hit": "870,000",
-    "team": "Dallas Stars"
-  },
-  {
-    "name": "Vladislav Kolyachonok",
-    "age": "25",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Dallas Stars"
-  },
-  {
-    "name": "Jeremie Poirier",
-    "age": "24",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Dallas Stars"
-  },
-  {
-    "name": "Alexander Petrovic",
-    "age": "34",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Dallas Stars"
-  },
-  {
-    "name": "Kyle Capobianco",
-    "age": "28",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
     "team": "Dallas Stars"
   },
   {
@@ -3133,13 +2083,6 @@
     "age": "24",
     "pos": "G",
     "salary_cap_hit": "812,500",
-    "team": "Dallas Stars"
-  },
-  {
-    "name": "Ben Kraws",
-    "age": "25",
-    "pos": "G",
-    "salary_cap_hit": "775,000",
     "team": "Dallas Stars"
   },
   {
@@ -3178,24 +2121,10 @@
     "team": "Detroit Red Wings"
   },
   {
-    "name": "David Perron",
-    "age": "38",
-    "pos": "F",
-    "salary_cap_hit": "4,000,000",
-    "team": "Detroit Red Wings"
-  },
-  {
     "name": "Michael Rasmussen",
     "age": "27",
     "pos": "F",
     "salary_cap_hit": "3,200,000",
-    "team": "Detroit Red Wings"
-  },
-  {
-    "name": "Patrick Kane",
-    "age": "37",
-    "pos": "F",
-    "salary_cap_hit": "3,000,000",
     "team": "Detroit Red Wings"
   },
   {
@@ -3206,10 +2135,10 @@
     "team": "Detroit Red Wings"
   },
   {
-    "name": "James van Riemsdyk",
-    "age": "37",
+    "name": "Emmitt Finnie",
+    "age": "20",
     "pos": "F",
-    "salary_cap_hit": "1,000,000",
+    "salary_cap_hit": "921,667",
     "team": "Detroit Red Wings"
   },
   {
@@ -3217,13 +2146,6 @@
     "age": "22",
     "pos": "F",
     "salary_cap_hit": "886,667",
-    "team": "Detroit Red Wings"
-  },
-  {
-    "name": "Emmitt Finnie",
-    "age": "20",
-    "pos": "F",
-    "salary_cap_hit": "871,667",
     "team": "Detroit Red Wings"
   },
   {
@@ -3244,7 +2166,14 @@
     "name": "Ben Chiarot",
     "age": "35",
     "pos": "D",
-    "salary_cap_hit": "4,750,000",
+    "salary_cap_hit": "3,850,000",
+    "team": "Detroit Red Wings"
+  },
+  {
+    "name": "Jacob Bernard-Docker",
+    "age": "25",
+    "pos": "D",
+    "salary_cap_hit": "1,600,000",
     "team": "Detroit Red Wings"
   },
   {
@@ -3255,27 +2184,6 @@
     "team": "Detroit Red Wings"
   },
   {
-    "name": "Travis Hamonic",
-    "age": "35",
-    "pos": "D",
-    "salary_cap_hit": "1,000,000",
-    "team": "Detroit Red Wings"
-  },
-  {
-    "name": "Simon Edvinsson",
-    "age": "23",
-    "pos": "D",
-    "salary_cap_hit": "894,167",
-    "team": "Detroit Red Wings"
-  },
-  {
-    "name": "Jacob Bernard-Docker",
-    "age": "25",
-    "pos": "D",
-    "salary_cap_hit": "875,000",
-    "team": "Detroit Red Wings"
-  },
-  {
     "name": "John Gibson",
     "age": "32",
     "pos": "G",
@@ -3283,17 +2191,17 @@
     "team": "Detroit Red Wings"
   },
   {
-    "name": "Cam Talbot",
-    "age": "38",
-    "pos": "G",
-    "salary_cap_hit": "2,500,000",
+    "name": "Dylan James",
+    "age": "22",
+    "pos": "F",
+    "salary_cap_hit": "1,050,000",
     "team": "Detroit Red Wings"
   },
   {
-    "name": "Erik Gustafsson",
-    "age": "34",
-    "pos": "D",
-    "salary_cap_hit": "850,000",
+    "name": "Eddie Genborg",
+    "age": "19",
+    "pos": "F",
+    "salary_cap_hit": "997,500",
     "team": "Detroit Red Wings"
   },
   {
@@ -3307,14 +2215,14 @@
     "name": "Carter Bear",
     "age": "19",
     "pos": "F",
-    "salary_cap_hit": "975,000",
+    "salary_cap_hit": "974,167",
     "team": "Detroit Red Wings"
   },
   {
     "name": "Michael Brandsegg-Nygard",
     "age": "20",
     "pos": "F",
-    "salary_cap_hit": "942,500",
+    "salary_cap_hit": "953,750",
     "team": "Detroit Red Wings"
   },
   {
@@ -3325,10 +2233,10 @@
     "team": "Detroit Red Wings"
   },
   {
-    "name": "Carter Mazur",
-    "age": "24",
+    "name": "Nate Danielson",
+    "age": "21",
     "pos": "F",
-    "salary_cap_hit": "905,833",
+    "salary_cap_hit": "909,167",
     "team": "Detroit Red Wings"
   },
   {
@@ -3339,80 +2247,31 @@
     "team": "Detroit Red Wings"
   },
   {
-    "name": "Nate Danielson",
-    "age": "21",
-    "pos": "F",
-    "salary_cap_hit": "886,667",
-    "team": "Detroit Red Wings"
-  },
-  {
-    "name": "Alexandre Doucet",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "870,000",
-    "team": "Detroit Red Wings"
-  },
-  {
-    "name": "Jakub Rychlovsky",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "870,000",
-    "team": "Detroit Red Wings"
-  },
-  {
-    "name": "Amadeus Lombardi",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "838,333",
-    "team": "Detroit Red Wings"
-  },
-  {
-    "name": "Michael Milne",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Detroit Red Wings"
-  },
-  {
-    "name": "Wojciech Stachowiak",
-    "age": "26",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Detroit Red Wings"
-  },
-  {
-    "name": "Eduards Tralmaks",
-    "age": "29",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Detroit Red Wings"
-  },
-  {
-    "name": "Austin Watson",
-    "age": "34",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Detroit Red Wings"
-  },
-  {
-    "name": "John Leonard",
-    "age": "27",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Detroit Red Wings"
-  },
-  {
     "name": "Sheldon Dries",
     "age": "32",
     "pos": "F",
-    "salary_cap_hit": "775,000",
+    "salary_cap_hit": "875,000",
     "team": "Detroit Red Wings"
   },
   {
     "name": "Dominik Shine",
     "age": "33",
     "pos": "F",
-    "salary_cap_hit": "775,000",
+    "salary_cap_hit": "875,000",
+    "team": "Detroit Red Wings"
+  },
+  {
+    "name": "John Leonard",
+    "age": "27",
+    "pos": "F",
+    "salary_cap_hit": "850,000",
+    "team": "Detroit Red Wings"
+  },
+  {
+    "name": "Axel Sandin-Pellikka ",
+    "age": "21",
+    "pos": "D",
+    "salary_cap_hit": "940,833",
     "team": "Detroit Red Wings"
   },
   {
@@ -3423,38 +2282,10 @@
     "team": "Detroit Red Wings"
   },
   {
-    "name": "William Wallinder",
-    "age": "23",
-    "pos": "D",
-    "salary_cap_hit": "925,000",
-    "team": "Detroit Red Wings"
-  },
-  {
     "name": "Anton Johansson",
-    "age": "21",
+    "age": "22",
     "pos": "D",
     "salary_cap_hit": "920,000",
-    "team": "Detroit Red Wings"
-  },
-  {
-    "name": "Axel Sandin-Pellikka ",
-    "age": "21",
-    "pos": "D",
-    "salary_cap_hit": "918,333",
-    "team": "Detroit Red Wings"
-  },
-  {
-    "name": "Erik Gustafsson",
-    "age": "34",
-    "pos": "D",
-    "salary_cap_hit": "850,000",
-    "team": "Detroit Red Wings"
-  },
-  {
-    "name": "Antti Tuomisto",
-    "age": "25",
-    "pos": "D",
-    "salary_cap_hit": "813,750",
     "team": "Detroit Red Wings"
   },
   {
@@ -3465,24 +2296,17 @@
     "team": "Detroit Red Wings"
   },
   {
+    "name": "Trey Augustine",
+    "age": "21",
+    "pos": "G",
+    "salary_cap_hit": "1,075,000",
+    "team": "Detroit Red Wings"
+  },
+  {
     "name": "Michal Postava",
     "age": "24",
     "pos": "G",
     "salary_cap_hit": "975,000",
-    "team": "Detroit Red Wings"
-  },
-  {
-    "name": "Sebastian Cossa",
-    "age": "23",
-    "pos": "G",
-    "salary_cap_hit": "863,333",
-    "team": "Detroit Red Wings"
-  },
-  {
-    "name": "Carter Gylander",
-    "age": "25",
-    "pos": "G",
-    "salary_cap_hit": "855,000",
     "team": "Detroit Red Wings"
   },
   {
@@ -3501,7 +2325,7 @@
   },
   {
     "name": "Zach Hyman",
-    "age": "33",
+    "age": "34",
     "pos": "F",
     "salary_cap_hit": "5,500,000",
     "team": "Edmonton Oilers"
@@ -3521,24 +2345,10 @@
     "team": "Edmonton Oilers"
   },
   {
-    "name": "Adam Henrique",
-    "age": "36",
+    "name": "Vasily Podkolzin",
+    "age": "24",
     "pos": "F",
-    "salary_cap_hit": "3,000,000",
-    "team": "Edmonton Oilers"
-  },
-  {
-    "name": "Jason Dickinson",
-    "age": "30",
-    "pos": "F",
-    "salary_cap_hit": "2,125,000",
-    "team": "Edmonton Oilers"
-  },
-  {
-    "name": "Jack Roslovic",
-    "age": "29",
-    "pos": "F",
-    "salary_cap_hit": "1,500,000",
+    "salary_cap_hit": "2,950,000",
     "team": "Edmonton Oilers"
   },
   {
@@ -3549,31 +2359,10 @@
     "team": "Edmonton Oilers"
   },
   {
-    "name": "Kasperi Kapanen",
-    "age": "29",
-    "pos": "F",
-    "salary_cap_hit": "1,300,000",
-    "team": "Edmonton Oilers"
-  },
-  {
-    "name": "Vasily Podkolzin",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "1,000,000",
-    "team": "Edmonton Oilers"
-  },
-  {
     "name": "Matthew Savoie",
     "age": "22",
     "pos": "F",
     "salary_cap_hit": "886,667",
-    "team": "Edmonton Oilers"
-  },
-  {
-    "name": "Curtis Lazar",
-    "age": "31",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
     "team": "Edmonton Oilers"
   },
   {
@@ -3591,24 +2380,17 @@
     "team": "Edmonton Oilers"
   },
   {
-    "name": "Mattias Ekholm",
-    "age": "36",
-    "pos": "D",
-    "salary_cap_hit": "6,000,000",
-    "team": "Edmonton Oilers"
-  },
-  {
     "name": "Jake Walman",
     "age": "30",
     "pos": "D",
-    "salary_cap_hit": "3,400,000",
+    "salary_cap_hit": "7,000,000",
     "team": "Edmonton Oilers"
   },
   {
-    "name": "Connor Murphy",
-    "age": "33",
+    "name": "Mattias Ekholm",
+    "age": "36",
     "pos": "D",
-    "salary_cap_hit": "2,200,000",
+    "salary_cap_hit": "4,000,000",
     "team": "Edmonton Oilers"
   },
   {
@@ -3619,13 +2401,6 @@
     "team": "Edmonton Oilers"
   },
   {
-    "name": "Spencer Stastney",
-    "age": "26",
-    "pos": "D",
-    "salary_cap_hit": "825,000",
-    "team": "Edmonton Oilers"
-  },
-  {
     "name": "Tristan Jarry",
     "age": "31",
     "pos": "G",
@@ -3633,31 +2408,10 @@
     "team": "Edmonton Oilers"
   },
   {
-    "name": "Connor Ingram",
-    "age": "29",
-    "pos": "G",
-    "salary_cap_hit": "1,150,500",
-    "team": "Edmonton Oilers"
-  },
-  {
     "name": "Jack Campbell",
     "age": "34",
     "pos": "G",
-    "salary_cap_hit": "2,300,000",
-    "team": "Edmonton Oilers"
-  },
-  {
-    "name": "Max Jones",
-    "age": "28",
-    "pos": "F",
-    "salary_cap_hit": "1,000,000",
-    "team": "Edmonton Oilers"
-  },
-  {
-    "name": "Owen Michaels",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "975,000",
+    "salary_cap_hit": "2,600,000",
     "team": "Edmonton Oilers"
   },
   {
@@ -3668,10 +2422,24 @@
     "team": "Edmonton Oilers"
   },
   {
+    "name": "William Nicholl",
+    "age": "20",
+    "pos": "F",
+    "salary_cap_hit": "968,333",
+    "team": "Edmonton Oilers"
+  },
+  {
     "name": "Isaac Howard",
     "age": "22",
     "pos": "F",
     "salary_cap_hit": "950,000",
+    "team": "Edmonton Oilers"
+  },
+  {
+    "name": "Connor Clattenburg",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "928,333",
     "team": "Edmonton Oilers"
   },
   {
@@ -3682,17 +2450,17 @@
     "team": "Edmonton Oilers"
   },
   {
+    "name": "Brady Stonehouse",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "896,667",
+    "team": "Edmonton Oilers"
+  },
+  {
     "name": "James Stefan",
     "age": "22",
     "pos": "F",
     "salary_cap_hit": "895,000",
-    "team": "Edmonton Oilers"
-  },
-  {
-    "name": "Connor Clattenburg",
-    "age": "21",
-    "pos": "F",
-    "salary_cap_hit": "878,333",
     "team": "Edmonton Oilers"
   },
   {
@@ -3703,52 +2471,10 @@
     "team": "Edmonton Oilers"
   },
   {
-    "name": "Brady Stonehouse",
-    "age": "21",
+    "name": "Aku Raty",
+    "age": "24",
     "pos": "F",
-    "salary_cap_hit": "846,667",
-    "team": "Edmonton Oilers"
-  },
-  {
-    "name": "Josh Bloom",
-    "age": "22",
-    "pos": "F",
-    "salary_cap_hit": "836,667",
-    "team": "Edmonton Oilers"
-  },
-  {
-    "name": "Colton Dach",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "825,000",
-    "team": "Edmonton Oilers"
-  },
-  {
-    "name": "Matvey Petrov",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "803,333",
-    "team": "Edmonton Oilers"
-  },
-  {
-    "name": "Sam Poulin",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Edmonton Oilers"
-  },
-  {
-    "name": "James Hamblin",
-    "age": "27",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Edmonton Oilers"
-  },
-  {
-    "name": "Roby Jarventie",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
+    "salary_cap_hit": "850,000",
     "team": "Edmonton Oilers"
   },
   {
@@ -3759,10 +2485,10 @@
     "team": "Edmonton Oilers"
   },
   {
-    "name": "Atro Leppanen",
-    "age": "27",
+    "name": "Tomas Cibulka",
+    "age": "22",
     "pos": "D",
-    "salary_cap_hit": "975,000",
+    "salary_cap_hit": "955,000",
     "team": "Edmonton Oilers"
   },
   {
@@ -3776,7 +2502,14 @@
     "name": "Beau Akey",
     "age": "21",
     "pos": "D",
-    "salary_cap_hit": "856,667",
+    "salary_cap_hit": "894,167",
+    "team": "Edmonton Oilers"
+  },
+  {
+    "name": "Atro Leppanen",
+    "age": "27",
+    "pos": "D",
+    "salary_cap_hit": "850,000",
     "team": "Edmonton Oilers"
   },
   {
@@ -3794,20 +2527,6 @@
     "team": "Edmonton Oilers"
   },
   {
-    "name": "Cam Dineen",
-    "age": "27",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Edmonton Oilers"
-  },
-  {
-    "name": "Calvin Pickard",
-    "age": "34",
-    "pos": "G",
-    "salary_cap_hit": "1,000,000",
-    "team": "Edmonton Oilers"
-  },
-  {
     "name": "Nathaniel Day",
     "age": "21",
     "pos": "G",
@@ -3819,13 +2538,6 @@
     "age": "22",
     "pos": "G",
     "salary_cap_hit": "905,000",
-    "team": "Edmonton Oilers"
-  },
-  {
-    "name": "Connor Ungar",
-    "age": "24",
-    "pos": "G",
-    "salary_cap_hit": "860,000",
     "team": "Edmonton Oilers"
   },
   {
@@ -3906,31 +2618,10 @@
     "team": "Florida Panthers"
   },
   {
-    "name": "A.J. Greer",
-    "age": "29",
-    "pos": "F",
-    "salary_cap_hit": "850,000",
-    "team": "Florida Panthers"
-  },
-  {
-    "name": "Mackie Samoskevich",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Florida Panthers"
-  },
-  {
-    "name": "Tomas Nosek",
-    "age": "33",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Florida Panthers"
-  },
-  {
     "name": "Jonah Gadjovich",
     "age": "27",
     "pos": "F",
-    "salary_cap_hit": "775,000",
+    "salary_cap_hit": "905,000",
     "team": "Florida Panthers"
   },
   {
@@ -3949,7 +2640,7 @@
   },
   {
     "name": "Gustav Forsling",
-    "age": "29",
+    "age": "30",
     "pos": "D",
     "salary_cap_hit": "5,750,000",
     "team": "Florida Panthers"
@@ -3958,7 +2649,7 @@
     "name": "Niko Mikkola",
     "age": "30",
     "pos": "D",
-    "salary_cap_hit": "2,500,000",
+    "salary_cap_hit": "5,000,000",
     "team": "Florida Panthers"
   },
   {
@@ -3972,35 +2663,7 @@
     "name": "Uvis Balinskis",
     "age": "29",
     "pos": "D",
-    "salary_cap_hit": "850,000",
-    "team": "Florida Panthers"
-  },
-  {
-    "name": "Donovan Sebrango",
-    "age": "24",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Florida Panthers"
-  },
-  {
-    "name": "Sergei Bobrovsky",
-    "age": "37",
-    "pos": "G",
-    "salary_cap_hit": "10,000,000",
-    "team": "Florida Panthers"
-  },
-  {
-    "name": "Daniil Tarasov",
-    "age": "27",
-    "pos": "G",
-    "salary_cap_hit": "1,050,000",
-    "team": "Florida Panthers"
-  },
-  {
-    "name": "Ben Steeves",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "950,000",
+    "salary_cap_hit": "875,000",
     "team": "Florida Panthers"
   },
   {
@@ -4014,7 +2677,14 @@
     "name": "Gracyn Sawchyn",
     "age": "21",
     "pos": "F",
-    "salary_cap_hit": "888,333",
+    "salary_cap_hit": "938,333",
+    "team": "Florida Panthers"
+  },
+  {
+    "name": "Hunter St. Martin",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "928,889",
     "team": "Florida Panthers"
   },
   {
@@ -4025,24 +2695,10 @@
     "team": "Florida Panthers"
   },
   {
-    "name": "Hunter St. Martin",
-    "age": "20",
-    "pos": "F",
-    "salary_cap_hit": "878,333",
-    "team": "Florida Panthers"
-  },
-  {
-    "name": "Cole Schwindt",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "825,000",
-    "team": "Florida Panthers"
-  },
-  {
     "name": "Kai Schwindt",
     "age": "22",
     "pos": "F",
-    "salary_cap_hit": "823,333",
+    "salary_cap_hit": "873,333",
     "team": "Florida Panthers"
   },
   {
@@ -4060,52 +2716,10 @@
     "team": "Florida Panthers"
   },
   {
-    "name": "Jack Studnicka",
-    "age": "27",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Florida Panthers"
-  },
-  {
-    "name": "Wilmer Skoog",
-    "age": "26",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Florida Panthers"
-  },
-  {
-    "name": "Nolan Foote",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Florida Panthers"
-  },
-  {
-    "name": "Noah Gregor",
-    "age": "27",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Florida Panthers"
-  },
-  {
-    "name": "Vinnie Hinostroza",
-    "age": "32",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Florida Panthers"
-  },
-  {
-    "name": "Luke Kunin",
-    "age": "28",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Florida Panthers"
-  },
-  {
-    "name": "Mikulas Hovorka",
-    "age": "24",
+    "name": "Matvei Shuravin",
+    "age": "20",
     "pos": "D",
-    "salary_cap_hit": "950,000",
+    "salary_cap_hit": "1,000,000",
     "team": "Florida Panthers"
   },
   {
@@ -4123,31 +2737,10 @@
     "team": "Florida Panthers"
   },
   {
-    "name": "Evan Nause",
-    "age": "23",
-    "pos": "D",
-    "salary_cap_hit": "864,167",
-    "team": "Florida Panthers"
-  },
-  {
-    "name": "Mike Benning",
-    "age": "24",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Florida Panthers"
-  },
-  {
-    "name": "Tobias Bjornfot",
-    "age": "25",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Florida Panthers"
-  },
-  {
-    "name": "Cooper Black",
-    "age": "24",
+    "name": "Tyler Muszelik",
+    "age": "21",
     "pos": "G",
-    "salary_cap_hit": "950,000",
+    "salary_cap_hit": "960,000",
     "team": "Florida Panthers"
   },
   {
@@ -4158,11 +2751,25 @@
     "team": "Florida Panthers"
   },
   {
-    "name": "Louis Domingue",
-    "age": "34",
+    "name": "Cooper Black",
+    "age": "24",
     "pos": "G",
-    "salary_cap_hit": "775,000",
+    "salary_cap_hit": "875,000",
     "team": "Florida Panthers"
+  },
+  {
+    "name": "Artemi Panarin",
+    "age": "34",
+    "pos": "F",
+    "salary_cap_hit": "11,000,000",
+    "team": "Los Angeles Kings"
+  },
+  {
+    "name": "Adrian Kempe",
+    "age": "29",
+    "pos": "F",
+    "salary_cap_hit": "10,625,000",
+    "team": "Los Angeles Kings"
   },
   {
     "name": "Kevin Fiala",
@@ -4172,38 +2779,10 @@
     "team": "Los Angeles Kings"
   },
   {
-    "name": "Anze Kopitar",
-    "age": "38",
-    "pos": "F",
-    "salary_cap_hit": "7,000,000",
-    "team": "Los Angeles Kings"
-  },
-  {
     "name": "Quinton Byfield",
     "age": "23",
     "pos": "F",
     "salary_cap_hit": "6,250,000",
-    "team": "Los Angeles Kings"
-  },
-  {
-    "name": "Artemi Panarin",
-    "age": "34",
-    "pos": "F",
-    "salary_cap_hit": "5,821,429",
-    "team": "Los Angeles Kings"
-  },
-  {
-    "name": "Adrian Kempe",
-    "age": "29",
-    "pos": "F",
-    "salary_cap_hit": "5,500,000",
-    "team": "Los Angeles Kings"
-  },
-  {
-    "name": "Andrei Kuzmenko",
-    "age": "30",
-    "pos": "F",
-    "salary_cap_hit": "4,300,000",
     "team": "Los Angeles Kings"
   },
   {
@@ -4228,24 +2807,10 @@
     "team": "Los Angeles Kings"
   },
   {
-    "name": "Scott Laughton",
-    "age": "32",
-    "pos": "F",
-    "salary_cap_hit": "1,500,000",
-    "team": "Los Angeles Kings"
-  },
-  {
-    "name": "Mathieu Joseph",
-    "age": "29",
-    "pos": "F",
-    "salary_cap_hit": "900,000",
-    "team": "Los Angeles Kings"
-  },
-  {
     "name": "Samuel Helenius",
     "age": "23",
     "pos": "F",
-    "salary_cap_hit": "805,833",
+    "salary_cap_hit": "875,000",
     "team": "Los Angeles Kings"
   },
   {
@@ -4253,13 +2818,6 @@
     "age": "25",
     "pos": "F",
     "salary_cap_hit": "800,000",
-    "team": "Los Angeles Kings"
-  },
-  {
-    "name": "Jeff Malott",
-    "age": "29",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
     "team": "Los Angeles Kings"
   },
   {
@@ -4298,20 +2856,6 @@
     "team": "Los Angeles Kings"
   },
   {
-    "name": "Brandt Clarke",
-    "age": "23",
-    "pos": "D",
-    "salary_cap_hit": "863,333",
-    "team": "Los Angeles Kings"
-  },
-  {
-    "name": "Jacob Moverare",
-    "age": "27",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Los Angeles Kings"
-  },
-  {
     "name": "Darcy Kuemper",
     "age": "36",
     "pos": "G",
@@ -4326,24 +2870,24 @@
     "team": "Los Angeles Kings"
   },
   {
-    "name": "Corey Perry",
-    "age": "41",
-    "pos": "F",
-    "salary_cap_hit": "1,000,000",
-    "team": "Los Angeles Kings"
-  },
-  {
     "name": "Vojtech Cihar",
     "age": "19",
     "pos": "F",
-    "salary_cap_hit": "975,000",
+    "salary_cap_hit": "974,167",
     "team": "Los Angeles Kings"
   },
   {
     "name": "Jimmy Lombardi",
     "age": "19",
     "pos": "F",
-    "salary_cap_hit": "923,333",
+    "salary_cap_hit": "956,667",
+    "team": "Los Angeles Kings"
+  },
+  {
+    "name": "Grant Slukynsky",
+    "age": "24",
+    "pos": "F",
+    "salary_cap_hit": "952,500",
     "team": "Los Angeles Kings"
   },
   {
@@ -4361,6 +2905,13 @@
     "team": "Los Angeles Kings"
   },
   {
+    "name": "Koehn Ziemmer",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "904,167",
+    "team": "Los Angeles Kings"
+  },
+  {
     "name": "Kaleb Lawrence",
     "age": "23",
     "pos": "F",
@@ -4368,24 +2919,24 @@
     "team": "Los Angeles Kings"
   },
   {
-    "name": "Koehn Ziemmer",
-    "age": "21",
+    "name": "Taylor Ward",
+    "age": "28",
     "pos": "F",
-    "salary_cap_hit": "858,333",
+    "salary_cap_hit": "875,000",
     "team": "Los Angeles Kings"
   },
   {
     "name": "Aatu Jamsen",
     "age": "23",
     "pos": "F",
-    "salary_cap_hit": "852,500",
+    "salary_cap_hit": "850,000",
     "team": "Los Angeles Kings"
   },
   {
-    "name": "Francesco Pinelli",
+    "name": "Martin Chromiak",
     "age": "23",
     "pos": "F",
-    "salary_cap_hit": "845,000",
+    "salary_cap_hit": "850,000",
     "team": "Los Angeles Kings"
   },
   {
@@ -4403,52 +2954,17 @@
     "team": "Los Angeles Kings"
   },
   {
-    "name": "Glenn Gawdin",
-    "age": "29",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Los Angeles Kings"
-  },
-  {
-    "name": "Logan Brown",
-    "age": "28",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Los Angeles Kings"
-  },
-  {
-    "name": "Martin Chromiak",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Los Angeles Kings"
-  },
-  {
-    "name": "Nikita Alexandrov",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Los Angeles Kings"
-  },
-  {
-    "name": "Jan Jenik",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Los Angeles Kings"
-  },
-  {
-    "name": "Taylor Ward",
-    "age": "28",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Los Angeles Kings"
-  },
-  {
-    "name": "Kyle Burroughs",
-    "age": "30",
+    "name": "Henry Brzustewicz",
+    "age": "19",
     "pos": "D",
-    "salary_cap_hit": "1,100,000",
+    "salary_cap_hit": "1,075,000",
+    "team": "Los Angeles Kings"
+  },
+  {
+    "name": "Jared Woolley",
+    "age": "20",
+    "pos": "D",
+    "salary_cap_hit": "958,333",
     "team": "Los Angeles Kings"
   },
   {
@@ -4456,13 +2972,6 @@
     "age": "23",
     "pos": "D",
     "salary_cap_hit": "933,750",
-    "team": "Los Angeles Kings"
-  },
-  {
-    "name": "Jared Woolley",
-    "age": "20",
-    "pos": "D",
-    "salary_cap_hit": "912,500",
     "team": "Los Angeles Kings"
   },
   {
@@ -4476,14 +2985,14 @@
     "name": "Jakub Dvorak",
     "age": "21",
     "pos": "D",
-    "salary_cap_hit": "866,667",
+    "salary_cap_hit": "905,000",
     "team": "Los Angeles Kings"
   },
   {
     "name": "Angus Booth",
     "age": "22",
     "pos": "D",
-    "salary_cap_hit": "851,667",
+    "salary_cap_hit": "901,667",
     "team": "Los Angeles Kings"
   },
   {
@@ -4494,10 +3003,17 @@
     "team": "Los Angeles Kings"
   },
   {
+    "name": "Hampton Slukynsky",
+    "age": "20",
+    "pos": "G",
+    "salary_cap_hit": "1,228,767",
+    "team": "Los Angeles Kings"
+  },
+  {
     "name": "Carter George",
     "age": "20",
     "pos": "G",
-    "salary_cap_hit": "887,500",
+    "salary_cap_hit": "929,167",
     "team": "Los Angeles Kings"
   },
   {
@@ -4508,17 +3024,10 @@
     "team": "Los Angeles Kings"
   },
   {
-    "name": "Pheonix Copley",
-    "age": "34",
-    "pos": "G",
-    "salary_cap_hit": "775,000",
-    "team": "Los Angeles Kings"
-  },
-  {
     "name": "Kirill Kaprizov",
     "age": "29",
     "pos": "F",
-    "salary_cap_hit": "9,000,000",
+    "salary_cap_hit": "17,000,000",
     "team": "Minnesota Wild"
   },
   {
@@ -4533,27 +3042,6 @@
     "age": "29",
     "pos": "F",
     "salary_cap_hit": "5,250,000",
-    "team": "Minnesota Wild"
-  },
-  {
-    "name": "Vladimir Tarasenko",
-    "age": "34",
-    "pos": "F",
-    "salary_cap_hit": "4,750,000",
-    "team": "Minnesota Wild"
-  },
-  {
-    "name": "Nick Foligno",
-    "age": "38",
-    "pos": "F",
-    "salary_cap_hit": "4,500,000",
-    "team": "Minnesota Wild"
-  },
-  {
-    "name": "Mats Zuccarello",
-    "age": "38",
-    "pos": "F",
-    "salary_cap_hit": "4,125,000",
     "team": "Minnesota Wild"
   },
   {
@@ -4585,31 +3073,10 @@
     "team": "Minnesota Wild"
   },
   {
-    "name": "Bobby Brink",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "1,500,000",
-    "team": "Minnesota Wild"
-  },
-  {
     "name": "Danila Yurov",
     "age": "22",
     "pos": "F",
     "salary_cap_hit": "950,000",
-    "team": "Minnesota Wild"
-  },
-  {
-    "name": "Marcus Johansson",
-    "age": "35",
-    "pos": "F",
-    "salary_cap_hit": "800,000",
-    "team": "Minnesota Wild"
-  },
-  {
-    "name": "Robby Fabbri",
-    "age": "30",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
     "team": "Minnesota Wild"
   },
   {
@@ -4648,13 +3115,6 @@
     "team": "Minnesota Wild"
   },
   {
-    "name": "Zach Bogosian",
-    "age": "35",
-    "pos": "D",
-    "salary_cap_hit": "1,250,000",
-    "team": "Minnesota Wild"
-  },
-  {
     "name": "Matt Kiersted",
     "age": "28",
     "pos": "D",
@@ -4662,17 +3122,10 @@
     "team": "Minnesota Wild"
   },
   {
-    "name": "Jeff Petry",
-    "age": "38",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Minnesota Wild"
-  },
-  {
     "name": "Filip Gustavsson",
-    "age": "27",
+    "age": "28",
     "pos": "G",
-    "salary_cap_hit": "3,750,000",
+    "salary_cap_hit": "6,800,000",
     "team": "Minnesota Wild"
   },
   {
@@ -4690,52 +3143,45 @@
     "team": "Minnesota Wild"
   },
   {
-    "name": "Riley Heidt",
-    "age": "21",
-    "pos": "F",
-    "salary_cap_hit": "918,333",
-    "team": "Minnesota Wild"
-  },
-  {
     "name": "Michael McCarron",
     "age": "31",
     "pos": "F",
-    "salary_cap_hit": "900,000",
+    "salary_cap_hit": "3,333,333",
+    "team": "Minnesota Wild"
+  },
+  {
+    "name": "Charlie Stramel",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "1,075,000",
+    "team": "Minnesota Wild"
+  },
+  {
+    "name": "Rieger Lorenz",
+    "age": "22",
+    "pos": "F",
+    "salary_cap_hit": "1,013,750",
+    "team": "Minnesota Wild"
+  },
+  {
+    "name": "Riley Heidt",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "940,833",
     "team": "Minnesota Wild"
   },
   {
     "name": "Rasmus Kumpulainen",
     "age": "20",
     "pos": "F",
-    "salary_cap_hit": "888,333",
+    "salary_cap_hit": "924,583",
     "team": "Minnesota Wild"
   },
   {
     "name": "Hunter Haight",
     "age": "22",
     "pos": "F",
-    "salary_cap_hit": "871,667",
-    "team": "Minnesota Wild"
-  },
-  {
-    "name": "Caedan Bankier",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "867,500",
-    "team": "Minnesota Wild"
-  },
-  {
-    "name": "Oskar Olausson",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "863,333",
-    "team": "Minnesota Wild"
-  },
-  {
-    "name": "Cameron Butler",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "858,333",
+    "salary_cap_hit": "883,333",
     "team": "Minnesota Wild"
   },
   {
@@ -4746,24 +3192,10 @@
     "team": "Minnesota Wild"
   },
   {
-    "name": "Bradley Marek",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "790,000",
-    "team": "Minnesota Wild"
-  },
-  {
-    "name": "Nicolas Aube-Kubel",
-    "age": "30",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Minnesota Wild"
-  },
-  {
-    "name": "Ben Jones",
-    "age": "27",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
+    "name": "Ben Dexheimer",
+    "age": "23",
+    "pos": "D",
+    "salary_cap_hit": "980,000",
     "team": "Minnesota Wild"
   },
   {
@@ -4788,52 +3220,10 @@
     "team": "Minnesota Wild"
   },
   {
-    "name": "Carson Lambos",
-    "age": "23",
-    "pos": "D",
-    "salary_cap_hit": "863,333",
-    "team": "Minnesota Wild"
-  },
-  {
-    "name": "David Spacek",
-    "age": "23",
-    "pos": "D",
-    "salary_cap_hit": "862,500",
-    "team": "Minnesota Wild"
-  },
-  {
-    "name": "Roman Schmidt",
-    "age": "23",
-    "pos": "D",
-    "salary_cap_hit": "805,833",
-    "team": "Minnesota Wild"
-  },
-  {
-    "name": "Ben Gleason",
-    "age": "28",
-    "pos": "D",
-    "salary_cap_hit": "800,000",
-    "team": "Minnesota Wild"
-  },
-  {
-    "name": "Daemon Hunt",
-    "age": "24",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Minnesota Wild"
-  },
-  {
     "name": "Chase Wutzke",
     "age": "19",
     "pos": "G",
-    "salary_cap_hit": "962,500",
-    "team": "Minnesota Wild"
-  },
-  {
-    "name": "Samuel Hlavaj",
-    "age": "25",
-    "pos": "G",
-    "salary_cap_hit": "875,000",
+    "salary_cap_hit": "958,333",
     "team": "Minnesota Wild"
   },
   {
@@ -4842,20 +3232,6 @@
     "pos": "G",
     "salary_cap_hit": "869,167",
     "team": "Minnesota Wild"
-  },
-  {
-    "name": "Cal Petersen",
-    "age": "31",
-    "pos": "G",
-    "salary_cap_hit": "775,000",
-    "team": "Minnesota Wild"
-  },
-  {
-    "name": "Patrik Laine",
-    "age": "28",
-    "pos": "F",
-    "salary_cap_hit": "8,700,000",
-    "team": "Montreal Canadiens"
   },
   {
     "name": "Nick Suzuki",
@@ -4900,13 +3276,6 @@
     "team": "Montreal Canadiens"
   },
   {
-    "name": "Kirby Dach",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "3,362,500",
-    "team": "Montreal Canadiens"
-  },
-  {
     "name": "Alex Newhook",
     "age": "25",
     "pos": "F",
@@ -4924,7 +3293,14 @@
     "name": "Alexandre Texier",
     "age": "26",
     "pos": "F",
-    "salary_cap_hit": "1,000,000",
+    "salary_cap_hit": "2,500,000",
+    "team": "Montreal Canadiens"
+  },
+  {
+    "name": "Oliver Kapanen",
+    "age": "22",
+    "pos": "F",
+    "salary_cap_hit": "942,500",
     "team": "Montreal Canadiens"
   },
   {
@@ -4935,27 +3311,6 @@
     "team": "Montreal Canadiens"
   },
   {
-    "name": "Oliver Kapanen",
-    "age": "22",
-    "pos": "F",
-    "salary_cap_hit": "930,833",
-    "team": "Montreal Canadiens"
-  },
-  {
-    "name": "Joe Veleno",
-    "age": "26",
-    "pos": "F",
-    "salary_cap_hit": "900,000",
-    "team": "Montreal Canadiens"
-  },
-  {
-    "name": "Zack Bolduc",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "863,333",
-    "team": "Montreal Canadiens"
-  },
-  {
     "name": "Noah Dobson",
     "age": "26",
     "pos": "D",
@@ -4963,17 +3318,24 @@
     "team": "Montreal Canadiens"
   },
   {
-    "name": "Kaiden Guhle",
-    "age": "24",
+    "name": "Lane Hutson",
+    "age": "22",
     "pos": "D",
-    "salary_cap_hit": "5,550,000",
+    "salary_cap_hit": "8,850,000",
     "team": "Montreal Canadiens"
   },
   {
     "name": "Mike Matheson",
     "age": "32",
     "pos": "D",
-    "salary_cap_hit": "4,875,000",
+    "salary_cap_hit": "6,000,000",
+    "team": "Montreal Canadiens"
+  },
+  {
+    "name": "Kaiden Guhle",
+    "age": "24",
+    "pos": "D",
+    "salary_cap_hit": "5,550,000",
     "team": "Montreal Canadiens"
   },
   {
@@ -4988,20 +3350,6 @@
     "age": "24",
     "pos": "D",
     "salary_cap_hit": "1,412,500",
-    "team": "Montreal Canadiens"
-  },
-  {
-    "name": "Arber Xhekaj",
-    "age": "25",
-    "pos": "D",
-    "salary_cap_hit": "1,300,000",
-    "team": "Montreal Canadiens"
-  },
-  {
-    "name": "Lane Hutson",
-    "age": "22",
-    "pos": "D",
-    "salary_cap_hit": "950,000",
     "team": "Montreal Canadiens"
   },
   {
@@ -5022,35 +3370,28 @@
     "name": "Jacob Fowler",
     "age": "21",
     "pos": "G",
-    "salary_cap_hit": "923,333",
+    "salary_cap_hit": "945,833",
     "team": "Montreal Canadiens"
   },
   {
     "name": "Vinzenz Rohrer",
     "age": "21",
     "pos": "F",
-    "salary_cap_hit": "950,000",
+    "salary_cap_hit": "972,500",
     "team": "Montreal Canadiens"
   },
   {
     "name": "Tyler Thorpe",
     "age": "20",
     "pos": "F",
-    "salary_cap_hit": "918,333",
-    "team": "Montreal Canadiens"
-  },
-  {
-    "name": "Luke Tuch",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "912,500",
+    "salary_cap_hit": "968,333",
     "team": "Montreal Canadiens"
   },
   {
     "name": "Florian Xhekaj",
     "age": "21",
     "pos": "F",
-    "salary_cap_hit": "891,667",
+    "salary_cap_hit": "941,667",
     "team": "Montreal Canadiens"
   },
   {
@@ -5061,13 +3402,6 @@
     "team": "Montreal Canadiens"
   },
   {
-    "name": "Jared Davidson",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "862,500",
-    "team": "Montreal Canadiens"
-  },
-  {
     "name": "Owen Beck",
     "age": "22",
     "pos": "F",
@@ -5075,52 +3409,38 @@
     "team": "Montreal Canadiens"
   },
   {
-    "name": "Jake Chiasson",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "843,333",
-    "team": "Montreal Canadiens"
-  },
-  {
-    "name": "Joshua Roy",
-    "age": "22",
-    "pos": "F",
-    "salary_cap_hit": "835,000",
-    "team": "Montreal Canadiens"
-  },
-  {
     "name": "Lucas Condotta",
     "age": "28",
     "pos": "F",
-    "salary_cap_hit": "812,500",
+    "salary_cap_hit": "850,000",
     "team": "Montreal Canadiens"
   },
   {
-    "name": "Alex Belzile",
-    "age": "34",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
+    "name": "Luke Mittelstadt",
+    "age": "23",
+    "pos": "D",
+    "salary_cap_hit": "1,013,750",
     "team": "Montreal Canadiens"
   },
   {
-    "name": "Sean Farrell",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Montreal Canadiens"
-  },
-  {
-    "name": "Sammy Blais",
-    "age": "29",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
+    "name": "Owen Protz",
+    "age": "20",
+    "pos": "D",
+    "salary_cap_hit": "1,004,167",
     "team": "Montreal Canadiens"
   },
   {
     "name": "Bryce Pickford",
     "age": "20",
     "pos": "D",
-    "salary_cap_hit": "940,833",
+    "salary_cap_hit": "965,000",
+    "team": "Montreal Canadiens"
+  },
+  {
+    "name": "David Reinbacher",
+    "age": "21",
+    "pos": "D",
+    "salary_cap_hit": "909,167",
     "team": "Montreal Canadiens"
   },
   {
@@ -5128,55 +3448,6 @@
     "age": "22",
     "pos": "D",
     "salary_cap_hit": "896,667",
-    "team": "Montreal Canadiens"
-  },
-  {
-    "name": "David Reinbacher",
-    "age": "21",
-    "pos": "D",
-    "salary_cap_hit": "886,667",
-    "team": "Montreal Canadiens"
-  },
-  {
-    "name": "Gannon Laroque",
-    "age": "22",
-    "pos": "D",
-    "salary_cap_hit": "836,667",
-    "team": "Montreal Canadiens"
-  },
-  {
-    "name": "Nate Clurman",
-    "age": "28",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Montreal Canadiens"
-  },
-  {
-    "name": "William Trudeau",
-    "age": "23",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Montreal Canadiens"
-  },
-  {
-    "name": "Marc Del Gaizo",
-    "age": "26",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Montreal Canadiens"
-  },
-  {
-    "name": "Kaapo Kahkonen",
-    "age": "29",
-    "pos": "G",
-    "salary_cap_hit": "1,150,000",
-    "team": "Montreal Canadiens"
-  },
-  {
-    "name": "Hunter Shepard",
-    "age": "30",
-    "pos": "G",
-    "salary_cap_hit": "775,000",
     "team": "Montreal Canadiens"
   },
   {
@@ -5208,17 +3479,17 @@
     "team": "Nashville Predators"
   },
   {
-    "name": "Erik Haula",
-    "age": "35",
-    "pos": "F",
-    "salary_cap_hit": "3,150,000",
-    "team": "Nashville Predators"
-  },
-  {
     "name": "Luke Evangelista",
     "age": "24",
     "pos": "F",
     "salary_cap_hit": "3,000,000",
+    "team": "Nashville Predators"
+  },
+  {
+    "name": "Fedor Svechkov",
+    "age": "23",
+    "pos": "F",
+    "salary_cap_hit": "1,250,000",
     "team": "Nashville Predators"
   },
   {
@@ -5229,24 +3500,10 @@
     "team": "Nashville Predators"
   },
   {
-    "name": "Fedor Svechkov",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "925,000",
-    "team": "Nashville Predators"
-  },
-  {
     "name": "Ozzy Wiesblatt",
     "age": "24",
     "pos": "F",
     "salary_cap_hit": "812,500",
-    "team": "Nashville Predators"
-  },
-  {
-    "name": "Tyson Jost",
-    "age": "28",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
     "team": "Nashville Predators"
   },
   {
@@ -5278,13 +3535,6 @@
     "team": "Nashville Predators"
   },
   {
-    "name": "Justin Barron",
-    "age": "24",
-    "pos": "D",
-    "salary_cap_hit": "1,150,000",
-    "team": "Nashville Predators"
-  },
-  {
     "name": "Adam Wilsby",
     "age": "25",
     "pos": "D",
@@ -5302,42 +3552,35 @@
     "name": "Justus Annunen",
     "age": "26",
     "pos": "G",
-    "salary_cap_hit": "837,500",
-    "team": "Nashville Predators"
-  },
-  {
-    "name": "Colton Sissons",
-    "age": "32",
-    "pos": "F",
-    "salary_cap_hit": "1,428,572",
-    "team": "Nashville Predators"
-  },
-  {
-    "name": "Mattias Ekholm",
-    "age": "36",
-    "pos": "D",
-    "salary_cap_hit": "250,000",
+    "salary_cap_hit": "1,250,000",
     "team": "Nashville Predators"
   },
   {
     "name": "Matt Duchene",
     "age": "35",
     "pos": "F",
-    "salary_cap_hit": "6,555,556",
+    "salary_cap_hit": "1,555,556",
+    "team": "Nashville Predators"
+  },
+  {
+    "name": "Felix Nilsson",
+    "age": "20",
+    "pos": "F",
+    "salary_cap_hit": "1,028,333",
+    "team": "Nashville Predators"
+  },
+  {
+    "name": "Vitali Pinchuk",
+    "age": "24",
+    "pos": "F",
+    "salary_cap_hit": "1,025,000",
     "team": "Nashville Predators"
   },
   {
     "name": "Brady Martin",
     "age": "19",
     "pos": "F",
-    "salary_cap_hit": "975,000",
-    "team": "Nashville Predators"
-  },
-  {
-    "name": "Dalton Bancroft",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "950,000",
+    "salary_cap_hit": "974,167",
     "team": "Nashville Predators"
   },
   {
@@ -5348,10 +3591,10 @@
     "team": "Nashville Predators"
   },
   {
-    "name": "Massimo Rizzo",
-    "age": "24",
+    "name": "Hiroki Gojsic",
+    "age": "20",
     "pos": "F",
-    "salary_cap_hit": "925,000",
+    "salary_cap_hit": "930,000",
     "team": "Nashville Predators"
   },
   {
@@ -5362,24 +3605,24 @@
     "team": "Nashville Predators"
   },
   {
+    "name": "David Edstrom",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "909,167",
+    "team": "Nashville Predators"
+  },
+  {
+    "name": "Kalan Lind",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "906,667",
+    "team": "Nashville Predators"
+  },
+  {
     "name": "Cole O'Hara",
     "age": "23",
     "pos": "F",
     "salary_cap_hit": "897,500",
-    "team": "Nashville Predators"
-  },
-  {
-    "name": "Ryder Rolston",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "895,000",
-    "team": "Nashville Predators"
-  },
-  {
-    "name": "David Edstrom",
-    "age": "21",
-    "pos": "F",
-    "salary_cap_hit": "886,667",
     "team": "Nashville Predators"
   },
   {
@@ -5397,10 +3640,10 @@
     "team": "Nashville Predators"
   },
   {
-    "name": "Hiroki Gojsic",
-    "age": "20",
+    "name": "Zachary L'Heureux",
+    "age": "23",
     "pos": "F",
-    "salary_cap_hit": "885,000",
+    "salary_cap_hit": "875,000",
     "team": "Nashville Predators"
   },
   {
@@ -5411,24 +3654,24 @@
     "team": "Nashville Predators"
   },
   {
-    "name": "Zachary L'Heureux",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "863,333",
-    "team": "Nashville Predators"
-  },
-  {
-    "name": "Kalan Lind",
-    "age": "21",
-    "pos": "F",
-    "salary_cap_hit": "856,667",
-    "team": "Nashville Predators"
-  },
-  {
     "name": "Jacob Lucchini",
     "age": "31",
     "pos": "F",
-    "salary_cap_hit": "775,000",
+    "salary_cap_hit": "850,000",
+    "team": "Nashville Predators"
+  },
+  {
+    "name": "Viggo Gustafsson",
+    "age": "19",
+    "pos": "D",
+    "salary_cap_hit": "990,000",
+    "team": "Nashville Predators"
+  },
+  {
+    "name": "Daniel Nieminen",
+    "age": "20",
+    "pos": "D",
+    "salary_cap_hit": "975,000",
     "team": "Nashville Predators"
   },
   {
@@ -5442,56 +3685,14 @@
     "name": "Andrew Gibson",
     "age": "21",
     "pos": "D",
-    "salary_cap_hit": "890,000",
+    "salary_cap_hit": "925,000",
     "team": "Nashville Predators"
   },
   {
     "name": "Tanner Molendyk",
     "age": "21",
     "pos": "D",
-    "salary_cap_hit": "886,667",
-    "team": "Nashville Predators"
-  },
-  {
-    "name": "Christoffer Sedoff",
-    "age": "24",
-    "pos": "D",
-    "salary_cap_hit": "870,000",
-    "team": "Nashville Predators"
-  },
-  {
-    "name": "Jack Matier",
-    "age": "23",
-    "pos": "D",
-    "salary_cap_hit": "801,667",
-    "team": "Nashville Predators"
-  },
-  {
-    "name": "Andreas Englund",
-    "age": "30",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Nashville Predators"
-  },
-  {
-    "name": "Jordan Oesterle",
-    "age": "33",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Nashville Predators"
-  },
-  {
-    "name": "Kevin Gravel",
-    "age": "34",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Nashville Predators"
-  },
-  {
-    "name": "Magnus Chrona",
-    "age": "25",
-    "pos": "G",
-    "salary_cap_hit": "855,000",
+    "salary_cap_hit": "909,167",
     "team": "Nashville Predators"
   },
   {
@@ -5572,34 +3773,6 @@
     "team": "New Jersey Devils"
   },
   {
-    "name": "Evgenii Dadonov",
-    "age": "37",
-    "pos": "F",
-    "salary_cap_hit": "1,000,000",
-    "team": "New Jersey Devils"
-  },
-  {
-    "name": "Arseni Gritsyuk",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "925,000",
-    "team": "New Jersey Devils"
-  },
-  {
-    "name": "Paul Cotter",
-    "age": "26",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "New Jersey Devils"
-  },
-  {
-    "name": "Zack MacEwen",
-    "age": "29",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "New Jersey Devils"
-  },
-  {
     "name": "Dougie Hamilton",
     "age": "32",
     "pos": "D",
@@ -5642,24 +3815,10 @@
     "team": "New Jersey Devils"
   },
   {
-    "name": "Simon Nemec",
-    "age": "22",
-    "pos": "D",
-    "salary_cap_hit": "918,333",
-    "team": "New Jersey Devils"
-  },
-  {
-    "name": "Dennis Cholowski",
-    "age": "28",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "New Jersey Devils"
-  },
-  {
     "name": "Jacob Markstrom",
     "age": "36",
     "pos": "G",
-    "salary_cap_hit": "4,125,000",
+    "salary_cap_hit": "6,000,000",
     "team": "New Jersey Devils"
   },
   {
@@ -5670,10 +3829,24 @@
     "team": "New Jersey Devils"
   },
   {
+    "name": "Matyas Melovsky",
+    "age": "22",
+    "pos": "F",
+    "salary_cap_hit": "972,500",
+    "team": "New Jersey Devils"
+  },
+  {
     "name": "Lenni Hameenaho",
     "age": "21",
     "pos": "F",
     "salary_cap_hit": "950,000",
+    "team": "New Jersey Devils"
+  },
+  {
+    "name": "Cam Squires",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "938,333",
     "team": "New Jersey Devils"
   },
   {
@@ -5684,24 +3857,10 @@
     "team": "New Jersey Devils"
   },
   {
-    "name": "Cam Squires",
-    "age": "21",
-    "pos": "F",
-    "salary_cap_hit": "888,333",
-    "team": "New Jersey Devils"
-  },
-  {
-    "name": "Dylan Wendt",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "870,000",
-    "team": "New Jersey Devils"
-  },
-  {
     "name": "Josh Filmon",
     "age": "22",
     "pos": "F",
-    "salary_cap_hit": "863,333",
+    "salary_cap_hit": "913,333",
     "team": "New Jersey Devils"
   },
   {
@@ -5712,52 +3871,10 @@
     "team": "New Jersey Devils"
   },
   {
-    "name": "Ryan Schmelzer",
-    "age": "32",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "New Jersey Devils"
-  },
-  {
-    "name": "Jonathan Gruden",
-    "age": "26",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "New Jersey Devils"
-  },
-  {
-    "name": "Mike Hardman",
-    "age": "27",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "New Jersey Devils"
-  },
-  {
-    "name": "Xavier Parent",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "New Jersey Devils"
-  },
-  {
-    "name": "Nathan Legare",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "New Jersey Devils"
-  },
-  {
-    "name": "Brian Halonen",
-    "age": "27",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "New Jersey Devils"
-  },
-  {
-    "name": "Marc McLaughlin",
-    "age": "26",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
+    "name": "Anton Silayev",
+    "age": "20",
+    "pos": "D",
+    "salary_cap_hit": "1,075,000",
     "team": "New Jersey Devils"
   },
   {
@@ -5789,48 +3906,6 @@
     "team": "New Jersey Devils"
   },
   {
-    "name": "Topias Vilen",
-    "age": "23",
-    "pos": "D",
-    "salary_cap_hit": "836,667",
-    "team": "New Jersey Devils"
-  },
-  {
-    "name": "Calen Addison",
-    "age": "26",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "New Jersey Devils"
-  },
-  {
-    "name": "Colton White",
-    "age": "29",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "New Jersey Devils"
-  },
-  {
-    "name": "Tyler Brennan",
-    "age": "22",
-    "pos": "G",
-    "salary_cap_hit": "870,000",
-    "team": "New Jersey Devils"
-  },
-  {
-    "name": "Jakub Malek",
-    "age": "24",
-    "pos": "G",
-    "salary_cap_hit": "867,500",
-    "team": "New Jersey Devils"
-  },
-  {
-    "name": "Nico Daws",
-    "age": "25",
-    "pos": "G",
-    "salary_cap_hit": "812,500",
-    "team": "New Jersey Devils"
-  },
-  {
     "name": "Mathew Barzal",
     "age": "29",
     "pos": "F",
@@ -5842,13 +3917,6 @@
     "age": "31",
     "pos": "F",
     "salary_cap_hit": "8,500,000",
-    "team": "New York Islanders"
-  },
-  {
-    "name": "Anders Lee",
-    "age": "35",
-    "pos": "F",
-    "salary_cap_hit": "7,000,000",
     "team": "New York Islanders"
   },
   {
@@ -5869,7 +3937,7 @@
     "name": "Jean-Gabriel Pageau",
     "age": "33",
     "pos": "F",
-    "salary_cap_hit": "5,000,000",
+    "salary_cap_hit": "4,850,000",
     "team": "New York Islanders"
   },
   {
@@ -5915,13 +3983,6 @@
     "team": "New York Islanders"
   },
   {
-    "name": "Maxim Shabanov",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "975,000",
-    "team": "New York Islanders"
-  },
-  {
     "name": "Kyle MacLean",
     "age": "27",
     "pos": "F",
@@ -5957,31 +4018,10 @@
     "team": "New York Islanders"
   },
   {
-    "name": "Carson Soucy",
-    "age": "31",
-    "pos": "D",
-    "salary_cap_hit": "3,250,000",
-    "team": "New York Islanders"
-  },
-  {
-    "name": "Tony DeAngelo",
-    "age": "30",
-    "pos": "D",
-    "salary_cap_hit": "1,750,000",
-    "team": "New York Islanders"
-  },
-  {
     "name": "Matthew Schaefer",
     "age": "18",
     "pos": "D",
     "salary_cap_hit": "975,000",
-    "team": "New York Islanders"
-  },
-  {
-    "name": "Adam Boqvist",
-    "age": "25",
-    "pos": "D",
-    "salary_cap_hit": "850,000",
     "team": "New York Islanders"
   },
   {
@@ -5999,24 +4039,45 @@
     "team": "New York Islanders"
   },
   {
+    "name": "Cole Eiserman",
+    "age": "19",
+    "pos": "F",
+    "salary_cap_hit": "1,075,000",
+    "team": "New York Islanders"
+  },
+  {
+    "name": "Quinn Finley",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "980,000",
+    "team": "New York Islanders"
+  },
+  {
     "name": "Victor Eklund",
     "age": "19",
     "pos": "F",
-    "salary_cap_hit": "975,000",
+    "salary_cap_hit": "974,167",
     "team": "New York Islanders"
   },
   {
     "name": "Daniil Prokhorov",
     "age": "19",
     "pos": "F",
-    "salary_cap_hit": "931,667",
+    "salary_cap_hit": "965,000",
     "team": "New York Islanders"
   },
   {
     "name": "Calum Ritchie",
     "age": "21",
     "pos": "F",
-    "salary_cap_hit": "918,333",
+    "salary_cap_hit": "940,833",
+    "team": "New York Islanders"
+  },
+  {
+    "name": "Jesse Nurmi",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "938,333",
     "team": "New York Islanders"
   },
   {
@@ -6027,87 +4088,31 @@
     "team": "New York Islanders"
   },
   {
-    "name": "Marc Gatcomb",
-    "age": "26",
-    "pos": "F",
-    "salary_cap_hit": "900,000",
-    "team": "New York Islanders"
-  },
-  {
-    "name": "Jesse Nurmi",
-    "age": "21",
-    "pos": "F",
-    "salary_cap_hit": "888,333",
-    "team": "New York Islanders"
-  },
-  {
-    "name": "Matthew Maggio",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "870,000",
-    "team": "New York Islanders"
-  },
-  {
-    "name": "Camden Thiesing",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "870,000",
-    "team": "New York Islanders"
-  },
-  {
-    "name": "Alex Jefferies",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "867,500",
-    "team": "New York Islanders"
-  },
-  {
-    "name": "Eetu Liukas",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "867,500",
-    "team": "New York Islanders"
-  },
-  {
     "name": "Daylan Kuefler",
     "age": "24",
     "pos": "F",
-    "salary_cap_hit": "840,000",
-    "team": "New York Islanders"
-  },
-  {
-    "name": "Joey Larson",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "823,750",
-    "team": "New York Islanders"
-  },
-  {
-    "name": "Adam Beckman",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "New York Islanders"
-  },
-  {
-    "name": "Matthew Highmore",
-    "age": "30",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "New York Islanders"
-  },
-  {
-    "name": "Matt Luff",
-    "age": "29",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
+    "salary_cap_hit": "875,000",
     "team": "New York Islanders"
   },
   {
     "name": "Liam Foudy",
     "age": "26",
     "pos": "F",
-    "salary_cap_hit": "775,000",
+    "salary_cap_hit": "850,000",
+    "team": "New York Islanders"
+  },
+  {
+    "name": "Kashawn Aitcheson",
+    "age": "19",
+    "pos": "D",
+    "salary_cap_hit": "1,075,000",
+    "team": "New York Islanders"
+  },
+  {
+    "name": "Isaiah George",
+    "age": "22",
+    "pos": "D",
+    "salary_cap_hit": "913,333",
     "team": "New York Islanders"
   },
   {
@@ -6118,73 +4123,24 @@
     "team": "New York Islanders"
   },
   {
-    "name": "Isaiah George",
-    "age": "22",
-    "pos": "D",
-    "salary_cap_hit": "863,333",
-    "team": "New York Islanders"
-  },
-  {
     "name": "Calle Odelius",
     "age": "22",
     "pos": "D",
-    "salary_cap_hit": "831,667",
+    "salary_cap_hit": "865,000",
     "team": "New York Islanders"
   },
   {
     "name": "Marshall Warren",
     "age": "25",
     "pos": "D",
-    "salary_cap_hit": "825,000",
+    "salary_cap_hit": "850,000",
     "team": "New York Islanders"
   },
   {
-    "name": "Travis Mitchell",
-    "age": "26",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "New York Islanders"
-  },
-  {
-    "name": "Ethan Bear",
-    "age": "28",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "New York Islanders"
-  },
-  {
-    "name": "Cole McWard",
-    "age": "24",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "New York Islanders"
-  },
-  {
-    "name": "David Rittich",
-    "age": "33",
-    "pos": "G",
-    "salary_cap_hit": "1,000,000",
-    "team": "New York Islanders"
-  },
-  {
-    "name": "Tristan Lennox",
+    "name": "Joshua Kotai",
     "age": "23",
     "pos": "G",
-    "salary_cap_hit": "867,500",
-    "team": "New York Islanders"
-  },
-  {
-    "name": "Henrik Tikkanen",
-    "age": "25",
-    "pos": "G",
-    "salary_cap_hit": "823,750",
-    "team": "New York Islanders"
-  },
-  {
-    "name": "Marcus Hogberg",
-    "age": "31",
-    "pos": "G",
-    "salary_cap_hit": "775,000",
+    "salary_cap_hit": "965,000",
     "team": "New York Islanders"
   },
   {
@@ -6268,21 +4224,7 @@
     "name": "Adam Sykora",
     "age": "21",
     "pos": "F",
-    "salary_cap_hit": "831,667",
-    "team": "New York Rangers"
-  },
-  {
-    "name": "Jonny Brodzinski",
-    "age": "32",
-    "pos": "F",
-    "salary_cap_hit": "787,500",
-    "team": "New York Rangers"
-  },
-  {
-    "name": "Conor Sheary",
-    "age": "33",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
+    "salary_cap_hit": "881,667",
     "team": "New York Rangers"
   },
   {
@@ -6307,24 +4249,10 @@
     "team": "New York Rangers"
   },
   {
-    "name": "Braden Schneider",
-    "age": "24",
-    "pos": "D",
-    "salary_cap_hit": "2,200,000",
-    "team": "New York Rangers"
-  },
-  {
     "name": "Urho Vaakanainen",
     "age": "27",
     "pos": "D",
     "salary_cap_hit": "1,550,000",
-    "team": "New York Rangers"
-  },
-  {
-    "name": "Vincent Iorio",
-    "age": "23",
-    "pos": "D",
-    "salary_cap_hit": "814,167",
     "team": "New York Rangers"
   },
   {
@@ -6342,20 +4270,6 @@
     "team": "New York Rangers"
   },
   {
-    "name": "Jonathan Quick",
-    "age": "40",
-    "pos": "G",
-    "salary_cap_hit": "1,550,000",
-    "team": "New York Rangers"
-  },
-  {
-    "name": "Artemi Panarin",
-    "age": "34",
-    "pos": "F",
-    "salary_cap_hit": "5,821,429",
-    "team": "New York Rangers"
-  },
-  {
     "name": "Juuso Parssinen",
     "age": "25",
     "pos": "F",
@@ -6363,24 +4277,31 @@
     "team": "New York Rangers"
   },
   {
-    "name": "Liam Greentree",
-    "age": "20",
+    "name": "Brody Lamb",
+    "age": "22",
     "pos": "F",
-    "salary_cap_hit": "942,500",
+    "salary_cap_hit": "980,000",
     "team": "New York Rangers"
   },
   {
     "name": "Jacob Battaglia",
     "age": "20",
     "pos": "F",
-    "salary_cap_hit": "940,000",
+    "salary_cap_hit": "965,000",
     "team": "New York Rangers"
   },
   {
     "name": "Nathan Aspinall",
     "age": "20",
     "pos": "F",
-    "salary_cap_hit": "925,000",
+    "salary_cap_hit": "955,555",
+    "team": "New York Rangers"
+  },
+  {
+    "name": "Liam Greentree",
+    "age": "20",
+    "pos": "F",
+    "salary_cap_hit": "941,667",
     "team": "New York Rangers"
   },
   {
@@ -6388,6 +4309,13 @@
     "age": "21",
     "pos": "F",
     "salary_cap_hit": "920,000",
+    "team": "New York Rangers"
+  },
+  {
+    "name": "Bryce McConnell-Barker",
+    "age": "22",
+    "pos": "F",
+    "salary_cap_hit": "913,333",
     "team": "New York Rangers"
   },
   {
@@ -6419,20 +4347,6 @@
     "team": "New York Rangers"
   },
   {
-    "name": "Brett Berard",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "867,500",
-    "team": "New York Rangers"
-  },
-  {
-    "name": "Bryce McConnell-Barker",
-    "age": "22",
-    "pos": "F",
-    "salary_cap_hit": "863,333",
-    "team": "New York Rangers"
-  },
-  {
     "name": "Justin Dowling",
     "age": "35",
     "pos": "F",
@@ -6444,20 +4358,6 @@
     "age": "31",
     "pos": "F",
     "salary_cap_hit": "812,500",
-    "team": "New York Rangers"
-  },
-  {
-    "name": "Trey Fix-Wolansky",
-    "age": "27",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "New York Rangers"
-  },
-  {
-    "name": "Brendan Brisson",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
     "team": "New York Rangers"
   },
   {
@@ -6475,38 +4375,10 @@
     "team": "New York Rangers"
   },
   {
-    "name": "Scott Morrow",
-    "age": "23",
-    "pos": "D",
-    "salary_cap_hit": "916,667",
-    "team": "New York Rangers"
-  },
-  {
     "name": "Jackson Dorrington",
     "age": "22",
     "pos": "D",
     "salary_cap_hit": "901,667",
-    "team": "New York Rangers"
-  },
-  {
-    "name": "Casey Fitzgerald",
-    "age": "29",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "New York Rangers"
-  },
-  {
-    "name": "Brandon Scanlin",
-    "age": "27",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "New York Rangers"
-  },
-  {
-    "name": "Connor Mackey",
-    "age": "29",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
     "team": "New York Rangers"
   },
   {
@@ -6517,31 +4389,10 @@
     "team": "New York Rangers"
   },
   {
-    "name": "Hugo Ollas",
-    "age": "24",
-    "pos": "G",
-    "salary_cap_hit": "855,000",
-    "team": "New York Rangers"
-  },
-  {
     "name": "Spencer Martin",
-    "age": "30",
+    "age": "31",
     "pos": "G",
     "salary_cap_hit": "812,500",
-    "team": "New York Rangers"
-  },
-  {
-    "name": "Talyn Boyko",
-    "age": "23",
-    "pos": "G",
-    "salary_cap_hit": "775,000",
-    "team": "New York Rangers"
-  },
-  {
-    "name": "Dylan Garand",
-    "age": "23",
-    "pos": "G",
-    "salary_cap_hit": "775,000",
     "team": "New York Rangers"
   },
   {
@@ -6556,6 +4407,13 @@
     "age": "26",
     "pos": "F",
     "salary_cap_hit": "8,205,714",
+    "team": "Ottawa Senators"
+  },
+  {
+    "name": "Shane Pinto",
+    "age": "25",
+    "pos": "F",
+    "salary_cap_hit": "7,500,000",
     "team": "Ottawa Senators"
   },
   {
@@ -6580,13 +4438,6 @@
     "team": "Ottawa Senators"
   },
   {
-    "name": "Shane Pinto",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "3,750,000",
-    "team": "Ottawa Senators"
-  },
-  {
     "name": "Warren Foegele",
     "age": "30",
     "pos": "F",
@@ -6608,38 +4459,10 @@
     "team": "Ottawa Senators"
   },
   {
-    "name": "Claude Giroux",
-    "age": "38",
-    "pos": "F",
-    "salary_cap_hit": "2,000,000",
-    "team": "Ottawa Senators"
-  },
-  {
-    "name": "Lars Eller",
-    "age": "37",
-    "pos": "F",
-    "salary_cap_hit": "1,250,000",
-    "team": "Ottawa Senators"
-  },
-  {
     "name": "Kurtis MacDermid",
     "age": "32",
     "pos": "F",
     "salary_cap_hit": "1,150,000",
-    "team": "Ottawa Senators"
-  },
-  {
-    "name": "Nick Cousins",
-    "age": "32",
-    "pos": "F",
-    "salary_cap_hit": "825,000",
-    "team": "Ottawa Senators"
-  },
-  {
-    "name": "Arthur Kaliyev",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
     "team": "Ottawa Senators"
   },
   {
@@ -6664,24 +4487,10 @@
     "team": "Ottawa Senators"
   },
   {
-    "name": "Nick Jensen",
-    "age": "35",
-    "pos": "D",
-    "salary_cap_hit": "4,050,000",
-    "team": "Ottawa Senators"
-  },
-  {
     "name": "Tyler Kleven",
     "age": "24",
     "pos": "D",
     "salary_cap_hit": "1,600,000",
-    "team": "Ottawa Senators"
-  },
-  {
-    "name": "Jordan Spence",
-    "age": "25",
-    "pos": "D",
-    "salary_cap_hit": "1,500,000",
     "team": "Ottawa Senators"
   },
   {
@@ -6692,24 +4501,10 @@
     "team": "Ottawa Senators"
   },
   {
-    "name": "Dennis Gilbert",
-    "age": "29",
-    "pos": "D",
-    "salary_cap_hit": "875,000",
-    "team": "Ottawa Senators"
-  },
-  {
     "name": "Linus Ullmark",
     "age": "32",
     "pos": "G",
     "salary_cap_hit": "8,250,000",
-    "team": "Ottawa Senators"
-  },
-  {
-    "name": "James Reimer",
-    "age": "38",
-    "pos": "G",
-    "salary_cap_hit": "850,000",
     "team": "Ottawa Senators"
   },
   {
@@ -6727,38 +4522,31 @@
     "team": "Ottawa Senators"
   },
   {
+    "name": "Blake Montgomery",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "1,075,000",
+    "team": "Ottawa Senators"
+  },
+  {
     "name": "Stephen Halliday",
     "age": "23",
     "pos": "F",
-    "salary_cap_hit": "950,000",
+    "salary_cap_hit": "1,075,000",
     "team": "Ottawa Senators"
   },
   {
     "name": "Lucas Ellinas",
     "age": "20",
     "pos": "F",
-    "salary_cap_hit": "916,667",
-    "team": "Ottawa Senators"
-  },
-  {
-    "name": "Tyler Boucher",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "863,333",
+    "salary_cap_hit": "958,333",
     "team": "Ottawa Senators"
   },
   {
     "name": "Oskar Pettersson",
     "age": "22",
     "pos": "F",
-    "salary_cap_hit": "860,000",
-    "team": "Ottawa Senators"
-  },
-  {
-    "name": "Riley Kidney",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "836,667",
+    "salary_cap_hit": "910,000",
     "team": "Ottawa Senators"
   },
   {
@@ -6769,59 +4557,45 @@
     "team": "Ottawa Senators"
   },
   {
-    "name": "Garrett Pilon",
-    "age": "28",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
+    "name": "Hoyt Stanley",
+    "age": "21",
+    "pos": "D",
+    "salary_cap_hit": "1,075,000",
     "team": "Ottawa Senators"
   },
   {
-    "name": "Olle Lycksell",
-    "age": "26",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Ottawa Senators"
-  },
-  {
-    "name": "Xavier Bourgault",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Ottawa Senators"
-  },
-  {
-    "name": "Graeme Clarke",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
+    "name": "Gabriel Eliasson",
+    "age": "19",
+    "pos": "D",
+    "salary_cap_hit": "1,007,500",
     "team": "Ottawa Senators"
   },
   {
     "name": "Carter Yakemchuk",
     "age": "20",
     "pos": "D",
-    "salary_cap_hit": "942,500",
+    "salary_cap_hit": "941,667",
     "team": "Ottawa Senators"
   },
   {
     "name": "Matthew Andonovski",
     "age": "21",
     "pos": "D",
-    "salary_cap_hit": "878,333",
+    "salary_cap_hit": "928,333",
     "team": "Ottawa Senators"
   },
   {
     "name": "Tomas Hamara",
     "age": "22",
     "pos": "D",
-    "salary_cap_hit": "828,333",
+    "salary_cap_hit": "878,333",
     "team": "Ottawa Senators"
   },
   {
     "name": "Jorian Donovan",
     "age": "22",
     "pos": "D",
-    "salary_cap_hit": "821,667",
+    "salary_cap_hit": "871,667",
     "team": "Ottawa Senators"
   },
   {
@@ -6832,31 +4606,17 @@
     "team": "Ottawa Senators"
   },
   {
-    "name": "Djibril Toure",
-    "age": "23",
-    "pos": "D",
-    "salary_cap_hit": "805,000",
-    "team": "Ottawa Senators"
-  },
-  {
-    "name": "Samuel Bolduc",
-    "age": "25",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Ottawa Senators"
-  },
-  {
-    "name": "Lassi Thomson",
-    "age": "25",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Ottawa Senators"
-  },
-  {
-    "name": "Leevi Merilainen",
-    "age": "23",
+    "name": "Lucas Beckman",
+    "age": "18",
     "pos": "G",
-    "salary_cap_hit": "1,050,000",
+    "salary_cap_hit": "1,028,333",
+    "team": "Ottawa Senators"
+  },
+  {
+    "name": "Kevin Reidler",
+    "age": "21",
+    "pos": "G",
+    "salary_cap_hit": "946,250",
     "team": "Ottawa Senators"
   },
   {
@@ -6864,13 +4624,6 @@
     "age": "21",
     "pos": "G",
     "salary_cap_hit": "879,167",
-    "team": "Ottawa Senators"
-  },
-  {
-    "name": "Mads Sogaard",
-    "age": "25",
-    "pos": "G",
-    "salary_cap_hit": "775,000",
     "team": "Ottawa Senators"
   },
   {
@@ -6895,17 +4648,10 @@
     "team": "Philadelphia Flyers"
   },
   {
-    "name": "Trevor Zegras",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "5,750,000",
-    "team": "Philadelphia Flyers"
-  },
-  {
     "name": "Christian Dvorak",
     "age": "30",
     "pos": "F",
-    "salary_cap_hit": "5,400,000",
+    "salary_cap_hit": "5,150,000",
     "team": "Philadelphia Flyers"
   },
   {
@@ -6930,13 +4676,6 @@
     "team": "Philadelphia Flyers"
   },
   {
-    "name": "Carl Grundstrom",
-    "age": "28",
-    "pos": "F",
-    "salary_cap_hit": "1,800,000",
-    "team": "Philadelphia Flyers"
-  },
-  {
     "name": "Porter Martone",
     "age": "19",
     "pos": "F",
@@ -6948,20 +4687,6 @@
     "age": "21",
     "pos": "F",
     "salary_cap_hit": "950,000",
-    "team": "Philadelphia Flyers"
-  },
-  {
-    "name": "Nikita Grebenkin",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "875,000",
-    "team": "Philadelphia Flyers"
-  },
-  {
-    "name": "Luke Glendening",
-    "age": "37",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
     "team": "Philadelphia Flyers"
   },
   {
@@ -6993,31 +4718,17 @@
     "team": "Philadelphia Flyers"
   },
   {
-    "name": "Jamie Drysdale",
-    "age": "24",
-    "pos": "D",
-    "salary_cap_hit": "2,300,000",
-    "team": "Philadelphia Flyers"
-  },
-  {
     "name": "David Jiricek",
     "age": "22",
     "pos": "D",
-    "salary_cap_hit": "918,333",
-    "team": "Philadelphia Flyers"
-  },
-  {
-    "name": "Emil Andrae",
-    "age": "24",
-    "pos": "D",
-    "salary_cap_hit": "903,333",
+    "salary_cap_hit": "1,500,000",
     "team": "Philadelphia Flyers"
   },
   {
     "name": "Oliver Bonk",
     "age": "21",
     "pos": "D",
-    "salary_cap_hit": "886,667",
+    "salary_cap_hit": "909,167",
     "team": "Philadelphia Flyers"
   },
   {
@@ -7028,38 +4739,45 @@
     "team": "Philadelphia Flyers"
   },
   {
-    "name": "Samuel Ersson",
-    "age": "26",
-    "pos": "G",
-    "salary_cap_hit": "1,450,000",
-    "team": "Philadelphia Flyers"
-  },
-  {
-    "name": "Kevin Hayes",
-    "age": "34",
+    "name": "Jack Berglund",
+    "age": "20",
     "pos": "F",
-    "salary_cap_hit": "3,571,428",
+    "salary_cap_hit": "1,075,000",
     "team": "Philadelphia Flyers"
   },
   {
-    "name": "Scott Laughton",
-    "age": "32",
-    "pos": "F",
-    "salary_cap_hit": "1,500,000",
-    "team": "Philadelphia Flyers"
-  },
-  {
-    "name": "Cam Atkinson",
-    "age": "37",
-    "pos": "F",
-    "salary_cap_hit": "1,758,333",
-    "team": "Philadelphia Flyers"
-  },
-  {
-    "name": "Karsen Dorwart",
+    "name": "Riley Thompson",
     "age": "23",
     "pos": "F",
-    "salary_cap_hit": "975,000",
+    "salary_cap_hit": "1,025,000",
+    "team": "Philadelphia Flyers"
+  },
+  {
+    "name": "Alex Ciernik",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "1,007,500",
+    "team": "Philadelphia Flyers"
+  },
+  {
+    "name": "Noah Powell",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "985,000",
+    "team": "Philadelphia Flyers"
+  },
+  {
+    "name": "Ilya Pautov",
+    "age": "20",
+    "pos": "F",
+    "salary_cap_hit": "985,000",
+    "team": "Philadelphia Flyers"
+  },
+  {
+    "name": "Cole Knuble",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "980,000",
     "team": "Philadelphia Flyers"
   },
   {
@@ -7073,7 +4791,7 @@
     "name": "Jett Luchanko",
     "age": "19",
     "pos": "F",
-    "salary_cap_hit": "942,500",
+    "salary_cap_hit": "941,667",
     "team": "Philadelphia Flyers"
   },
   {
@@ -7087,98 +4805,28 @@
     "name": "Denver Barkey",
     "age": "21",
     "pos": "F",
-    "salary_cap_hit": "890,000",
+    "salary_cap_hit": "916,667",
     "team": "Philadelphia Flyers"
   },
   {
     "name": "Jacob Gaucher",
     "age": "25",
     "pos": "F",
-    "salary_cap_hit": "872,500",
-    "team": "Philadelphia Flyers"
-  },
-  {
-    "name": "Tucker Robertson",
-    "age": "22",
-    "pos": "F",
-    "salary_cap_hit": "870,000",
-    "team": "Philadelphia Flyers"
-  },
-  {
-    "name": "Brett Harrison",
-    "age": "22",
-    "pos": "F",
-    "salary_cap_hit": "836,667",
-    "team": "Philadelphia Flyers"
-  },
-  {
-    "name": "Oscar Eklind",
-    "age": "27",
-    "pos": "F",
-    "salary_cap_hit": "800,000",
-    "team": "Philadelphia Flyers"
-  },
-  {
-    "name": "Rodrigo Abols",
-    "age": "30",
-    "pos": "F",
-    "salary_cap_hit": "800,000",
-    "team": "Philadelphia Flyers"
-  },
-  {
-    "name": "Lane Pederson",
-    "age": "28",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Philadelphia Flyers"
-  },
-  {
-    "name": "Boris Katchouk",
-    "age": "27",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Philadelphia Flyers"
-  },
-  {
-    "name": "Anthony Richard",
-    "age": "29",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Philadelphia Flyers"
-  },
-  {
-    "name": "Garrett Wilson",
-    "age": "35",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Philadelphia Flyers"
-  },
-  {
-    "name": "Philip Tomasino",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "600,000",
-    "team": "Philadelphia Flyers"
-  },
-  {
-    "name": "Hunter McDonald",
-    "age": "24",
-    "pos": "D",
-    "salary_cap_hit": "950,000",
-    "team": "Philadelphia Flyers"
-  },
-  {
-    "name": "Noah Juulsen",
-    "age": "29",
-    "pos": "D",
-    "salary_cap_hit": "900,000",
+    "salary_cap_hit": "850,000",
     "team": "Philadelphia Flyers"
   },
   {
     "name": "Spencer Gill",
     "age": "19",
     "pos": "D",
-    "salary_cap_hit": "898,333",
+    "salary_cap_hit": "932,500",
+    "team": "Philadelphia Flyers"
+  },
+  {
+    "name": "Jackson Edward",
+    "age": "22",
+    "pos": "D",
+    "salary_cap_hit": "906,667",
     "team": "Philadelphia Flyers"
   },
   {
@@ -7189,27 +4837,6 @@
     "team": "Philadelphia Flyers"
   },
   {
-    "name": "Christian Kyrou",
-    "age": "22",
-    "pos": "D",
-    "salary_cap_hit": "878,333",
-    "team": "Philadelphia Flyers"
-  },
-  {
-    "name": "Artem Guryev",
-    "age": "23",
-    "pos": "D",
-    "salary_cap_hit": "860,000",
-    "team": "Philadelphia Flyers"
-  },
-  {
-    "name": "Jackson Edward",
-    "age": "22",
-    "pos": "D",
-    "salary_cap_hit": "856,667",
-    "team": "Philadelphia Flyers"
-  },
-  {
     "name": "Helge Grans",
     "age": "24",
     "pos": "D",
@@ -7217,31 +4844,17 @@
     "team": "Philadelphia Flyers"
   },
   {
-    "name": "Adam Ginning",
-    "age": "26",
-    "pos": "D",
-    "salary_cap_hit": "787,500",
-    "team": "Philadelphia Flyers"
-  },
-  {
-    "name": "Maxence Guenette",
-    "age": "25",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
+    "name": "Carson Bjarnason",
+    "age": "20",
+    "pos": "G",
+    "salary_cap_hit": "885,000",
     "team": "Philadelphia Flyers"
   },
   {
     "name": "Aleksei Kolosov",
     "age": "24",
     "pos": "G",
-    "salary_cap_hit": "925,000",
-    "team": "Philadelphia Flyers"
-  },
-  {
-    "name": "Carson Bjarnason",
-    "age": "20",
-    "pos": "G",
-    "salary_cap_hit": "858,333",
+    "salary_cap_hit": "850,000",
     "team": "Philadelphia Flyers"
   },
   {
@@ -7255,7 +4868,7 @@
     "name": "Evgeni Malkin",
     "age": "39",
     "pos": "F",
-    "salary_cap_hit": "6,100,000",
+    "salary_cap_hit": "5,500,000",
     "team": "Pittsburgh Penguins"
   },
   {
@@ -7273,13 +4886,6 @@
     "team": "Pittsburgh Penguins"
   },
   {
-    "name": "Kevin Hayes",
-    "age": "34",
-    "pos": "F",
-    "salary_cap_hit": "3,571,429",
-    "team": "Pittsburgh Penguins"
-  },
-  {
     "name": "Tommy Novak",
     "age": "29",
     "pos": "F",
@@ -7287,31 +4893,17 @@
     "team": "Pittsburgh Penguins"
   },
   {
-    "name": "Anthony Mantha",
-    "age": "31",
-    "pos": "F",
-    "salary_cap_hit": "2,500,000",
-    "team": "Pittsburgh Penguins"
-  },
-  {
-    "name": "Yegor Chinakhov",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "2,100,000",
-    "team": "Pittsburgh Penguins"
-  },
-  {
-    "name": "Noel Acciari",
-    "age": "34",
-    "pos": "F",
-    "salary_cap_hit": "2,000,000",
-    "team": "Pittsburgh Penguins"
-  },
-  {
     "name": "Blake Lizotte",
     "age": "28",
     "pos": "F",
-    "salary_cap_hit": "1,850,000",
+    "salary_cap_hit": "2,250,000",
+    "team": "Pittsburgh Penguins"
+  },
+  {
+    "name": "Connor Dewar",
+    "age": "26",
+    "pos": "F",
+    "salary_cap_hit": "2,250,000",
     "team": "Pittsburgh Penguins"
   },
   {
@@ -7326,13 +4918,6 @@
     "age": "24",
     "pos": "F",
     "salary_cap_hit": "1,125,000",
-    "team": "Pittsburgh Penguins"
-  },
-  {
-    "name": "Connor Dewar",
-    "age": "26",
-    "pos": "F",
-    "salary_cap_hit": "1,100,000",
     "team": "Pittsburgh Penguins"
   },
   {
@@ -7371,13 +4956,6 @@
     "team": "Pittsburgh Penguins"
   },
   {
-    "name": "Connor Clifton",
-    "age": "31",
-    "pos": "D",
-    "salary_cap_hit": "3,333,333",
-    "team": "Pittsburgh Penguins"
-  },
-  {
     "name": "Parker Wotherspoon",
     "age": "28",
     "pos": "D",
@@ -7385,31 +4963,10 @@
     "team": "Pittsburgh Penguins"
   },
   {
-    "name": "Ryan Shea",
-    "age": "29",
-    "pos": "D",
-    "salary_cap_hit": "900,000",
-    "team": "Pittsburgh Penguins"
-  },
-  {
-    "name": "Stuart Skinner",
-    "age": "27",
-    "pos": "G",
-    "salary_cap_hit": "2,600,000",
-    "team": "Pittsburgh Penguins"
-  },
-  {
-    "name": "Arturs Silovs",
-    "age": "25",
-    "pos": "G",
-    "salary_cap_hit": "850,000",
-    "team": "Pittsburgh Penguins"
-  },
-  {
-    "name": "Jack Johnson",
-    "age": "39",
-    "pos": "D",
-    "salary_cap_hit": "916,667",
+    "name": "Bill Zonnon",
+    "age": "19",
+    "pos": "F",
+    "salary_cap_hit": "1,060,000",
     "team": "Pittsburgh Penguins"
   },
   {
@@ -7417,6 +4974,13 @@
     "age": "19",
     "pos": "F",
     "salary_cap_hit": "975,000",
+    "team": "Pittsburgh Penguins"
+  },
+  {
+    "name": "Melvin Fernstrom",
+    "age": "20",
+    "pos": "F",
+    "salary_cap_hit": "965,000",
     "team": "Pittsburgh Penguins"
   },
   {
@@ -7434,10 +4998,10 @@
     "team": "Pittsburgh Penguins"
   },
   {
-    "name": "Melvin Fernstrom",
+    "name": "Tanner Howe",
     "age": "20",
     "pos": "F",
-    "salary_cap_hit": "922,500",
+    "salary_cap_hit": "929,167",
     "team": "Pittsburgh Penguins"
   },
   {
@@ -7448,45 +5012,10 @@
     "team": "Pittsburgh Penguins"
   },
   {
-    "name": "Tanner Howe",
-    "age": "20",
-    "pos": "F",
-    "salary_cap_hit": "887,500",
-    "team": "Pittsburgh Penguins"
-  },
-  {
     "name": "Avery Hayes",
     "age": "23",
     "pos": "F",
     "salary_cap_hit": "867,500",
-    "team": "Pittsburgh Penguins"
-  },
-  {
-    "name": "Ville Koivunen",
-    "age": "22",
-    "pos": "F",
-    "salary_cap_hit": "805,833",
-    "team": "Pittsburgh Penguins"
-  },
-  {
-    "name": "Bokondji Imama",
-    "age": "29",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Pittsburgh Penguins"
-  },
-  {
-    "name": "Rafael Harvey-Pinard",
-    "age": "27",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Pittsburgh Penguins"
-  },
-  {
-    "name": "Joona Koppanen",
-    "age": "28",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
     "team": "Pittsburgh Penguins"
   },
   {
@@ -7500,7 +5029,14 @@
     "name": "Peyton Kettles",
     "age": "18",
     "pos": "D",
-    "salary_cap_hit": "916,667",
+    "salary_cap_hit": "958,333",
+    "team": "Pittsburgh Penguins"
+  },
+  {
+    "name": "Harrison Brunicke",
+    "age": "20",
+    "pos": "D",
+    "salary_cap_hit": "929,167",
     "team": "Pittsburgh Penguins"
   },
   {
@@ -7508,6 +5044,13 @@
     "age": "22",
     "pos": "D",
     "salary_cap_hit": "910,000",
+    "team": "Pittsburgh Penguins"
+  },
+  {
+    "name": "Emil Pieniniemi",
+    "age": "21",
+    "pos": "D",
+    "salary_cap_hit": "906,667",
     "team": "Pittsburgh Penguins"
   },
   {
@@ -7532,13 +5075,6 @@
     "team": "Pittsburgh Penguins"
   },
   {
-    "name": "Harrison Brunicke",
-    "age": "20",
-    "pos": "D",
-    "salary_cap_hit": "887,500",
-    "team": "Pittsburgh Penguins"
-  },
-  {
     "name": "Owen Pickering",
     "age": "22",
     "pos": "D",
@@ -7546,10 +5082,10 @@
     "team": "Pittsburgh Penguins"
   },
   {
-    "name": "Emil Pieniniemi",
-    "age": "21",
+    "name": "Ilya Solovyov",
+    "age": "25",
     "pos": "D",
-    "salary_cap_hit": "856,667",
+    "salary_cap_hit": "850,000",
     "team": "Pittsburgh Penguins"
   },
   {
@@ -7567,31 +5103,10 @@
     "team": "Pittsburgh Penguins"
   },
   {
-    "name": "Sebastian Aho",
-    "age": "30",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Pittsburgh Penguins"
-  },
-  {
-    "name": "Alexander Alexeyev",
-    "age": "26",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Pittsburgh Penguins"
-  },
-  {
-    "name": "Ilya Solovyov",
-    "age": "25",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Pittsburgh Penguins"
-  },
-  {
-    "name": "Joel Blomqvist",
-    "age": "24",
+    "name": "Gabriel D'Aigle",
+    "age": "19",
     "pos": "G",
-    "salary_cap_hit": "886,667",
+    "salary_cap_hit": "995,000",
     "team": "Pittsburgh Penguins"
   },
   {
@@ -7599,13 +5114,6 @@
     "age": "22",
     "pos": "G",
     "salary_cap_hit": "886,110",
-    "team": "Pittsburgh Penguins"
-  },
-  {
-    "name": "Taylor Gauthier",
-    "age": "25",
-    "pos": "G",
-    "salary_cap_hit": "775,000",
     "team": "Pittsburgh Penguins"
   },
   {
@@ -7626,7 +5134,21 @@
     "name": "Alexander Wennberg",
     "age": "31",
     "pos": "F",
-    "salary_cap_hit": "5,000,000",
+    "salary_cap_hit": "6,000,000",
+    "team": "San Jose Sharks"
+  },
+  {
+    "name": "Kiefer Sherwood",
+    "age": "31",
+    "pos": "F",
+    "salary_cap_hit": "5,750,000",
+    "team": "San Jose Sharks"
+  },
+  {
+    "name": "William Eklund",
+    "age": "23",
+    "pos": "F",
+    "salary_cap_hit": "5,600,000",
     "team": "San Jose Sharks"
   },
   {
@@ -7644,36 +5166,15 @@
     "team": "San Jose Sharks"
   },
   {
-    "name": "Kiefer Sherwood",
-    "age": "31",
-    "pos": "F",
-    "salary_cap_hit": "1,500,000",
-    "team": "San Jose Sharks"
-  },
-  {
-    "name": "Ryan Reaves",
-    "age": "39",
-    "pos": "F",
-    "salary_cap_hit": "1,350,000",
-    "team": "San Jose Sharks"
-  },
-  {
     "name": "Ty Dellandrea",
     "age": "25",
     "pos": "F",
-    "salary_cap_hit": "1,300,000",
-    "team": "San Jose Sharks"
-  },
-  {
-    "name": "Philipp Kurashev",
-    "age": "26",
-    "pos": "F",
-    "salary_cap_hit": "1,200,000",
+    "salary_cap_hit": "1,625,000",
     "team": "San Jose Sharks"
   },
   {
     "name": "Macklin Celebrini",
-    "age": "19",
+    "age": "20",
     "pos": "F",
     "salary_cap_hit": "975,000",
     "team": "San Jose Sharks"
@@ -7693,20 +5194,6 @@
     "team": "San Jose Sharks"
   },
   {
-    "name": "Collin Graf",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "941,667",
-    "team": "San Jose Sharks"
-  },
-  {
-    "name": "William Eklund",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "863,333",
-    "team": "San Jose Sharks"
-  },
-  {
     "name": "Dmitry Orlov",
     "age": "34",
     "pos": "D",
@@ -7714,45 +5201,10 @@
     "team": "San Jose Sharks"
   },
   {
-    "name": "John Klingberg",
-    "age": "33",
-    "pos": "D",
-    "salary_cap_hit": "4,000,000",
-    "team": "San Jose Sharks"
-  },
-  {
-    "name": "Nick Leddy",
-    "age": "35",
-    "pos": "D",
-    "salary_cap_hit": "4,000,000",
-    "team": "San Jose Sharks"
-  },
-  {
-    "name": "Mario Ferraro",
-    "age": "27",
-    "pos": "D",
-    "salary_cap_hit": "3,250,000",
-    "team": "San Jose Sharks"
-  },
-  {
-    "name": "Vincent Desharnais",
-    "age": "30",
-    "pos": "D",
-    "salary_cap_hit": "2,000,000",
-    "team": "San Jose Sharks"
-  },
-  {
-    "name": "Shakir Mukhamadullin",
-    "age": "24",
-    "pos": "D",
-    "salary_cap_hit": "1,000,000",
-    "team": "San Jose Sharks"
-  },
-  {
     "name": "Sam Dickinson",
-    "age": "19",
+    "age": "20",
     "pos": "D",
-    "salary_cap_hit": "942,500",
+    "salary_cap_hit": "953,750",
     "team": "San Jose Sharks"
   },
   {
@@ -7766,7 +5218,7 @@
     "name": "Alex Nedeljkovic",
     "age": "30",
     "pos": "G",
-    "salary_cap_hit": "2,500,000",
+    "salary_cap_hit": "3,000,000",
     "team": "San Jose Sharks"
   },
   {
@@ -7774,13 +5226,6 @@
     "age": "23",
     "pos": "G",
     "salary_cap_hit": "2,000,000",
-    "team": "San Jose Sharks"
-  },
-  {
-    "name": "Carey Price",
-    "age": "38",
-    "pos": "G",
-    "salary_cap_hit": "10,500,000",
     "team": "San Jose Sharks"
   },
   {
@@ -7798,13 +5243,6 @@
     "team": "San Jose Sharks"
   },
   {
-    "name": "Marc-Edouard Vlasic",
-    "age": "39",
-    "pos": "D",
-    "salary_cap_hit": "4,666,667",
-    "team": "San Jose Sharks"
-  },
-  {
     "name": "Martin Jones",
     "age": "36",
     "pos": "G",
@@ -7812,24 +5250,31 @@
     "team": "San Jose Sharks"
   },
   {
-    "name": "Laurent Brossoit",
-    "age": "33",
-    "pos": "G",
-    "salary_cap_hit": "2,150,000",
+    "name": "Marc-Edouard Vlasic",
+    "age": "39",
+    "pos": "D",
+    "salary_cap_hit": "1,166,667",
     "team": "San Jose Sharks"
   },
   {
-    "name": "Cameron Lund",
-    "age": "21",
+    "name": "Carson Wetsch",
+    "age": "20",
     "pos": "F",
-    "salary_cap_hit": "941,667",
+    "salary_cap_hit": "997,500",
     "team": "San Jose Sharks"
   },
   {
     "name": "Igor Chernyshov",
     "age": "20",
     "pos": "F",
-    "salary_cap_hit": "934,167",
+    "salary_cap_hit": "945,417",
+    "team": "San Jose Sharks"
+  },
+  {
+    "name": "Cameron Lund",
+    "age": "22",
+    "pos": "F",
+    "salary_cap_hit": "941,667",
     "team": "San Jose Sharks"
   },
   {
@@ -7843,91 +5288,49 @@
     "name": "Quentin Musty",
     "age": "20",
     "pos": "F",
-    "salary_cap_hit": "886,667",
+    "salary_cap_hit": "909,167",
     "team": "San Jose Sharks"
   },
   {
     "name": "Kasper Halttunen",
-    "age": "20",
+    "age": "21",
     "pos": "F",
-    "salary_cap_hit": "876,667",
-    "team": "San Jose Sharks"
-  },
-  {
-    "name": "Ethan Cardwell",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "867,500",
-    "team": "San Jose Sharks"
-  },
-  {
-    "name": "Zack Ostapchuk",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "825,000",
-    "team": "San Jose Sharks"
-  },
-  {
-    "name": "Egor Afanasyev",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "800,000",
-    "team": "San Jose Sharks"
-  },
-  {
-    "name": "Jimmy Huntington",
-    "age": "27",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "San Jose Sharks"
-  },
-  {
-    "name": "Samuel Laberge",
-    "age": "29",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "San Jose Sharks"
-  },
-  {
-    "name": "Shane Bowers",
-    "age": "26",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "San Jose Sharks"
-  },
-  {
-    "name": "Colin White",
-    "age": "29",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
+    "salary_cap_hit": "899,167",
     "team": "San Jose Sharks"
   },
   {
     "name": "Patrick Giles",
     "age": "26",
     "pos": "F",
-    "salary_cap_hit": "775,000",
+    "salary_cap_hit": "875,000",
     "team": "San Jose Sharks"
   },
   {
-    "name": "Pavol Regenda",
-    "age": "26",
+    "name": "Jimmy Huntington",
+    "age": "27",
     "pos": "F",
-    "salary_cap_hit": "775,000",
+    "salary_cap_hit": "850,000",
     "team": "San Jose Sharks"
   },
   {
-    "name": "Noah Beck",
-    "age": "25",
+    "name": "Eric Pohlkamp",
+    "age": "22",
     "pos": "D",
-    "salary_cap_hit": "975,000",
+    "salary_cap_hit": "1,050,000",
+    "team": "San Jose Sharks"
+  },
+  {
+    "name": "Phillip Sinn",
+    "age": "22",
+    "pos": "D",
+    "salary_cap_hit": "1,050,000",
     "team": "San Jose Sharks"
   },
   {
     "name": "Leo Sahlin Wallenius",
     "age": "20",
     "pos": "D",
-    "salary_cap_hit": "940,000",
+    "salary_cap_hit": "965,000",
     "team": "San Jose Sharks"
   },
   {
@@ -7935,48 +5338,6 @@
     "age": "22",
     "pos": "D",
     "salary_cap_hit": "921,667",
-    "team": "San Jose Sharks"
-  },
-  {
-    "name": "Nolan Allan",
-    "age": "23",
-    "pos": "D",
-    "salary_cap_hit": "825,000",
-    "team": "San Jose Sharks"
-  },
-  {
-    "name": "Lucas Carlsson",
-    "age": "28",
-    "pos": "D",
-    "salary_cap_hit": "800,000",
-    "team": "San Jose Sharks"
-  },
-  {
-    "name": "Jett Woo",
-    "age": "25",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "San Jose Sharks"
-  },
-  {
-    "name": "Laurent Brossoit",
-    "age": "33",
-    "pos": "G",
-    "salary_cap_hit": "2,150,000",
-    "team": "San Jose Sharks"
-  },
-  {
-    "name": "Gabriel Carriere",
-    "age": "25",
-    "pos": "G",
-    "salary_cap_hit": "795,000",
-    "team": "San Jose Sharks"
-  },
-  {
-    "name": "Jakub Skarek",
-    "age": "26",
-    "pos": "G",
-    "salary_cap_hit": "775,000",
     "team": "San Jose Sharks"
   },
   {
@@ -7994,8 +5355,8 @@
     "team": "Seattle Kraken"
   },
   {
-    "name": "Jaden Schwartz",
-    "age": "33",
+    "name": "Jordan Eberle",
+    "age": "36",
     "pos": "F",
     "salary_cap_hit": "5,500,000",
     "team": "Seattle Kraken"
@@ -8008,24 +5369,10 @@
     "team": "Seattle Kraken"
   },
   {
-    "name": "Jordan Eberle",
-    "age": "36",
-    "pos": "F",
-    "salary_cap_hit": "4,750,000",
-    "team": "Seattle Kraken"
-  },
-  {
     "name": "Kaapo Kakko",
     "age": "25",
     "pos": "F",
     "salary_cap_hit": "4,525,000",
-    "team": "Seattle Kraken"
-  },
-  {
-    "name": "Eeli Tolvanen",
-    "age": "27",
-    "pos": "F",
-    "salary_cap_hit": "3,475,000",
     "team": "Seattle Kraken"
   },
   {
@@ -8036,17 +5383,17 @@
     "team": "Seattle Kraken"
   },
   {
-    "name": "Bobby McMann",
-    "age": "29",
+    "name": "Ben Meyers",
+    "age": "27",
     "pos": "F",
-    "salary_cap_hit": "1,350,000",
+    "salary_cap_hit": "1,000,000",
     "team": "Seattle Kraken"
   },
   {
     "name": "Berkly Catton",
     "age": "20",
     "pos": "F",
-    "salary_cap_hit": "942,500",
+    "salary_cap_hit": "953,750",
     "team": "Seattle Kraken"
   },
   {
@@ -8054,20 +5401,6 @@
     "age": "22",
     "pos": "F",
     "salary_cap_hit": "886,667",
-    "team": "Seattle Kraken"
-  },
-  {
-    "name": "Max McCormick",
-    "age": "34",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Seattle Kraken"
-  },
-  {
-    "name": "Ben Meyers",
-    "age": "27",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
     "team": "Seattle Kraken"
   },
   {
@@ -8089,13 +5422,6 @@
     "age": "33",
     "pos": "D",
     "salary_cap_hit": "5,250,000",
-    "team": "Seattle Kraken"
-  },
-  {
-    "name": "Jamie Oleksiak",
-    "age": "33",
-    "pos": "D",
-    "salary_cap_hit": "4,600,000",
     "team": "Seattle Kraken"
   },
   {
@@ -8144,28 +5470,42 @@
     "name": "Joe Veleno",
     "age": "26",
     "pos": "F",
-    "salary_cap_hit": "795,833",
+    "salary_cap_hit": "295,833",
+    "team": "Seattle Kraken"
+  },
+  {
+    "name": "Ryan Winterton",
+    "age": "22",
+    "pos": "F",
+    "salary_cap_hit": "1,125,000",
+    "team": "Seattle Kraken"
+  },
+  {
+    "name": "Ryden Evers",
+    "age": "20",
+    "pos": "F",
+    "salary_cap_hit": "1,075,000",
     "team": "Seattle Kraken"
   },
   {
     "name": "Jake O'Brien",
     "age": "18",
     "pos": "F",
-    "salary_cap_hit": "975,000",
+    "salary_cap_hit": "974,167",
     "team": "Seattle Kraken"
   },
   {
     "name": "Nathan Villeneuve",
     "age": "20",
     "pos": "F",
-    "salary_cap_hit": "940,833",
+    "salary_cap_hit": "965,000",
     "team": "Seattle Kraken"
   },
   {
     "name": "Julius Miettinen",
     "age": "20",
     "pos": "F",
-    "salary_cap_hit": "940,833",
+    "salary_cap_hit": "965,000",
     "team": "Seattle Kraken"
   },
   {
@@ -8179,7 +5519,21 @@
     "name": "Carson Rehkopf",
     "age": "21",
     "pos": "F",
-    "salary_cap_hit": "891,667",
+    "salary_cap_hit": "914,167",
+    "team": "Seattle Kraken"
+  },
+  {
+    "name": "Oscar Fisker Molgaard",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "914,167",
+    "team": "Seattle Kraken"
+  },
+  {
+    "name": "Eduard Sale",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "909,167",
     "team": "Seattle Kraken"
   },
   {
@@ -8197,52 +5551,10 @@
     "team": "Seattle Kraken"
   },
   {
-    "name": "Oscar Fisker Molgaard",
-    "age": "21",
-    "pos": "F",
-    "salary_cap_hit": "891,667",
-    "team": "Seattle Kraken"
-  },
-  {
     "name": "Jani Nyman",
     "age": "21",
     "pos": "F",
     "salary_cap_hit": "891,667",
-    "team": "Seattle Kraken"
-  },
-  {
-    "name": "Eduard Sale",
-    "age": "21",
-    "pos": "F",
-    "salary_cap_hit": "886,667",
-    "team": "Seattle Kraken"
-  },
-  {
-    "name": "Lleyton Roed",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "870,000",
-    "team": "Seattle Kraken"
-  },
-  {
-    "name": "Logan Morrison",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "870,000",
-    "team": "Seattle Kraken"
-  },
-  {
-    "name": "Ryan Winterton",
-    "age": "22",
-    "pos": "F",
-    "salary_cap_hit": "828,333",
-    "team": "Seattle Kraken"
-  },
-  {
-    "name": "Jacob Melanson",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "826,111",
     "team": "Seattle Kraken"
   },
   {
@@ -8253,17 +5565,10 @@
     "team": "Seattle Kraken"
   },
   {
-    "name": "Jon-Randall Avon",
-    "age": "22",
-    "pos": "F",
-    "salary_cap_hit": "800,000",
-    "team": "Seattle Kraken"
-  },
-  {
-    "name": "Mitchell Stephens",
-    "age": "29",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
+    "name": "Alexis Bernier",
+    "age": "19",
+    "pos": "D",
+    "salary_cap_hit": "1,003,333",
     "team": "Seattle Kraken"
   },
   {
@@ -8271,6 +5576,13 @@
     "age": "22",
     "pos": "D",
     "salary_cap_hit": "950,000",
+    "team": "Seattle Kraken"
+  },
+  {
+    "name": "Caden Price",
+    "age": "20",
+    "pos": "D",
+    "salary_cap_hit": "935,556",
     "team": "Seattle Kraken"
   },
   {
@@ -8284,42 +5596,21 @@
     "name": "Lukas Dragicevic",
     "age": "21",
     "pos": "D",
-    "salary_cap_hit": "891,667",
-    "team": "Seattle Kraken"
-  },
-  {
-    "name": "Caden Price",
-    "age": "20",
-    "pos": "D",
-    "salary_cap_hit": "885,833",
-    "team": "Seattle Kraken"
-  },
-  {
-    "name": "Ville Ottavainen",
-    "age": "23",
-    "pos": "D",
-    "salary_cap_hit": "867,500",
+    "salary_cap_hit": "914,167",
     "team": "Seattle Kraken"
   },
   {
     "name": "Ty Nelson",
     "age": "22",
     "pos": "D",
-    "salary_cap_hit": "861,667",
+    "salary_cap_hit": "911,667",
     "team": "Seattle Kraken"
   },
   {
-    "name": "Gustav Olofsson",
-    "age": "31",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Seattle Kraken"
-  },
-  {
-    "name": "Matt Murray",
-    "age": "32",
+    "name": "Kim Saarinen",
+    "age": "19",
     "pos": "G",
-    "salary_cap_hit": "1,000,000",
+    "salary_cap_hit": "932,500",
     "team": "Seattle Kraken"
   },
   {
@@ -8327,20 +5618,6 @@
     "age": "22",
     "pos": "G",
     "salary_cap_hit": "891,667",
-    "team": "Seattle Kraken"
-  },
-  {
-    "name": "Kim Saarinen",
-    "age": "19",
-    "pos": "G",
-    "salary_cap_hit": "890,000",
-    "team": "Seattle Kraken"
-  },
-  {
-    "name": "Victor Ostman",
-    "age": "25",
-    "pos": "G",
-    "salary_cap_hit": "870,000",
     "team": "Seattle Kraken"
   },
   {
@@ -8365,6 +5642,13 @@
     "team": "St Louis Blues"
   },
   {
+    "name": "Dylan Holloway",
+    "age": "24",
+    "pos": "F",
+    "salary_cap_hit": "7,750,000",
+    "team": "St Louis Blues"
+  },
+  {
     "name": "Pius Suter",
     "age": "30",
     "pos": "F",
@@ -8386,31 +5670,10 @@
     "team": "St Louis Blues"
   },
   {
-    "name": "Dylan Holloway",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "2,290,457",
-    "team": "St Louis Blues"
-  },
-  {
-    "name": "Jonatan Berggren",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "1,825,000",
-    "team": "St Louis Blues"
-  },
-  {
     "name": "Alexey Toropchenko",
     "age": "26",
     "pos": "F",
-    "salary_cap_hit": "1,700,000",
-    "team": "St Louis Blues"
-  },
-  {
-    "name": "Oskar Sundqvist",
-    "age": "32",
-    "pos": "F",
-    "salary_cap_hit": "1,500,000",
+    "salary_cap_hit": "2,500,000",
     "team": "St Louis Blues"
   },
   {
@@ -8424,7 +5687,14 @@
     "name": "Dalibor Dvorsky",
     "age": "20",
     "pos": "F",
-    "salary_cap_hit": "886,667",
+    "salary_cap_hit": "909,167",
+    "team": "St Louis Blues"
+  },
+  {
+    "name": "Nathan Walker",
+    "age": "32",
+    "pos": "F",
+    "salary_cap_hit": "887,500",
     "team": "St Louis Blues"
   },
   {
@@ -8435,10 +5705,10 @@
     "team": "St Louis Blues"
   },
   {
-    "name": "Nathan Walker",
-    "age": "32",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
+    "name": "Philip Broberg",
+    "age": "24",
+    "pos": "D",
+    "salary_cap_hit": "8,000,000",
     "team": "St Louis Blues"
   },
   {
@@ -8456,24 +5726,10 @@
     "team": "St Louis Blues"
   },
   {
-    "name": "Philip Broberg",
-    "age": "24",
-    "pos": "D",
-    "salary_cap_hit": "4,580,917",
-    "team": "St Louis Blues"
-  },
-  {
     "name": "Cam Fowler",
     "age": "34",
     "pos": "D",
-    "salary_cap_hit": "4,000,000",
-    "team": "St Louis Blues"
-  },
-  {
-    "name": "Justin Holl",
-    "age": "34",
-    "pos": "D",
-    "salary_cap_hit": "3,400,000",
+    "salary_cap_hit": "6,100,000",
     "team": "St Louis Blues"
   },
   {
@@ -8487,14 +5743,7 @@
     "name": "Logan Mailloux",
     "age": "23",
     "pos": "D",
-    "salary_cap_hit": "875,000",
-    "team": "St Louis Blues"
-  },
-  {
-    "name": "Matthew Kessel",
-    "age": "25",
-    "pos": "D",
-    "salary_cap_hit": "800,000",
+    "salary_cap_hit": "850,000",
     "team": "St Louis Blues"
   },
   {
@@ -8512,24 +5761,45 @@
     "team": "St Louis Blues"
   },
   {
+    "name": "Félix Trudeau",
+    "age": "23",
+    "pos": "F",
+    "salary_cap_hit": "1,013,750",
+    "team": "St Louis Blues"
+  },
+  {
     "name": "Justin Carbonneau",
     "age": "19",
     "pos": "F",
-    "salary_cap_hit": "975,000",
+    "salary_cap_hit": "974,167",
     "team": "St Louis Blues"
   },
   {
     "name": "Adam Jecho",
     "age": "20",
     "pos": "F",
-    "salary_cap_hit": "922,500",
+    "salary_cap_hit": "965,000",
     "team": "St Louis Blues"
   },
   {
     "name": "Otto Stenberg",
     "age": "21",
     "pos": "F",
-    "salary_cap_hit": "918,333",
+    "salary_cap_hit": "940,833",
+    "team": "St Louis Blues"
+  },
+  {
+    "name": "Juraj Pekarcik",
+    "age": "20",
+    "pos": "F",
+    "salary_cap_hit": "938,333",
+    "team": "St Louis Blues"
+  },
+  {
+    "name": "Jakub Stancl",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "936,111",
     "team": "St Louis Blues"
   },
   {
@@ -8554,143 +5824,94 @@
     "team": "St Louis Blues"
   },
   {
-    "name": "Juraj Pekarcik",
-    "age": "20",
-    "pos": "F",
-    "salary_cap_hit": "888,333",
-    "team": "St Louis Blues"
-  },
-  {
-    "name": "Jakub Stancl",
-    "age": "21",
-    "pos": "F",
-    "salary_cap_hit": "885,000",
-    "team": "St Louis Blues"
-  },
-  {
     "name": "Dylan Peterson",
     "age": "24",
     "pos": "F",
-    "salary_cap_hit": "867,500",
+    "salary_cap_hit": "850,000",
     "team": "St Louis Blues"
   },
   {
     "name": "Zach Dean",
     "age": "23",
     "pos": "F",
-    "salary_cap_hit": "852,500",
+    "salary_cap_hit": "850,000",
     "team": "St Louis Blues"
   },
   {
-    "name": "Akil Thomas",
-    "age": "26",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "St Louis Blues"
-  },
-  {
-    "name": "Hugh McGing",
-    "age": "27",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "St Louis Blues"
-  },
-  {
-    "name": "Thomas Bordeleau",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "St Louis Blues"
-  },
-  {
-    "name": "Julien Gauthier",
-    "age": "28",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "St Louis Blues"
-  },
-  {
-    "name": "Adam Jiricek",
-    "age": "19",
+    "name": "Colin Ralph",
+    "age": "20",
     "pos": "D",
-    "salary_cap_hit": "942,500",
+    "salary_cap_hit": "1,075,000",
+    "team": "St Louis Blues"
+  },
+  {
+    "name": "Arseni Koromyslov",
+    "age": "22",
+    "pos": "D",
+    "salary_cap_hit": "1,013,750",
     "team": "St Louis Blues"
   },
   {
     "name": "Lukas Fischer",
     "age": "19",
     "pos": "D",
-    "salary_cap_hit": "931,667",
+    "salary_cap_hit": "965,000",
+    "team": "St Louis Blues"
+  },
+  {
+    "name": "Adam Jiricek",
+    "age": "19",
+    "pos": "D",
+    "salary_cap_hit": "941,667",
     "team": "St Louis Blues"
   },
   {
     "name": "Theo Lindstein",
     "age": "21",
     "pos": "D",
-    "salary_cap_hit": "918,333",
+    "salary_cap_hit": "940,833",
     "team": "St Louis Blues"
   },
   {
     "name": "Quinton Burns",
     "age": "21",
     "pos": "D",
-    "salary_cap_hit": "888,333",
-    "team": "St Louis Blues"
-  },
-  {
-    "name": "Leo Loof",
-    "age": "24",
-    "pos": "D",
-    "salary_cap_hit": "867,500",
+    "salary_cap_hit": "938,333",
     "team": "St Louis Blues"
   },
   {
     "name": "Michael Buchinger",
     "age": "22",
     "pos": "D",
-    "salary_cap_hit": "863,333",
+    "salary_cap_hit": "913,333",
     "team": "St Louis Blues"
   },
   {
     "name": "Marc-Andre Gaudet",
     "age": "22",
     "pos": "D",
-    "salary_cap_hit": "828,333",
+    "salary_cap_hit": "877,500",
     "team": "St Louis Blues"
   },
   {
     "name": "Calle Rosen",
     "age": "32",
     "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "St Louis Blues"
-  },
-  {
-    "name": "Hunter Skinner",
-    "age": "25",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "St Louis Blues"
-  },
-  {
-    "name": "Vadim Zherenko",
-    "age": "25",
-    "pos": "G",
-    "salary_cap_hit": "775,000",
+    "salary_cap_hit": "875,000",
     "team": "St Louis Blues"
   },
   {
     "name": "Will Cranley",
     "age": "24",
     "pos": "G",
-    "salary_cap_hit": "775,000",
+    "salary_cap_hit": "850,000",
     "team": "St Louis Blues"
   },
   {
     "name": "Georgi Romanov",
     "age": "26",
     "pos": "G",
-    "salary_cap_hit": "775,000",
+    "salary_cap_hit": "850,000",
     "team": "St Louis Blues"
   },
   {
@@ -8729,13 +5950,6 @@
     "team": "Tampa Bay Lightning"
   },
   {
-    "name": "Oliver Bjorkstrand",
-    "age": "31",
-    "pos": "F",
-    "salary_cap_hit": "5,400,000",
-    "team": "Tampa Bay Lightning"
-  },
-  {
     "name": "Nicholas Paul",
     "age": "31",
     "pos": "F",
@@ -8764,13 +5978,6 @@
     "team": "Tampa Bay Lightning"
   },
   {
-    "name": "Corey Perry",
-    "age": "41",
-    "pos": "F",
-    "salary_cap_hit": "1,000,000",
-    "team": "Tampa Bay Lightning"
-  },
-  {
     "name": "Conor Geekie",
     "age": "22",
     "pos": "F",
@@ -8792,8 +5999,8 @@
     "team": "Tampa Bay Lightning"
   },
   {
-    "name": "Ryan McDonagh",
-    "age": "36",
+    "name": "J.J. Moser",
+    "age": "26",
     "pos": "D",
     "salary_cap_hit": "6,750,000",
     "team": "Tampa Bay Lightning"
@@ -8806,17 +6013,10 @@
     "team": "Tampa Bay Lightning"
   },
   {
-    "name": "J.J. Moser",
-    "age": "26",
+    "name": "Ryan McDonagh",
+    "age": "37",
     "pos": "D",
-    "salary_cap_hit": "3,375,000",
-    "team": "Tampa Bay Lightning"
-  },
-  {
-    "name": "Darren Raddysh",
-    "age": "30",
-    "pos": "D",
-    "salary_cap_hit": "975,000",
+    "salary_cap_hit": "4,100,000",
     "team": "Tampa Bay Lightning"
   },
   {
@@ -8834,13 +6034,6 @@
     "team": "Tampa Bay Lightning"
   },
   {
-    "name": "Declan Carlile",
-    "age": "26",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Tampa Bay Lightning"
-  },
-  {
     "name": "Andrei Vasilevskiy",
     "age": "31",
     "pos": "G",
@@ -8855,17 +6048,31 @@
     "team": "Tampa Bay Lightning"
   },
   {
+    "name": "Benjamin Rautiainen",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "1,007,500",
+    "team": "Tampa Bay Lightning"
+  },
+  {
+    "name": "Noah Steen",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "972,500",
+    "team": "Tampa Bay Lightning"
+  },
+  {
     "name": "Ethan Czata",
     "age": "19",
     "pos": "F",
-    "salary_cap_hit": "931,667",
+    "salary_cap_hit": "965,000",
     "team": "Tampa Bay Lightning"
   },
   {
     "name": "Sam O'Reilly",
     "age": "20",
     "pos": "F",
-    "salary_cap_hit": "931,500",
+    "salary_cap_hit": "936,056",
     "team": "Tampa Bay Lightning"
   },
   {
@@ -8918,6 +6125,13 @@
     "team": "Tampa Bay Lightning"
   },
   {
+    "name": "Ethan Gauthier",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "893,333",
+    "team": "Tampa Bay Lightning"
+  },
+  {
     "name": "Dylan Duke",
     "age": "23",
     "pos": "F",
@@ -8925,10 +6139,17 @@
     "team": "Tampa Bay Lightning"
   },
   {
-    "name": "Ethan Gauthier",
-    "age": "21",
+    "name": "Nick Abruzzese",
+    "age": "27",
     "pos": "F",
-    "salary_cap_hit": "858,333",
+    "salary_cap_hit": "850,000",
+    "team": "Tampa Bay Lightning"
+  },
+  {
+    "name": "Scott Sabourin",
+    "age": "33",
+    "pos": "F",
+    "salary_cap_hit": "850,000",
     "team": "Tampa Bay Lightning"
   },
   {
@@ -8939,29 +6160,8 @@
     "team": "Tampa Bay Lightning"
   },
   {
-    "name": "Mitchell Chaffee",
-    "age": "28",
-    "pos": "F",
-    "salary_cap_hit": "800,000",
-    "team": "Tampa Bay Lightning"
-  },
-  {
-    "name": "Nick Abruzzese",
-    "age": "27",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Tampa Bay Lightning"
-  },
-  {
-    "name": "Scott Sabourin",
-    "age": "33",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Tampa Bay Lightning"
-  },
-  {
     "name": "Dyllan Gill",
-    "age": "21",
+    "age": "22",
     "pos": "D",
     "salary_cap_hit": "895,000",
     "team": "Tampa Bay Lightning"
@@ -8970,14 +6170,14 @@
     "name": "Maxim Groshev",
     "age": "24",
     "pos": "D",
-    "salary_cap_hit": "867,500",
+    "salary_cap_hit": "875,000",
     "team": "Tampa Bay Lightning"
   },
   {
-    "name": "Ethan Samson",
-    "age": "22",
+    "name": "Charle-Édouard D'Astous",
+    "age": "28",
     "pos": "D",
-    "salary_cap_hit": "846,667",
+    "salary_cap_hit": "875,000",
     "team": "Tampa Bay Lightning"
   },
   {
@@ -8995,38 +6195,10 @@
     "team": "Tampa Bay Lightning"
   },
   {
-    "name": "Ian Mitchell",
-    "age": "27",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Tampa Bay Lightning"
-  },
-  {
-    "name": "Charle-Édouard D'Astous",
-    "age": "28",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Tampa Bay Lightning"
-  },
-  {
     "name": "Harrison Meneghin",
     "age": "21",
     "pos": "G",
     "salary_cap_hit": "922,500",
-    "team": "Tampa Bay Lightning"
-  },
-  {
-    "name": "Ryan Fanti",
-    "age": "26",
-    "pos": "G",
-    "salary_cap_hit": "775,000",
-    "team": "Tampa Bay Lightning"
-  },
-  {
-    "name": "Brandon Halverson",
-    "age": "30",
-    "pos": "G",
-    "salary_cap_hit": "775,000",
     "team": "Tampa Bay Lightning"
   },
   {
@@ -9065,31 +6237,10 @@
     "team": "Toronto Maple Leafs"
   },
   {
-    "name": "Matias Maccelli",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "3,425,000",
-    "team": "Toronto Maple Leafs"
-  },
-  {
     "name": "Dakota Joshua",
     "age": "30",
     "pos": "F",
     "salary_cap_hit": "3,250,000",
-    "team": "Toronto Maple Leafs"
-  },
-  {
-    "name": "Calle Jarnkrok",
-    "age": "34",
-    "pos": "F",
-    "salary_cap_hit": "2,100,000",
-    "team": "Toronto Maple Leafs"
-  },
-  {
-    "name": "Nicholas Robertson",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "1,825,000",
     "team": "Toronto Maple Leafs"
   },
   {
@@ -9149,10 +6300,10 @@
     "team": "Toronto Maple Leafs"
   },
   {
-    "name": "Troy Stecher",
+    "name": "Anthony Stolarz",
     "age": "32",
-    "pos": "D",
-    "salary_cap_hit": "787,500",
+    "pos": "G",
+    "salary_cap_hit": "3,750,000",
     "team": "Toronto Maple Leafs"
   },
   {
@@ -9163,17 +6314,17 @@
     "team": "Toronto Maple Leafs"
   },
   {
-    "name": "Anthony Stolarz",
-    "age": "32",
-    "pos": "G",
-    "salary_cap_hit": "2,500,000",
+    "name": "Brandon Buhr",
+    "age": "23",
+    "pos": "F",
+    "salary_cap_hit": "975,000",
     "team": "Toronto Maple Leafs"
   },
   {
-    "name": "Matt Benning",
-    "age": "32",
-    "pos": "D",
-    "salary_cap_hit": "100,000",
+    "name": "Landon Sim",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "955,000",
     "team": "Toronto Maple Leafs"
   },
   {
@@ -9201,21 +6352,7 @@
     "name": "Easton Cowan",
     "age": "21",
     "pos": "F",
-    "salary_cap_hit": "876,167",
-    "team": "Toronto Maple Leafs"
-  },
-  {
-    "name": "Jacob Quillan",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "875,000",
-    "team": "Toronto Maple Leafs"
-  },
-  {
-    "name": "Ryan Tverberg",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "851,667",
+    "salary_cap_hit": "900,000",
     "team": "Toronto Maple Leafs"
   },
   {
@@ -9233,38 +6370,24 @@
     "team": "Toronto Maple Leafs"
   },
   {
-    "name": "Braeden Kressler",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "800,556",
-    "team": "Toronto Maple Leafs"
-  },
-  {
-    "name": "Travis Boyd",
-    "age": "32",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Toronto Maple Leafs"
-  },
-  {
-    "name": "Vinni Lettieri",
-    "age": "31",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Toronto Maple Leafs"
-  },
-  {
-    "name": "Henry Thrun",
-    "age": "25",
+    "name": "Hayes Hundley",
+    "age": "21",
     "pos": "D",
-    "salary_cap_hit": "1,000,000",
+    "salary_cap_hit": "1,010,000",
+    "team": "Toronto Maple Leafs"
+  },
+  {
+    "name": "Vincent Borgesi",
+    "age": "22",
+    "pos": "D",
+    "salary_cap_hit": "987,500",
     "team": "Toronto Maple Leafs"
   },
   {
     "name": "Ben Danford",
     "age": "20",
     "pos": "D",
-    "salary_cap_hit": "931,500",
+    "salary_cap_hit": "936,056",
     "team": "Toronto Maple Leafs"
   },
   {
@@ -9275,17 +6398,10 @@
     "team": "Toronto Maple Leafs"
   },
   {
-    "name": "John Prokop",
-    "age": "25",
-    "pos": "D",
-    "salary_cap_hit": "875,000",
-    "team": "Toronto Maple Leafs"
-  },
-  {
     "name": "Noah Chadwick",
     "age": "21",
     "pos": "D",
-    "salary_cap_hit": "850,000",
+    "salary_cap_hit": "900,556",
     "team": "Toronto Maple Leafs"
   },
   {
@@ -9310,31 +6426,10 @@
     "team": "Toronto Maple Leafs"
   },
   {
-    "name": "William Villeneuve",
-    "age": "24",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Toronto Maple Leafs"
-  },
-  {
-    "name": "Matt Benning",
-    "age": "32",
-    "pos": "D",
-    "salary_cap_hit": "100,000",
-    "team": "Toronto Maple Leafs"
-  },
-  {
-    "name": "Vyacheslav Peksa",
-    "age": "23",
-    "pos": "G",
-    "salary_cap_hit": "851,667",
-    "team": "Toronto Maple Leafs"
-  },
-  {
     "name": "Artur Akhtyamov",
     "age": "24",
     "pos": "G",
-    "salary_cap_hit": "851,667",
+    "salary_cap_hit": "900,000",
     "team": "Toronto Maple Leafs"
   },
   {
@@ -9343,6 +6438,20 @@
     "pos": "G",
     "salary_cap_hit": "841,667",
     "team": "Toronto Maple Leafs"
+  },
+  {
+    "name": "Logan Cooley",
+    "age": "22",
+    "pos": "F",
+    "salary_cap_hit": "10,000,000",
+    "team": "Utah Mammoth"
+  },
+  {
+    "name": "Nick Schmaltz",
+    "age": "30",
+    "pos": "F",
+    "salary_cap_hit": "8,000,000",
+    "team": "Utah Mammoth"
   },
   {
     "name": "JJ Peterka",
@@ -9366,13 +6475,6 @@
     "team": "Utah Mammoth"
   },
   {
-    "name": "Nick Schmaltz",
-    "age": "30",
-    "pos": "F",
-    "salary_cap_hit": "5,850,000",
-    "team": "Utah Mammoth"
-  },
-  {
     "name": "Lawson Crouse",
     "age": "28",
     "pos": "F",
@@ -9387,20 +6489,6 @@
     "team": "Utah Mammoth"
   },
   {
-    "name": "Alex Kerfoot",
-    "age": "31",
-    "pos": "F",
-    "salary_cap_hit": "3,000,000",
-    "team": "Utah Mammoth"
-  },
-  {
-    "name": "Barrett Hayton",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "2,650,000",
-    "team": "Utah Mammoth"
-  },
-  {
     "name": "Brandon Tanev",
     "age": "34",
     "pos": "F",
@@ -9408,10 +6496,10 @@
     "team": "Utah Mammoth"
   },
   {
-    "name": "Kevin Stenlund",
-    "age": "29",
+    "name": "Michael Carcone",
+    "age": "30",
     "pos": "F",
-    "salary_cap_hit": "2,000,000",
+    "salary_cap_hit": "1,750,000",
     "team": "Utah Mammoth"
   },
   {
@@ -9419,27 +6507,6 @@
     "age": "31",
     "pos": "F",
     "salary_cap_hit": "1,000,000",
-    "team": "Utah Mammoth"
-  },
-  {
-    "name": "Logan Cooley",
-    "age": "22",
-    "pos": "F",
-    "salary_cap_hit": "950,000",
-    "team": "Utah Mammoth"
-  },
-  {
-    "name": "Michael Carcone",
-    "age": "30",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Utah Mammoth"
-  },
-  {
-    "name": "Kailer Yamamoto",
-    "age": "27",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
     "team": "Utah Mammoth"
   },
   {
@@ -9478,24 +6545,10 @@
     "team": "Utah Mammoth"
   },
   {
-    "name": "Ian Cole",
-    "age": "37",
-    "pos": "D",
-    "salary_cap_hit": "2,800,000",
-    "team": "Utah Mammoth"
-  },
-  {
     "name": "Dmitriy Simashev",
     "age": "21",
     "pos": "D",
     "salary_cap_hit": "950,000",
-    "team": "Utah Mammoth"
-  },
-  {
-    "name": "Nick DeSimone",
-    "age": "31",
-    "pos": "D",
-    "salary_cap_hit": "800,000",
     "team": "Utah Mammoth"
   },
   {
@@ -9506,24 +6559,38 @@
     "team": "Utah Mammoth"
   },
   {
-    "name": "Vitek Vanecek",
-    "age": "30",
-    "pos": "G",
-    "salary_cap_hit": "1,500,000",
-    "team": "Utah Mammoth"
-  },
-  {
-    "name": "Connor Ingram",
-    "age": "29",
-    "pos": "G",
-    "salary_cap_hit": "799,500",
-    "team": "Utah Mammoth"
-  },
-  {
     "name": "Oliver Ekman-Larsson",
     "age": "34",
     "pos": "D",
     "salary_cap_hit": "650,000",
+    "team": "Utah Mammoth"
+  },
+  {
+    "name": "Caleb Desnoyers",
+    "age": "19",
+    "pos": "F",
+    "salary_cap_hit": "1,075,000",
+    "team": "Utah Mammoth"
+  },
+  {
+    "name": "Vadim Moroz",
+    "age": "22",
+    "pos": "F",
+    "salary_cap_hit": "1,013,750",
+    "team": "Utah Mammoth"
+  },
+  {
+    "name": "Yegor Borikov",
+    "age": "20",
+    "pos": "F",
+    "salary_cap_hit": "975,000",
+    "team": "Utah Mammoth"
+  },
+  {
+    "name": "Gabe Smith",
+    "age": "19",
+    "pos": "F",
+    "salary_cap_hit": "962,778",
     "team": "Utah Mammoth"
   },
   {
@@ -9537,14 +6604,21 @@
     "name": "Tij Iginla",
     "age": "19",
     "pos": "F",
-    "salary_cap_hit": "942,500",
+    "salary_cap_hit": "941,667",
     "team": "Utah Mammoth"
   },
   {
     "name": "Cole Beaudoin",
     "age": "20",
     "pos": "F",
-    "salary_cap_hit": "942,500",
+    "salary_cap_hit": "941,667",
+    "team": "Utah Mammoth"
+  },
+  {
+    "name": "Noel Nordh",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "935,000",
     "team": "Utah Mammoth"
   },
   {
@@ -9552,13 +6626,6 @@
     "age": "22",
     "pos": "F",
     "salary_cap_hit": "923,333",
-    "team": "Utah Mammoth"
-  },
-  {
-    "name": "Gabe Smith",
-    "age": "19",
-    "pos": "F",
-    "salary_cap_hit": "919,167",
     "team": "Utah Mammoth"
   },
   {
@@ -9576,24 +6643,10 @@
     "team": "Utah Mammoth"
   },
   {
-    "name": "Noel Nordh",
-    "age": "21",
-    "pos": "F",
-    "salary_cap_hit": "885,000",
-    "team": "Utah Mammoth"
-  },
-  {
     "name": "Sam Lipkin",
     "age": "23",
     "pos": "F",
     "salary_cap_hit": "876,667",
-    "team": "Utah Mammoth"
-  },
-  {
-    "name": "Michal Kunc",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "861,000",
     "team": "Utah Mammoth"
   },
   {
@@ -9611,17 +6664,17 @@
     "team": "Utah Mammoth"
   },
   {
-    "name": "Kevin Rooney",
-    "age": "33",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
+    "name": "Gregor Biber",
+    "age": "19",
+    "pos": "D",
+    "salary_cap_hit": "1,002,500",
     "team": "Utah Mammoth"
   },
   {
-    "name": "Andrew Agozzino",
-    "age": "35",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
+    "name": "Tomas Lavoie",
+    "age": "20",
+    "pos": "D",
+    "salary_cap_hit": "965,000",
     "team": "Utah Mammoth"
   },
   {
@@ -9632,17 +6685,10 @@
     "team": "Utah Mammoth"
   },
   {
-    "name": "Tomas Lavoie",
-    "age": "20",
-    "pos": "D",
-    "salary_cap_hit": "922,500",
-    "team": "Utah Mammoth"
-  },
-  {
     "name": "Terrell Goldsmith",
     "age": "21",
     "pos": "D",
-    "salary_cap_hit": "888,333",
+    "salary_cap_hit": "936,111",
     "team": "Utah Mammoth"
   },
   {
@@ -9653,13 +6699,6 @@
     "team": "Utah Mammoth"
   },
   {
-    "name": "Maksymilian Szuber",
-    "age": "23",
-    "pos": "D",
-    "salary_cap_hit": "859,167",
-    "team": "Utah Mammoth"
-  },
-  {
     "name": "Montana Onyebuchi",
     "age": "26",
     "pos": "D",
@@ -9667,17 +6706,10 @@
     "team": "Utah Mammoth"
   },
   {
-    "name": "Kevin Connauton",
-    "age": "36",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Utah Mammoth"
-  },
-  {
-    "name": "Scott Perunovich",
-    "age": "27",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
+    "name": "Michael Hrabal",
+    "age": "21",
+    "pos": "G",
+    "salary_cap_hit": "1,075,000",
     "team": "Utah Mammoth"
   },
   {
@@ -9685,20 +6717,6 @@
     "age": "27",
     "pos": "G",
     "salary_cap_hit": "812,500",
-    "team": "Utah Mammoth"
-  },
-  {
-    "name": "Anson Thornton",
-    "age": "22",
-    "pos": "G",
-    "salary_cap_hit": "795,556",
-    "team": "Utah Mammoth"
-  },
-  {
-    "name": "Matt Villalta",
-    "age": "27",
-    "pos": "G",
-    "salary_cap_hit": "775,000",
     "team": "Utah Mammoth"
   },
   {
@@ -9720,13 +6738,6 @@
     "age": "29",
     "pos": "F",
     "salary_cap_hit": "5,500,000",
-    "team": "Vancouver Canucks"
-  },
-  {
-    "name": "Evander Kane",
-    "age": "34",
-    "pos": "F",
-    "salary_cap_hit": "5,125,000",
     "team": "Vancouver Canucks"
   },
   {
@@ -9752,16 +6763,23 @@
   },
   {
     "name": "Drew O'Connor",
-    "age": "27",
+    "age": "28",
     "pos": "F",
     "salary_cap_hit": "2,500,000",
     "team": "Vancouver Canucks"
   },
   {
-    "name": "Teddy Blueger",
-    "age": "31",
+    "name": "Linus Karlsson",
+    "age": "26",
     "pos": "F",
-    "salary_cap_hit": "1,800,000",
+    "salary_cap_hit": "2,250,000",
+    "team": "Vancouver Canucks"
+  },
+  {
+    "name": "Max Sasson",
+    "age": "25",
+    "pos": "F",
+    "salary_cap_hit": "1,000,000",
     "team": "Vancouver Canucks"
   },
   {
@@ -9779,20 +6797,6 @@
     "team": "Vancouver Canucks"
   },
   {
-    "name": "Linus Karlsson",
-    "age": "26",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Vancouver Canucks"
-  },
-  {
-    "name": "Max Sasson",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Vancouver Canucks"
-  },
-  {
     "name": "Filip Hronek",
     "age": "28",
     "pos": "D",
@@ -9807,10 +6811,10 @@
     "team": "Vancouver Canucks"
   },
   {
-    "name": "Derek Forbort",
-    "age": "34",
+    "name": "Victor Mancini",
+    "age": "24",
     "pos": "D",
-    "salary_cap_hit": "2,000,000",
+    "salary_cap_hit": "1,000,000",
     "team": "Vancouver Canucks"
   },
   {
@@ -9828,31 +6832,17 @@
     "team": "Vancouver Canucks"
   },
   {
-    "name": "Victor Mancini",
-    "age": "24",
-    "pos": "D",
-    "salary_cap_hit": "870,000",
-    "team": "Vancouver Canucks"
-  },
-  {
     "name": "Elias Pettersson",
     "age": "22",
     "pos": "D",
-    "salary_cap_hit": "863,333",
-    "team": "Vancouver Canucks"
-  },
-  {
-    "name": "Pierre-Olivier Joseph",
-    "age": "26",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
+    "salary_cap_hit": "913,333",
     "team": "Vancouver Canucks"
   },
   {
     "name": "Thatcher Demko",
     "age": "30",
     "pos": "G",
-    "salary_cap_hit": "5,000,000",
+    "salary_cap_hit": "8,500,000",
     "team": "Vancouver Canucks"
   },
   {
@@ -9870,13 +6860,6 @@
     "team": "Vancouver Canucks"
   },
   {
-    "name": "Ilya Mikheyev",
-    "age": "31",
-    "pos": "F",
-    "salary_cap_hit": "712,500",
-    "team": "Vancouver Canucks"
-  },
-  {
     "name": "Oliver Ekman-Larsson",
     "age": "34",
     "pos": "D",
@@ -9887,14 +6870,35 @@
     "name": "Braeden Cootes",
     "age": "19",
     "pos": "F",
-    "salary_cap_hit": "975,000",
+    "salary_cap_hit": "974,167",
     "team": "Vancouver Canucks"
   },
   {
     "name": "Riley Patterson",
     "age": "20",
     "pos": "F",
-    "salary_cap_hit": "923,333",
+    "salary_cap_hit": "956,667",
+    "team": "Vancouver Canucks"
+  },
+  {
+    "name": "Gabe Chiarot",
+    "age": "19",
+    "pos": "F",
+    "salary_cap_hit": "950,000",
+    "team": "Vancouver Canucks"
+  },
+  {
+    "name": "Ilya Safonov",
+    "age": "25",
+    "pos": "F",
+    "salary_cap_hit": "950,000",
+    "team": "Vancouver Canucks"
+  },
+  {
+    "name": "Vilmer Alriksson",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "931,667",
     "team": "Vancouver Canucks"
   },
   {
@@ -9902,13 +6906,6 @@
     "age": "21",
     "pos": "F",
     "salary_cap_hit": "918,333",
-    "team": "Vancouver Canucks"
-  },
-  {
-    "name": "Gabe Chiarot",
-    "age": "19",
-    "pos": "F",
-    "salary_cap_hit": "916,667",
     "team": "Vancouver Canucks"
   },
   {
@@ -9926,41 +6923,6 @@
     "team": "Vancouver Canucks"
   },
   {
-    "name": "Vilmer Alriksson",
-    "age": "21",
-    "pos": "F",
-    "salary_cap_hit": "881,667",
-    "team": "Vancouver Canucks"
-  },
-  {
-    "name": "Jayden Grubbe",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "867,500",
-    "team": "Vancouver Canucks"
-  },
-  {
-    "name": "Chase Stillman",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "863,333",
-    "team": "Vancouver Canucks"
-  },
-  {
-    "name": "Danila Klimovich",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "833,333",
-    "team": "Vancouver Canucks"
-  },
-  {
-    "name": "Nils Aman",
-    "age": "26",
-    "pos": "F",
-    "salary_cap_hit": "825,000",
-    "team": "Vancouver Canucks"
-  },
-  {
     "name": "Mackenzie MacEachern",
     "age": "32",
     "pos": "F",
@@ -9975,29 +6937,22 @@
     "team": "Vancouver Canucks"
   },
   {
-    "name": "Joseph LaBate",
-    "age": "33",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Vancouver Canucks"
-  },
-  {
-    "name": "Curtis Douglas",
-    "age": "26",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Vancouver Canucks"
-  },
-  {
     "name": "Sawyer Mynio",
     "age": "21",
     "pos": "D",
-    "salary_cap_hit": "856,667",
+    "salary_cap_hit": "906,667",
     "team": "Vancouver Canucks"
   },
   {
     "name": "Kirill Kudryavtsev",
     "age": "22",
+    "pos": "D",
+    "salary_cap_hit": "900,000",
+    "team": "Vancouver Canucks"
+  },
+  {
+    "name": "Jack Thompson",
+    "age": "24",
     "pos": "D",
     "salary_cap_hit": "850,000",
     "team": "Vancouver Canucks"
@@ -10010,31 +6965,17 @@
     "team": "Vancouver Canucks"
   },
   {
-    "name": "Jack Thompson",
-    "age": "24",
-    "pos": "D",
-    "salary_cap_hit": "800,000",
-    "team": "Vancouver Canucks"
-  },
-  {
-    "name": "Guillaume Brisebois",
-    "age": "28",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Vancouver Canucks"
-  },
-  {
-    "name": "Cole Clayton",
-    "age": "26",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Vancouver Canucks"
-  },
-  {
     "name": "Alexei Medvedev",
     "age": "18",
     "pos": "G",
-    "salary_cap_hit": "931,667",
+    "salary_cap_hit": "965,000",
+    "team": "Vancouver Canucks"
+  },
+  {
+    "name": "Ty Young",
+    "age": "21",
+    "pos": "G",
+    "salary_cap_hit": "900,000",
     "team": "Vancouver Canucks"
   },
   {
@@ -10045,13 +6986,6 @@
     "team": "Vancouver Canucks"
   },
   {
-    "name": "Ty Young",
-    "age": "21",
-    "pos": "G",
-    "salary_cap_hit": "850,000",
-    "team": "Vancouver Canucks"
-  },
-  {
     "name": "Nikita Tolopilo",
     "age": "26",
     "pos": "G",
@@ -10059,24 +6993,17 @@
     "team": "Vancouver Canucks"
   },
   {
-    "name": "Jiri Patera",
-    "age": "27",
-    "pos": "G",
-    "salary_cap_hit": "775,000",
-    "team": "Vancouver Canucks"
+    "name": "Jack Eichel",
+    "age": "29",
+    "pos": "F",
+    "salary_cap_hit": "13,500,000",
+    "team": "Vegas Golden Knights"
   },
   {
     "name": "Mitch Marner",
     "age": "29",
     "pos": "F",
     "salary_cap_hit": "12,000,000",
-    "team": "Vegas Golden Knights"
-  },
-  {
-    "name": "Jack Eichel",
-    "age": "29",
-    "pos": "F",
-    "salary_cap_hit": "10,000,000",
     "team": "Vegas Golden Knights"
   },
   {
@@ -10129,52 +7056,10 @@
     "team": "Vegas Golden Knights"
   },
   {
-    "name": "Brandon Saad",
-    "age": "33",
-    "pos": "F",
-    "salary_cap_hit": "2,000,000",
-    "team": "Vegas Golden Knights"
-  },
-  {
-    "name": "Reilly Smith",
-    "age": "35",
-    "pos": "F",
-    "salary_cap_hit": "2,000,000",
-    "team": "Vegas Golden Knights"
-  },
-  {
-    "name": "Pavel Dorofeyev",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "1,835,000",
-    "team": "Vegas Golden Knights"
-  },
-  {
-    "name": "Colton Sissons",
-    "age": "32",
-    "pos": "F",
-    "salary_cap_hit": "1,428,572",
-    "team": "Vegas Golden Knights"
-  },
-  {
-    "name": "Cole Smith",
-    "age": "30",
-    "pos": "F",
-    "salary_cap_hit": "1,000,000",
-    "team": "Vegas Golden Knights"
-  },
-  {
     "name": "Braeden Bowman",
     "age": "22",
     "pos": "F",
     "salary_cap_hit": "875,000",
-    "team": "Vegas Golden Knights"
-  },
-  {
-    "name": "Jonas Rondbjerg",
-    "age": "27",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
     "team": "Vegas Golden Knights"
   },
   {
@@ -10199,31 +7084,10 @@
     "team": "Vegas Golden Knights"
   },
   {
-    "name": "Rasmus Andersson",
-    "age": "29",
-    "pos": "D",
-    "salary_cap_hit": "2,275,000",
-    "team": "Vegas Golden Knights"
-  },
-  {
-    "name": "Jeremy Lauzon",
-    "age": "29",
-    "pos": "D",
-    "salary_cap_hit": "2,000,000",
-    "team": "Vegas Golden Knights"
-  },
-  {
-    "name": "Ben Hutton",
-    "age": "33",
-    "pos": "D",
-    "salary_cap_hit": "975,000",
-    "team": "Vegas Golden Knights"
-  },
-  {
     "name": "Kaedan Korczak",
     "age": "25",
     "pos": "D",
-    "salary_cap_hit": "825,000",
+    "salary_cap_hit": "3,250,000",
     "team": "Vegas Golden Knights"
   },
   {
@@ -10231,13 +7095,6 @@
     "age": "33",
     "pos": "D",
     "salary_cap_hit": "825,000",
-    "team": "Vegas Golden Knights"
-  },
-  {
-    "name": "Dylan Coghlan",
-    "age": "28",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
     "team": "Vegas Golden Knights"
   },
   {
@@ -10255,13 +7112,6 @@
     "team": "Vegas Golden Knights"
   },
   {
-    "name": "Akira Schmid",
-    "age": "26",
-    "pos": "G",
-    "salary_cap_hit": "875,000",
-    "team": "Vegas Golden Knights"
-  },
-  {
     "name": "Alex Pietrangelo",
     "age": "36",
     "pos": "D",
@@ -10269,10 +7119,17 @@
     "team": "Vegas Golden Knights"
   },
   {
+    "name": "Alex Weiermair",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "975,000",
+    "team": "Vegas Golden Knights"
+  },
+  {
     "name": "Trevor Connelly",
     "age": "20",
     "pos": "F",
-    "salary_cap_hit": "975,000",
+    "salary_cap_hit": "974,167",
     "team": "Vegas Golden Knights"
   },
   {
@@ -10283,10 +7140,24 @@
     "team": "Vegas Golden Knights"
   },
   {
+    "name": "Jordan Gustafson",
+    "age": "22",
+    "pos": "F",
+    "salary_cap_hit": "905,000",
+    "team": "Vegas Golden Knights"
+  },
+  {
     "name": "Tuomas Uronen",
     "age": "21",
     "pos": "F",
     "salary_cap_hit": "902,500",
+    "team": "Vegas Golden Knights"
+  },
+  {
+    "name": "Mathieu Cataford",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "901,667",
     "team": "Vegas Golden Knights"
   },
   {
@@ -10297,6 +7168,13 @@
     "team": "Vegas Golden Knights"
   },
   {
+    "name": "Ben Hemmerling",
+    "age": "22",
+    "pos": "F",
+    "salary_cap_hit": "896,111",
+    "team": "Vegas Golden Knights"
+  },
+  {
     "name": "Kai Uchacz",
     "age": "22",
     "pos": "F",
@@ -10304,31 +7182,10 @@
     "team": "Vegas Golden Knights"
   },
   {
-    "name": "Jordan Gustafson",
+    "name": "Matyas Sapovaliv",
     "age": "22",
     "pos": "F",
-    "salary_cap_hit": "855,000",
-    "team": "Vegas Golden Knights"
-  },
-  {
-    "name": "Jakub Demek",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "851,683",
-    "team": "Vegas Golden Knights"
-  },
-  {
-    "name": "Mathieu Cataford",
-    "age": "21",
-    "pos": "F",
-    "salary_cap_hit": "851,667",
-    "team": "Vegas Golden Knights"
-  },
-  {
-    "name": "Ben Hemmerling",
-    "age": "22",
-    "pos": "F",
-    "salary_cap_hit": "845,833",
+    "salary_cap_hit": "878,333",
     "team": "Vegas Golden Knights"
   },
   {
@@ -10339,45 +7196,17 @@
     "team": "Vegas Golden Knights"
   },
   {
-    "name": "Joe Fleming",
-    "age": "22",
-    "pos": "F",
-    "salary_cap_hit": "836,667",
-    "team": "Vegas Golden Knights"
-  },
-  {
-    "name": "Jakub Brabenec",
-    "age": "22",
-    "pos": "F",
-    "salary_cap_hit": "828,333",
-    "team": "Vegas Golden Knights"
-  },
-  {
-    "name": "Matyas Sapovaliv",
-    "age": "22",
-    "pos": "F",
-    "salary_cap_hit": "828,333",
-    "team": "Vegas Golden Knights"
-  },
-  {
-    "name": "Tanner Laczynski",
-    "age": "29",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Vegas Golden Knights"
-  },
-  {
-    "name": "Raphael Lavoie",
-    "age": "25",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Vegas Golden Knights"
-  },
-  {
     "name": "Jeremy Davies",
     "age": "29",
     "pos": "D",
     "salary_cap_hit": "1,150,000",
+    "team": "Vegas Golden Knights"
+  },
+  {
+    "name": "Bronson Ride",
+    "age": "21",
+    "pos": "D",
+    "salary_cap_hit": "970,500",
     "team": "Vegas Golden Knights"
   },
   {
@@ -10388,32 +7217,18 @@
     "team": "Vegas Golden Knights"
   },
   {
-    "name": "Lukas Cormier",
-    "age": "24",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
+    "name": "Pavel Moysevich",
+    "age": "21",
+    "pos": "G",
+    "salary_cap_hit": "980,000",
     "team": "Vegas Golden Knights"
   },
   {
     "name": "Cameron Whitehead",
-    "age": "22",
+    "age": "23",
     "pos": "G",
     "salary_cap_hit": "906,250",
     "team": "Vegas Golden Knights"
-  },
-  {
-    "name": "Carl Lindbom",
-    "age": "23",
-    "pos": "G",
-    "salary_cap_hit": "840,000",
-    "team": "Vegas Golden Knights"
-  },
-  {
-    "name": "Alex Ovechkin",
-    "age": "40",
-    "pos": "F",
-    "salary_cap_hit": "9,500,000",
-    "team": "Washington Capitals"
   },
   {
     "name": "Pierre-Luc Dubois",
@@ -10445,30 +7260,16 @@
   },
   {
     "name": "Anthony Beauvillier",
-    "age": "28",
+    "age": "29",
     "pos": "F",
     "salary_cap_hit": "2,750,000",
     "team": "Washington Capitals"
   },
   {
-    "name": "Connor McMichael",
-    "age": "25",
+    "name": "Ethen Frank",
+    "age": "28",
     "pos": "F",
-    "salary_cap_hit": "2,100,000",
-    "team": "Washington Capitals"
-  },
-  {
-    "name": "Brandon Duhaime",
-    "age": "29",
-    "pos": "F",
-    "salary_cap_hit": "1,850,000",
-    "team": "Washington Capitals"
-  },
-  {
-    "name": "David Kampf",
-    "age": "31",
-    "pos": "F",
-    "salary_cap_hit": "1,100,000",
+    "salary_cap_hit": "2,000,000",
     "team": "Washington Capitals"
   },
   {
@@ -10479,24 +7280,10 @@
     "team": "Washington Capitals"
   },
   {
-    "name": "Hendrix Lapierre",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "850,000",
-    "team": "Washington Capitals"
-  },
-  {
     "name": "Justin Sourdif",
     "age": "24",
     "pos": "F",
     "salary_cap_hit": "825,000",
-    "team": "Washington Capitals"
-  },
-  {
-    "name": "Ethen Frank",
-    "age": "28",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
     "team": "Washington Capitals"
   },
   {
@@ -10507,6 +7294,20 @@
     "team": "Washington Capitals"
   },
   {
+    "name": "Martin Fehervary",
+    "age": "26",
+    "pos": "D",
+    "salary_cap_hit": "6,000,000",
+    "team": "Washington Capitals"
+  },
+  {
+    "name": "Matt Roy",
+    "age": "31",
+    "pos": "D",
+    "salary_cap_hit": "5,750,000",
+    "team": "Washington Capitals"
+  },
+  {
     "name": "Rasmus Sandin",
     "age": "26",
     "pos": "D",
@@ -10514,31 +7315,10 @@
     "team": "Washington Capitals"
   },
   {
-    "name": "Trevor van Riemsdyk",
-    "age": "34",
-    "pos": "D",
-    "salary_cap_hit": "3,000,000",
-    "team": "Washington Capitals"
-  },
-  {
     "name": "Timothy Liljegren",
     "age": "27",
     "pos": "D",
-    "salary_cap_hit": "3,000,000",
-    "team": "Washington Capitals"
-  },
-  {
-    "name": "Martin Fehervary",
-    "age": "26",
-    "pos": "D",
-    "salary_cap_hit": "2,675,000",
-    "team": "Washington Capitals"
-  },
-  {
-    "name": "Matt Roy",
-    "age": "31",
-    "pos": "D",
-    "salary_cap_hit": "2,525,000",
+    "salary_cap_hit": "3,250,000",
     "team": "Washington Capitals"
   },
   {
@@ -10570,38 +7350,59 @@
     "team": "Washington Capitals"
   },
   {
-    "name": "Sonny Milano",
-    "age": "30",
+    "name": "Theodor Niederbach",
+    "age": "24",
     "pos": "F",
-    "salary_cap_hit": "750,000",
+    "salary_cap_hit": "1,025,000",
+    "team": "Washington Capitals"
+  },
+  {
+    "name": "Petr Sikora",
+    "age": "20",
+    "pos": "F",
+    "salary_cap_hit": "995,000",
     "team": "Washington Capitals"
   },
   {
     "name": "Lynden Lakovic",
     "age": "19",
     "pos": "F",
-    "salary_cap_hit": "975,000",
+    "salary_cap_hit": "974,167",
     "team": "Washington Capitals"
   },
   {
     "name": "Milton Gastrin",
     "age": "19",
     "pos": "F",
-    "salary_cap_hit": "975,000",
-    "team": "Washington Capitals"
-  },
-  {
-    "name": "Ivan Miroshnichenko",
-    "age": "22",
-    "pos": "F",
-    "salary_cap_hit": "950,000",
+    "salary_cap_hit": "974,167",
     "team": "Washington Capitals"
   },
   {
     "name": "Terik Parascak",
     "age": "20",
     "pos": "F",
-    "salary_cap_hit": "942,500",
+    "salary_cap_hit": "941,667",
+    "team": "Washington Capitals"
+  },
+  {
+    "name": "Eriks Mateiko",
+    "age": "20",
+    "pos": "F",
+    "salary_cap_hit": "932,500",
+    "team": "Washington Capitals"
+  },
+  {
+    "name": "Ilya Protas",
+    "age": "19",
+    "pos": "F",
+    "salary_cap_hit": "932,500",
+    "team": "Washington Capitals"
+  },
+  {
+    "name": "Ivan Miroshnichenko",
+    "age": "22",
+    "pos": "F",
+    "salary_cap_hit": "925,000",
     "team": "Washington Capitals"
   },
   {
@@ -10619,45 +7420,31 @@
     "team": "Washington Capitals"
   },
   {
-    "name": "Eriks Mateiko",
-    "age": "20",
+    "name": "Bogdan Trineyev",
+    "age": "24",
     "pos": "F",
-    "salary_cap_hit": "890,000",
-    "team": "Washington Capitals"
-  },
-  {
-    "name": "Ilya Protas",
-    "age": "19",
-    "pos": "F",
-    "salary_cap_hit": "890,000",
+    "salary_cap_hit": "900,000",
     "team": "Washington Capitals"
   },
   {
     "name": "Andrew Cristall",
     "age": "21",
     "pos": "F",
-    "salary_cap_hit": "858,333",
-    "team": "Washington Capitals"
-  },
-  {
-    "name": "Ryan Hofer",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "851,667",
+    "salary_cap_hit": "889,167",
     "team": "Washington Capitals"
   },
   {
     "name": "Ludwig Persson",
     "age": "22",
     "pos": "F",
-    "salary_cap_hit": "831,667",
+    "salary_cap_hit": "865,000",
     "team": "Washington Capitals"
   },
   {
     "name": "Alexander Suzdalev",
     "age": "22",
     "pos": "F",
-    "salary_cap_hit": "831,667",
+    "salary_cap_hit": "865,000",
     "team": "Washington Capitals"
   },
   {
@@ -10668,45 +7455,24 @@
     "team": "Washington Capitals"
   },
   {
-    "name": "Henrik Rybinski",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Washington Capitals"
-  },
-  {
-    "name": "Brett Leason",
-    "age": "27",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Washington Capitals"
-  },
-  {
-    "name": "Bogdan Trineyev",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Washington Capitals"
-  },
-  {
-    "name": "Wyatt Bongiovanni",
-    "age": "26",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Washington Capitals"
-  },
-  {
-    "name": "Sonny Milano",
-    "age": "30",
-    "pos": "F",
-    "salary_cap_hit": "750,000",
-    "team": "Washington Capitals"
-  },
-  {
     "name": "Cole Hutson",
     "age": "19",
     "pos": "D",
     "salary_cap_hit": "940,833",
+    "team": "Washington Capitals"
+  },
+  {
+    "name": "Leon Muggli",
+    "age": "19",
+    "pos": "D",
+    "salary_cap_hit": "932,500",
+    "team": "Washington Capitals"
+  },
+  {
+    "name": "Cam Allen",
+    "age": "21",
+    "pos": "D",
+    "salary_cap_hit": "930,000",
     "team": "Washington Capitals"
   },
   {
@@ -10717,13 +7483,6 @@
     "team": "Washington Capitals"
   },
   {
-    "name": "Leon Muggli",
-    "age": "19",
-    "pos": "D",
-    "salary_cap_hit": "908,333",
-    "team": "Washington Capitals"
-  },
-  {
     "name": "David Gucciardi",
     "age": "23",
     "pos": "D",
@@ -10731,31 +7490,10 @@
     "team": "Washington Capitals"
   },
   {
-    "name": "Cam Allen",
-    "age": "21",
-    "pos": "D",
-    "salary_cap_hit": "888,333",
-    "team": "Washington Capitals"
-  },
-  {
     "name": "Louie Belpedio",
     "age": "30",
     "pos": "D",
     "salary_cap_hit": "812,500",
-    "team": "Washington Capitals"
-  },
-  {
-    "name": "Corey Schueneman",
-    "age": "30",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Washington Capitals"
-  },
-  {
-    "name": "Jesper Vikman",
-    "age": "24",
-    "pos": "G",
-    "salary_cap_hit": "858,000",
     "team": "Washington Capitals"
   },
   {
@@ -10773,11 +7511,11 @@
     "team": "Washington Capitals"
   },
   {
-    "name": "Garin Bjorklund",
-    "age": "24",
-    "pos": "G",
-    "salary_cap_hit": "775,000",
-    "team": "Washington Capitals"
+    "name": "Kyle Connor",
+    "age": "29",
+    "pos": "F",
+    "salary_cap_hit": "12,000,000",
+    "team": "Winnipeg Jets"
   },
   {
     "name": "Mark Scheifele",
@@ -10794,10 +7532,10 @@
     "team": "Winnipeg Jets"
   },
   {
-    "name": "Kyle Connor",
-    "age": "29",
+    "name": "Adam Lowry",
+    "age": "33",
     "pos": "F",
-    "salary_cap_hit": "7,142,857",
+    "salary_cap_hit": "5,000,000",
     "team": "Winnipeg Jets"
   },
   {
@@ -10815,38 +7553,10 @@
     "team": "Winnipeg Jets"
   },
   {
-    "name": "Cole Perfetti",
-    "age": "24",
-    "pos": "F",
-    "salary_cap_hit": "3,250,000",
-    "team": "Winnipeg Jets"
-  },
-  {
-    "name": "Adam Lowry",
-    "age": "33",
-    "pos": "F",
-    "salary_cap_hit": "3,250,000",
-    "team": "Winnipeg Jets"
-  },
-  {
-    "name": "Gustav Nyquist",
-    "age": "36",
-    "pos": "F",
-    "salary_cap_hit": "3,250,000",
-    "team": "Winnipeg Jets"
-  },
-  {
     "name": "Vladislav Namestnikov",
     "age": "33",
     "pos": "F",
     "salary_cap_hit": "3,000,000",
-    "team": "Winnipeg Jets"
-  },
-  {
-    "name": "Jonathan Toews",
-    "age": "38",
-    "pos": "F",
-    "salary_cap_hit": "2,000,000",
     "team": "Winnipeg Jets"
   },
   {
@@ -10860,21 +7570,14 @@
     "name": "Cole Koepke",
     "age": "28",
     "pos": "F",
-    "salary_cap_hit": "1,000,000",
-    "team": "Winnipeg Jets"
-  },
-  {
-    "name": "Isak Rosen",
-    "age": "23",
-    "pos": "F",
-    "salary_cap_hit": "894,167",
+    "salary_cap_hit": "1,450,000",
     "team": "Winnipeg Jets"
   },
   {
     "name": "Nikita Chibrikov",
     "age": "23",
     "pos": "F",
-    "salary_cap_hit": "875,833",
+    "salary_cap_hit": "875,000",
     "team": "Winnipeg Jets"
   },
   {
@@ -10906,31 +7609,10 @@
     "team": "Winnipeg Jets"
   },
   {
-    "name": "Colin Miller",
-    "age": "33",
-    "pos": "D",
-    "salary_cap_hit": "1,500,000",
-    "team": "Winnipeg Jets"
-  },
-  {
     "name": "Haydn Fleury",
     "age": "29",
     "pos": "D",
     "salary_cap_hit": "950,000",
-    "team": "Winnipeg Jets"
-  },
-  {
-    "name": "Jacob Bryson",
-    "age": "28",
-    "pos": "D",
-    "salary_cap_hit": "900,000",
-    "team": "Winnipeg Jets"
-  },
-  {
-    "name": "Ville Heinola",
-    "age": "25",
-    "pos": "D",
-    "salary_cap_hit": "800,000",
     "team": "Winnipeg Jets"
   },
   {
@@ -10941,24 +7623,24 @@
     "team": "Winnipeg Jets"
   },
   {
-    "name": "Eric Comrie",
-    "age": "30",
-    "pos": "G",
-    "salary_cap_hit": "825,000",
+    "name": "Kieron Walton",
+    "age": "20",
+    "pos": "F",
+    "salary_cap_hit": "955,556",
     "team": "Winnipeg Jets"
   },
   {
-    "name": "Nate Schmidt",
-    "age": "34",
-    "pos": "D",
-    "salary_cap_hit": "1,616,667",
+    "name": "Brayden Yager",
+    "age": "21",
+    "pos": "F",
+    "salary_cap_hit": "940,833",
     "team": "Winnipeg Jets"
   },
   {
-    "name": "Luke Schenn",
-    "age": "36",
-    "pos": "D",
-    "salary_cap_hit": "1,375,000",
+    "name": "Kevin He",
+    "age": "20",
+    "pos": "F",
+    "salary_cap_hit": "932,500",
     "team": "Winnipeg Jets"
   },
   {
@@ -10969,31 +7651,24 @@
     "team": "Winnipeg Jets"
   },
   {
-    "name": "Brayden Yager",
-    "age": "21",
+    "name": "Lucas Wahlin",
+    "age": "25",
     "pos": "F",
-    "salary_cap_hit": "918,333",
-    "team": "Winnipeg Jets"
-  },
-  {
-    "name": "Kieron Walton",
-    "age": "20",
-    "pos": "F",
-    "salary_cap_hit": "908,333",
-    "team": "Winnipeg Jets"
-  },
-  {
-    "name": "Kevin He",
-    "age": "20",
-    "pos": "F",
-    "salary_cap_hit": "890,000",
+    "salary_cap_hit": "910,000",
     "team": "Winnipeg Jets"
   },
   {
     "name": "Colby Barlow",
     "age": "21",
     "pos": "F",
-    "salary_cap_hit": "886,667",
+    "salary_cap_hit": "909,167",
+    "team": "Winnipeg Jets"
+  },
+  {
+    "name": "Fabian Wagner",
+    "age": "22",
+    "pos": "F",
+    "salary_cap_hit": "905,556",
     "team": "Winnipeg Jets"
   },
   {
@@ -11004,24 +7679,10 @@
     "team": "Winnipeg Jets"
   },
   {
-    "name": "Fabian Wagner",
-    "age": "22",
-    "pos": "F",
-    "salary_cap_hit": "856,667",
-    "team": "Winnipeg Jets"
-  },
-  {
-    "name": "David Gustafsson",
-    "age": "26",
-    "pos": "F",
-    "salary_cap_hit": "835,000",
-    "team": "Winnipeg Jets"
-  },
-  {
     "name": "Danil Zhilkin",
     "age": "22",
     "pos": "F",
-    "salary_cap_hit": "831,667",
+    "salary_cap_hit": "878,333",
     "team": "Winnipeg Jets"
   },
   {
@@ -11032,52 +7693,24 @@
     "team": "Winnipeg Jets"
   },
   {
-    "name": "Mason Shaw",
-    "age": "27",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Winnipeg Jets"
-  },
-  {
-    "name": "Phillip Di Giuseppe",
-    "age": "32",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Winnipeg Jets"
-  },
-  {
-    "name": "Jaret Anderson-Dolan",
-    "age": "26",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Winnipeg Jets"
-  },
-  {
-    "name": "Samuel Fagemo",
-    "age": "26",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
-    "team": "Winnipeg Jets"
-  },
-  {
-    "name": "Walker Duehr",
-    "age": "28",
-    "pos": "F",
-    "salary_cap_hit": "775,000",
+    "name": "Garrett Brown",
+    "age": "22",
+    "pos": "D",
+    "salary_cap_hit": "1,050,000",
     "team": "Winnipeg Jets"
   },
   {
     "name": "Alfons Freij",
     "age": "20",
     "pos": "D",
-    "salary_cap_hit": "922,500",
+    "salary_cap_hit": "965,000",
     "team": "Winnipeg Jets"
   },
   {
     "name": "Elias Salomonsson",
     "age": "21",
     "pos": "D",
-    "salary_cap_hit": "831,667",
+    "salary_cap_hit": "865,000",
     "team": "Winnipeg Jets"
   },
   {
@@ -11088,17 +7721,10 @@
     "team": "Winnipeg Jets"
   },
   {
-    "name": "Tyrel Bauer",
-    "age": "24",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
-    "team": "Winnipeg Jets"
-  },
-  {
-    "name": "Kale Clague",
-    "age": "28",
-    "pos": "D",
-    "salary_cap_hit": "775,000",
+    "name": "Domenic DiVincentiis",
+    "age": "22",
+    "pos": "G",
+    "salary_cap_hit": "905,556",
     "team": "Winnipeg Jets"
   },
   {
@@ -11106,20 +7732,6 @@
     "age": "23",
     "pos": "G",
     "salary_cap_hit": "866,667",
-    "team": "Winnipeg Jets"
-  },
-  {
-    "name": "Domenic DiVincentiis",
-    "age": "22",
-    "pos": "G",
-    "salary_cap_hit": "856,667",
-    "team": "Winnipeg Jets"
-  },
-  {
-    "name": "Isaac Poulter",
-    "age": "24",
-    "pos": "G",
-    "salary_cap_hit": "775,000",
     "team": "Winnipeg Jets"
   }
 ]

@@ -5,12 +5,30 @@ import { MyTeamView } from '../components/draft/MyTeamView'
 import { MyRoster } from '../components/draft/MyRoster'
 import { DraftOrder } from '../components/draft/DraftOrder'
 import { PickTimer } from '../components/draft/PickTimer'
-import { DRAFT_STATE } from '../data/mockDraft'
+import { useDraft } from '../context/DraftContext'
 
 type MainTab = 'players' | 'my-team'
 
-export function DraftRoom() {
+export function DraftRoom({ onSignOut }: { onSignOut: () => void }) {
   const [mainTab, setMainTab] = useState<MainTab>('players')
+  const { draftState, isLoading, error } = useDraft()
+
+  if (isLoading) {
+    return (
+      <div className="flex h-screen items-center justify-center bg-slate-950">
+        <div className="text-slate-500 text-sm">Loading draft…</div>
+      </div>
+    )
+  }
+
+  if (error) {
+    return (
+      <div className="flex h-screen flex-col items-center justify-center gap-3 bg-slate-950">
+        <p className="text-red-400 text-sm">{error}</p>
+        <button onClick={onSignOut} className="text-xs text-slate-500 underline">Sign out</button>
+      </div>
+    )
+  }
 
   return (
     <div className="flex flex-col h-screen bg-slate-950 overflow-hidden">
@@ -33,57 +51,53 @@ export function DraftRoom() {
             Live
           </span>
         </div>
-        <PickTimer />
+        <div className="flex items-center gap-3">
+          <PickTimer />
+          <button onClick={onSignOut} className="text-xs text-slate-600 hover:text-slate-400 transition-colors">
+            Sign out
+          </button>
+        </div>
       </header>
 
       {/* Draft Board */}
       <div className="px-4 py-3 bg-slate-900/50 border-b border-slate-800 shrink-0">
         <div className="flex items-center gap-2 mb-2">
           <h2 className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Draft Board</h2>
-          <span className="text-xs text-slate-600">
-            Round {DRAFT_STATE.currentRound} of {DRAFT_STATE.totalRounds} · Pick {DRAFT_STATE.currentPick} of {DRAFT_STATE.totalTeams}
-          </span>
+          {draftState && (
+            <span className="text-xs text-slate-600">
+              Round {draftState.currentRound} of {draftState.totalRounds} · Pick {draftState.currentPick} of {draftState.totalTeams}
+            </span>
+          )}
         </div>
         <DraftBoard />
       </div>
 
       {/* Main body: 3-column layout */}
       <div className="flex flex-1 min-h-0 overflow-hidden">
-        {/* Draft Order sidebar */}
         <aside className="w-52 shrink-0 bg-slate-900/30 border-r border-slate-800 flex flex-col p-3 overflow-hidden">
           <DraftOrder />
         </aside>
 
-        {/* Main column */}
         <main className="flex-1 flex flex-col p-4 overflow-hidden bg-slate-950">
           <div className="flex items-center gap-1 mb-3 bg-slate-900 rounded-lg p-1 self-start">
-            <button
-              onClick={() => setMainTab('players')}
-              className={[
-                'px-4 py-1.5 rounded-md text-xs font-semibold transition-all',
-                mainTab === 'players'
-                  ? 'bg-slate-700 text-slate-100 shadow'
-                  : 'text-slate-500 hover:text-slate-300',
-              ].join(' ')}
-            >
-              Players
-            </button>
-            <button
-              onClick={() => setMainTab('my-team')}
-              className={[
-                'px-4 py-1.5 rounded-md text-xs font-semibold transition-all',
-                mainTab === 'my-team'
-                  ? 'bg-slate-700 text-slate-100 shadow'
-                  : 'text-slate-500 hover:text-slate-300',
-              ].join(' ')}
-            >
-              My Team
-            </button>
+            {(['players', 'my-team'] as const).map(tab => (
+              <button
+                key={tab}
+                onClick={() => setMainTab(tab)}
+                className={[
+                  'px-4 py-1.5 rounded-md text-xs font-semibold transition-all',
+                  mainTab === tab
+                    ? 'bg-slate-700 text-slate-100 shadow'
+                    : 'text-slate-500 hover:text-slate-300',
+                ].join(' ')}
+              >
+                {tab === 'players' ? 'Players' : 'My Team'}
+              </button>
+            ))}
           </div>
           {mainTab === 'players' ? <AvailablePlayerList /> : <MyTeamView />}
         </main>
 
-        {/* My Roster sidebar */}
         <aside className="w-64 shrink-0 bg-slate-900/30 border-l border-slate-800 flex flex-col p-3 overflow-hidden">
           <div className="flex items-center gap-2 mb-3">
             <h2 className="text-sm font-semibold text-slate-200">My Roster</h2>

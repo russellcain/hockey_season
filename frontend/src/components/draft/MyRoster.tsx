@@ -1,4 +1,5 @@
-import { TEAMS, CAP_LIMIT, formatSalary, type Player } from '../../data/mockDraft'
+import { formatSalary, type Player } from '../../data/mockDraft'
+import { useDraft } from '../../context/DraftContext'
 import { POS_COLORS } from './shared'
 
 function StatLine({ player }: { player: Player }) {
@@ -9,10 +10,13 @@ function StatLine({ player }: { player: Player }) {
 }
 
 export function MyRoster() {
-  const me = TEAMS.find(t => t.isMe)!
+  const { teams, capLimit } = useDraft()
+  const me = teams.find(t => t.isMe)
+  if (!me) return null
+
   const roster = me.picks.filter((p): p is Player => p !== null)
-  const capPct = me.capUsed / CAP_LIMIT
-  const capRemaining = CAP_LIMIT - me.capUsed
+  const capPct = me.capUsed / capLimit
+  const capRemaining = capLimit - me.capUsed
 
   const forwards = roster.filter(p => p.position === 'F')
   const defence  = roster.filter(p => p.position === 'D')
@@ -52,7 +56,7 @@ export function MyRoster() {
         </div>
         <div className="flex justify-between text-xs text-slate-600 mt-0.5">
           <span>$0</span>
-          <span>{formatSalary(CAP_LIMIT)}</span>
+          <span>{formatSalary(capLimit)}</span>
         </div>
       </div>
 

@@ -1,18 +1,12 @@
 import { useCallback, useMemo, useState } from 'react'
-import { AVAILABLE_PLAYERS, TEAMS, DRAFT_STATE, currentPickingTeamIndex, CAP_LIMIT, SLOT_TARGETS, formatSalary, type Player, type Position } from '../../data/mockDraft'
+import { currentPickingTeamIndex, formatSalary, type Player, type Position } from '../../data/mockDraft'
+import { useDraft } from '../../context/DraftContext'
 import { DraftViolationModal, type Violation } from './DraftViolationModal'
 import { DraftSnackbar } from './DraftSnackbar'
 import { filterPlayers } from './filterLogic'
 import { POS_COLORS } from './shared'
 
-const initialDraftedBy = new Map<string, string>()
-for (const team of TEAMS) {
-  for (const pick of team.picks) {
-    if (pick) initialDraftedBy.set(pick.id, team.name)
-  }
-}
-
-function BlockedLabel({ overCap, positionFull }: { overCap: boolean; positionFull: boolean }) {
+function BlockedLabel({ overCap: _overCap, positionFull }: { overCap: boolean; positionFull: boolean }) {
   return <div className="text-xs text-red-500">{positionFull ? 'Position Filled' : 'Over Cap'}</div>
 }
 
@@ -116,70 +110,85 @@ function PlayerRow({ player, isMyTurn, capRemaining, positionFull, draftedBy, on
 }
 
 export function AvailablePlayerList() {
+  const { draftState, teams, players, capLimit, slotTargets, makePick } = useDraft()
+
   const [query, setQuery] = useState('')
   const [posFilter, setPosFilter] = useState<Position | 'ALL'>('ALL')
   const [nhlTeamFilter, setNhlTeamFilter] = useState('ALL')
   const [hideTaken, setHideTaken] = useState(false)
   const [showDraftable, setShowDraftable] = useState(false)
-  const [draftedBy, setDraftedBy] = useState<Map<string, string>>(initialDraftedBy)
-  const [sessionCapUsed, setSessionCapUsed] = useState(() => TEAMS.find(t => t.isMe)!.capUsed)
   const [violation, setViolation] = useState<Violation | null>(null)
   const [draftedPlayer, setDraftedPlayer] = useState<Player | null>(null)
   const dismissSnackbar = useCallback(() => setDraftedPlayer(null), [])
 
-  const me = TEAMS.find(t => t.isMe)!
-  const pickingIdx = currentPickingTeamIndex(DRAFT_STATE)
-  const isMyTurn = TEAMS[pickingIdx].isMe
-  const capRemaining = CAP_LIMIT - sessionCapUsed
+  const me = teams.find(t => t.isMe)
+  const pickingIdx = draftState ? currentPickingTeamIndex(draftState) : -1
+  const isMyTurn = pickingIdx >= 0 && (teams[pickingIdx]?.isMe ?? false)
+  const capRemaining = capLimit - (me?.capUsed ?? 0)
+
+  const draftedBy = useMemo<Map<string, string>>(() => {
+    const m = new Map<string, string>()
+    for (const team of teams) {
+      for (const pick of team.picks) {
+        if (pick) m.set(pick.id, team.name)
+      }
+    }
+    return m
+  }, [teams])
 
   const fullPositions = useMemo<Set<Position>>(() => {
     const full = new Set<Position>()
+    if (!me) return full
     for (const pos of ['F', 'D', 'G'] as Position[]) {
-      const count = AVAILABLE_PLAYERS.filter(
+      const count = players.filter(
         p => draftedBy.get(p.id) === me.name && p.position === pos
       ).length
-      if (count >= SLOT_TARGETS[pos]) full.add(pos)
+      if (count >= (slotTargets[pos] ?? 0)) full.add(pos)
     }
     return full
-  }, [draftedBy, me.name])
+  }, [draftedBy, me, players, slotTargets])
 
   const nhlTeams = useMemo(() =>
-    ['ALL', ...Array.from(new Set(AVAILABLE_PLAYERS.map(p => p.team))).sort()],
-    []
+    ['ALL', ...Array.from(new Set(players.map(p => p.team))).sort()],
+    [players]
   )
 
   const availableCount = useMemo(
-    () => AVAILABLE_PLAYERS.filter(p => !draftedBy.has(p.id)).length,
-    [draftedBy]
+    () => players.filter(p => !draftedBy.has(p.id)).length,
+    [players, draftedBy]
   )
 
   const draftableCount = useMemo(
-    () => AVAILABLE_PLAYERS.filter(p =>
+    () => players.filter(p =>
       !draftedBy.has(p.id) && p.salary <= capRemaining && !fullPositions.has(p.position)
     ).length,
-    [draftedBy, capRemaining, fullPositions]
+    [players, draftedBy, capRemaining, fullPositions]
   )
 
-  const filtered = filterPlayers(AVAILABLE_PLAYERS, {
+  const filtered = filterPlayers(players, {
     query, posFilter, nhlTeamFilter, hideTaken, showDraftable,
     draftedBy, capRemaining, fullPositions,
   })
 
-  function handleAttemptDraft(player: Player) {
-    const myCountAtPos = AVAILABLE_PLAYERS.filter(
+  async function handleAttemptDraft(player: Player) {
+    if (!me) return
+    const myCountAtPos = players.filter(
       p => draftedBy.get(p.id) === me.name && p.position === player.position
     ).length
-    if (myCountAtPos >= SLOT_TARGETS[player.position]) {
-      setViolation({ kind: 'position-full', player, slotsFilled: myCountAtPos, slotsTarget: SLOT_TARGETS[player.position] })
+    if (myCountAtPos >= (slotTargets[player.position] ?? 0)) {
+      setViolation({ kind: 'position-full', player, slotsFilled: myCountAtPos, slotsTarget: slotTargets[player.position] ?? 0 })
       return
     }
     if (player.salary > capRemaining) {
       setViolation({ kind: 'over-cap', player, shortfall: player.salary - capRemaining, capRemaining })
       return
     }
-    setDraftedBy(prev => new Map(prev).set(player.id, TEAMS[pickingIdx].name))
-    setSessionCapUsed(prev => prev + player.salary)
-    setDraftedPlayer(player)
+    const err = await makePick(player.id)
+    if (err) {
+      setViolation({ kind: 'over-cap', player, shortfall: 0, capRemaining })
+    } else {
+      setDraftedPlayer(player)
+    }
   }
 
   return (
