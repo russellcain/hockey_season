@@ -55,6 +55,7 @@ func main() {
 	migrationsDir := flag.String("migrations", "../data/migrations", "path to migrations directory")
 	playersJSON := flag.String("players", "../data/player-salaries.json", "path to player-salaries.json")
 	reset := flag.Bool("reset", false, "delete the simulation DB and start fresh")
+	draftOnly := flag.Bool("draft-only", false, "stop after draft+rosters; skip schedule generation and game log seeding")
 	flag.Parse()
 
 	if *reset {
@@ -104,6 +105,27 @@ func main() {
 	}
 	fmt.Printf("✓ Snake draft complete (%d rounds × %d teams = %d picks)\n",
 		numRounds, numTeams, numRounds*numTeams)
+
+	if *draftOnly {
+		// Populate roster_slots only — leave schedule generation and status
+		// advancement for the admin UI so you can test that flow manually.
+		if _, err := st.DB().Exec(`
+			INSERT OR IGNORE INTO roster_slots (team_id, player_id, league_id, slot_type)
+			SELECT dp.team_id, dp.player_id, ?, 'active'
+			FROM draft_picks dp
+			WHERE dp.session_id = ?
+		`, league.ID, sessionID); err != nil {
+			log.Fatalf("populate roster_slots: %v", err)
+		}
+		// Advance to draft_ready so the admin UI "Generate Schedule" button is reachable.
+		if err := st.UpdateLeagueStatus(league.ID, "draft_ready"); err != nil {
+			log.Fatalf("update league status: %v", err)
+		}
+		fmt.Println("✓ Roster slots populated (draft_only mode)")
+		fmt.Printf("\nLeague ID: %d   Draft session ID: %d\n", league.ID, sessionID)
+		fmt.Println("Start the backend, then use devtoken to log in and hit Admin → Generate Schedule.")
+		return
+	}
 
 	// 6. Finalise: populate roster_slots + H2H schedule + advance league status
 	if err := st.FinaliseDraft(sessionID); err != nil {
@@ -291,9 +313,7 @@ func autoDraft(db *sql.DB, sessionID int, teamIDs []int) error {
 	if err := rows.Err(); err != nil {
 		return err
 	}
-	if len(players) < numTeams*numRounds {
-		return fmt.Errorf("need %d players, DB has %d", numTeams*numRounds, len(players))
-	}
+	log.Printf("[sim] %d eligible players loaded for draft", len(players))
 
 	// Per-team state.
 	posCount := make(map[int]map[string]int, numTeams)
@@ -339,10 +359,45 @@ func autoDraft(db *sql.DB, sessionID int, teamIDs []int) error {
 				break
 			}
 			if !found {
-				return fmt.Errorf(
-					"no valid pick for team %d at round %d (posCount=%v, capUsed=$%dm, minReserve=$%dm)",
-					tid, round, posCount[tid], capUsed[tid]/1_000_000, minPickSalary*picksAfter/1_000_000,
-				)
+				// Find the first unfilled position slot for this team.
+				needPos := ""
+				for _, pos := range []string{"F", "D", "G"} {
+					if posCount[tid][pos] < slotTargets[pos] {
+						needPos = pos
+						break
+					}
+				}
+				if needPos == "" {
+					// All slots are somehow full — nothing to do this pick.
+					log.Printf("[sim] ⚠ team %d round %d: all slots full, skipping pick", tid, round)
+					continue
+				}
+
+				// Insert a unique placeholder row in nhl_players so foreign-key
+				// constraints are satisfied and every pick has a distinct player_id.
+				const defaultSalary int64 = 975_000
+				res, err := db.Exec(`
+					INSERT INTO nhl_players (name, nhl_team_name, nhl_team_code, position, salary_cap_hit, age)
+					VALUES (?, 'TBD', 'TBD', ?, '975,000', '0')
+				`, fmt.Sprintf("DEFAULT %s (team %d rnd %d)", needPos, tid, round), needPos)
+				if err != nil {
+					return fmt.Errorf("insert default player r%d t%d: %w", round, tid, err)
+				}
+				defaultID64, _ := res.LastInsertId()
+				defaultID := int(defaultID64)
+
+				if _, err := db.Exec(`
+					INSERT INTO draft_picks (session_id, team_id, player_id, round, pick_number)
+					VALUES (?, ?, ?, ?, ?)
+				`, sessionID, tid, defaultID, round, pickInRound); err != nil {
+					return fmt.Errorf("insert default pick r%d p%d: %w", round, pickInRound, err)
+				}
+
+				drafted[defaultID] = true
+				posCount[tid][needPos]++
+				capUsed[tid] += defaultSalary
+				log.Printf("[sim] ⚠ team %d round %d: no valid %s pick — inserted DEFAULT placeholder (id=%d, capUsed=$%dm)",
+					tid, round, needPos, defaultID, capUsed[tid]/1_000_000)
 			}
 		}
 	}

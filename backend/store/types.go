@@ -12,10 +12,13 @@ type Player struct {
 }
 
 type Stats struct {
-	Goals   int      `json:"goals"`
-	Assists int      `json:"assists"`
-	Wins    *int     `json:"wins,omitempty"`
-	GAA     *float64 `json:"gaa,omitempty"`
+	Goals       int     `json:"goals"`
+	Assists     int     `json:"assists"`
+	Wins        int     `json:"wins"`
+	OTL         int     `json:"otl"`
+	Shutouts    int     `json:"shutouts"`
+	GamesPlayed int     `json:"gamesPlayed"`
+	FP          float64 `json:"fp"` // total fantasy points this season
 }
 
 type Team struct {

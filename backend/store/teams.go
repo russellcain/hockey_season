@@ -82,6 +82,58 @@ func (s *Store) ListTeamsByLeague(leagueID int) ([]Team, error) {
 	return teams, rows.Err()
 }
 
+// UpdateTeamEmail sets the notification email for a team.
+func (s *Store) UpdateTeamEmail(teamID int, email string) error {
+	_, err := s.db.Exec(`UPDATE fantasy_teams SET email = ? WHERE id = ?`, email, teamID)
+	return err
+}
+
+// TeamEmailInfo holds the minimum info needed to send a notification.
+type TeamEmailInfo struct {
+	ID      int
+	Name    string
+	Manager string
+	Email   string // may be empty
+}
+
+// GetLeagueTeamEmails returns all teams in a league with their emails.
+func (s *Store) GetLeagueTeamEmails(leagueID int) ([]TeamEmailInfo, error) {
+	rows, err := s.db.Query(`
+		SELECT id, name, manager, COALESCE(email, '')
+		FROM fantasy_teams WHERE league_id = ? ORDER BY id
+	`, leagueID)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+	var out []TeamEmailInfo
+	for rows.Next() {
+		var t TeamEmailInfo
+		if err := rows.Scan(&t.ID, &t.Name, &t.Manager, &t.Email); err != nil {
+			return nil, err
+		}
+		out = append(out, t)
+	}
+	return out, rows.Err()
+}
+
+// GetPlayerOwnerTeam returns the TeamEmailInfo for the team that has a player
+// on their roster in the given league (any slot type).
+func (s *Store) GetPlayerOwnerTeam(leagueID, playerID int) (*TeamEmailInfo, error) {
+	var t TeamEmailInfo
+	err := s.db.QueryRow(`
+		SELECT ft.id, ft.name, ft.manager, COALESCE(ft.email, '')
+		FROM roster_slots rs
+		JOIN fantasy_teams ft ON ft.id = rs.team_id
+		WHERE rs.league_id = ? AND rs.player_id = ?
+		LIMIT 1
+	`, leagueID, playerID).Scan(&t.ID, &t.Name, &t.Manager, &t.Email)
+	if err != nil {
+		return nil, err
+	}
+	return &t, nil
+}
+
 // GetCommissionerTeamID returns the ID of the team with the lowest ID (commissioner).
 func (s *Store) GetCommissionerTeamID() (int, error) {
 	var id int

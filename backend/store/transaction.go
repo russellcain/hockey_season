@@ -15,6 +15,48 @@ var (
 	ErrNoSubstitute      = errors.New("no active substitute found")
 )
 
+// TransactionRecord is one row from the transactions log, enriched with names.
+type TransactionRecord struct {
+	ID            int    `json:"id"`
+	TeamID        int    `json:"teamId"`
+	TeamName      string `json:"teamName"`
+	DroppedPlayer string `json:"droppedPlayer"`
+	AddedPlayer   string `json:"addedPlayer"`
+	TxnType       string `json:"txnType"`
+	CreatedAt     string `json:"createdAt"`
+}
+
+// GetLeagueTransactions returns all transactions for a league, newest first.
+func (s *Store) GetLeagueTransactions(leagueID int) ([]TransactionRecord, error) {
+	rows, err := s.db.Query(`
+		SELECT t.id, t.team_id, ft.name,
+		       dp.name, ap.name,
+		       t.txn_type, t.created_at
+		FROM transactions t
+		JOIN fantasy_teams ft ON ft.id = t.team_id
+		JOIN nhl_players dp   ON dp.id = t.dropped_player_id
+		JOIN nhl_players ap   ON ap.id = t.added_player_id
+		WHERE t.league_id = ?
+		ORDER BY t.created_at DESC
+		LIMIT 200
+	`, leagueID)
+	if err != nil {
+		return nil, fmt.Errorf("GetLeagueTransactions: %w", err)
+	}
+	defer rows.Close()
+
+	var out []TransactionRecord
+	for rows.Next() {
+		var r TransactionRecord
+		if err := rows.Scan(&r.ID, &r.TeamID, &r.TeamName,
+			&r.DroppedPlayer, &r.AddedPlayer, &r.TxnType, &r.CreatedAt); err != nil {
+			return nil, err
+		}
+		out = append(out, r)
+	}
+	return out, rows.Err()
+}
+
 // ValidateTransaction checks all rules for a drop/add transaction without executing.
 func (s *Store) ValidateTransaction(leagueID, teamID, dropID, addID int) error {
 	// Check transaction limit

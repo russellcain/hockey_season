@@ -80,7 +80,7 @@ function adaptDraftState(ds: ApiDraftState): DraftState {
     totalTeams: ds.totalTeams,
     currentRound: ds.currentRound,
     currentPick: ds.currentPick,
-    status: 'in_progress',
+    status: ds.status as DraftState['status'],
     secondsRemaining: ds.secondsPerPick,
   }
 }

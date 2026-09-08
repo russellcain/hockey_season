@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import { useAuth, API_BASE, authHeaders } from '../context/AuthContext'
 
@@ -20,7 +21,7 @@ interface StandingsData {
 type Tab = 'aggregate' | 'h2h'
 
 export function StandingsPage() {
-  const { token, leagueId } = useAuth()
+  const { token, leagueId, teamId: myTeamId } = useAuth()
   const [tab, setTab] = useState<Tab>('aggregate')
 
   const { data, isLoading, error } = useQuery<StandingsData>({
@@ -83,8 +84,18 @@ export function StandingsPage() {
               <tr key={row.team.id} className="border-b border-slate-800/50 hover:bg-slate-800/30">
                 <td className="px-4 py-3 text-slate-500 text-xs">{i + 1}</td>
                 <td className="px-4 py-3">
-                  <div className="font-semibold text-slate-100">{row.team.name}</div>
-                  <div className="text-xs text-slate-500">{row.team.manager}</div>
+                  <Link
+                    to={row.team.id === myTeamId ? '/team' : `/teams/${row.team.id}`}
+                    className="group block"
+                  >
+                    <div className="font-semibold text-slate-100 group-hover:text-blue-400 transition-colors">
+                      {row.team.name}
+                      {row.team.id === myTeamId && (
+                        <span className="ml-2 text-xs text-blue-500 font-normal">(you)</span>
+                      )}
+                    </div>
+                    <div className="text-xs text-slate-500">{row.team.manager}</div>
+                  </Link>
                 </td>
                 {tab === 'aggregate' ? (
                   <>

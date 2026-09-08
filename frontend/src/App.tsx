@@ -3,6 +3,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { AuthProvider, useAuth } from './context/AuthContext'
 import { DraftProvider } from './context/DraftContext'
 import { NavBar } from './components/NavBar'
+import { DevBar } from './components/DevBar'
 import { DraftRoom } from './pages/DraftRoom'
 import { JoinPage } from './pages/JoinPage'
 import { StandingsPage } from './pages/StandingsPage'
@@ -12,10 +13,13 @@ import { TransactionsPage } from './pages/TransactionsPage'
 import { InjuriesPage } from './pages/InjuriesPage'
 import { TradesPage } from './pages/TradesPage'
 import { AdminPage } from './pages/AdminPage'
+import { TeamDetailPage } from './pages/TeamDetailPage'
 
 const queryClient = new QueryClient({
   defaultOptions: { queries: { retry: 1, staleTime: 30_000 } },
 })
+
+const DEV_MODE = import.meta.env.VITE_DEV_MODE === 'true'
 
 /** Wraps authenticated pages: redirects to /join if not signed in, otherwise shows NavBar. */
 function RequireAuth() {
@@ -24,9 +28,10 @@ function RequireAuth() {
   return (
     <div className="flex flex-col h-screen bg-slate-950 overflow-hidden">
       <NavBar />
-      <div className="flex-1 overflow-auto">
+      <div className={`flex-1 overflow-auto ${DEV_MODE ? 'pb-14' : ''}`}>
         <Outlet />
       </div>
+      {DEV_MODE && <DevBar />}
     </div>
   )
 }
@@ -68,6 +73,7 @@ function AppRoutes() {
         <Route path="/injuries" element={<InjuriesPage />} />
         <Route path="/trades" element={<TradesPage />} />
         <Route path="/admin" element={<AdminPage />} />
+        <Route path="/teams/:teamId" element={<TeamDetailPage />} />
       </Route>
 
       {/* Fallback */}

@@ -71,6 +71,62 @@ func (h *LeagueHandler) Get(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(league)
 }
 
+// GetTeams handles GET /api/leagues/{id}/teams — returns all teams with emails (commissioner only).
+func (h *LeagueHandler) GetTeams(w http.ResponseWriter, r *http.Request) {
+	callerTeamID, ok := h.authorise(w, r)
+	if !ok {
+		return
+	}
+	commID, _ := h.store.GetCommissionerTeamID()
+	if callerTeamID != commID {
+		http.Error(w, "commissioner only", http.StatusForbidden)
+		return
+	}
+	id, err := strconv.Atoi(r.PathValue("id"))
+	if err != nil {
+		http.Error(w, "invalid id", http.StatusBadRequest)
+		return
+	}
+	teams, err := h.store.GetLeagueTeamEmails(id)
+	if err != nil {
+		http.Error(w, "query failed", http.StatusInternalServerError)
+		return
+	}
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(teams)
+}
+
+// UpdateTeamEmail handles PATCH /api/leagues/{id}/teams/{teamId}/email
+func (h *LeagueHandler) UpdateTeamEmail(w http.ResponseWriter, r *http.Request) {
+	callerTeamID, ok := h.authorise(w, r)
+	if !ok {
+		return
+	}
+	commID, _ := h.store.GetCommissionerTeamID()
+	if callerTeamID != commID {
+		http.Error(w, "commissioner only", http.StatusForbidden)
+		return
+	}
+	teamID, err := strconv.Atoi(r.PathValue("teamId"))
+	if err != nil {
+		http.Error(w, "invalid teamId", http.StatusBadRequest)
+		return
+	}
+	var req struct {
+		Email string `json:"email"`
+	}
+	if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
+		http.Error(w, "bad request", http.StatusBadRequest)
+		return
+	}
+	if err := h.store.UpdateTeamEmail(teamID, req.Email); err != nil {
+		http.Error(w, "update failed", http.StatusInternalServerError)
+		return
+	}
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(map[string]any{"success": true})
+}
+
 // UpdateStatus handles PATCH /api/leagues/{id}/status
 // Commissioner only (lowest team ID).
 func (h *LeagueHandler) UpdateStatus(w http.ResponseWriter, r *http.Request) {

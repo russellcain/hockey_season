@@ -119,6 +119,7 @@ func (s *Store) GetAvailablePlayers(leagueID int, position, nameQuery string, ma
 		WHERE np.id NOT IN (
 			SELECT rs.player_id FROM roster_slots rs WHERE rs.league_id = ?
 		)
+		AND np.name NOT LIKE 'DEFAULT %'
 	`
 	args := []any{leagueID}
 

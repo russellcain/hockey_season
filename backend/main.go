@@ -13,6 +13,7 @@ import (
 
 	"github.com/robfig/cron/v3"
 
+	"hockey_season/backend/email"
 	"hockey_season/backend/handlers"
 	"hockey_season/backend/hub"
 	"hockey_season/backend/jobs"
@@ -22,6 +23,7 @@ import (
 
 func main() {
 	mock := flag.Bool("mock", false, "seed mock draft data on startup and clean it up on shutdown")
+	dev := flag.Bool("dev", false, "enable dev-only endpoints (advance-week, etc.)")
 	flag.Parse()
 
 	secret := os.Getenv("DRAFT_SECRET")
@@ -44,6 +46,18 @@ func main() {
 		if err != nil {
 			log.Fatalf("mock seed: %v", err)
 		}
+	}
+
+	// Email sender — real if RESEND_API_KEY is set, no-op otherwise.
+	var mailer email.Sender
+	resendKey := os.Getenv("RESEND_API_KEY")
+	resendFrom := getEnv("RESEND_FROM", "Draftr <noreply@draftr.local>")
+	if resendKey != "" {
+		mailer = email.NewResend(resendKey, resendFrom)
+		log.Printf("email: Resend enabled (from=%s)", resendFrom)
+	} else {
+		mailer = email.NewNoop()
+		log.Println("email: no RESEND_API_KEY set — using noop sender")
 	}
 
 	h := hub.New()
@@ -87,6 +101,9 @@ func main() {
 	mux.HandleFunc("GET /api/leagues/{id}/teams/{teamId}/injury-subs/available", rosterH.GetEligibleSubs)
 	mux.HandleFunc("POST /api/leagues/{id}/teams/{teamId}/cut", rosterH.CutPlayer)
 
+	// Transaction log (league-wide, read-only for all members)
+	mux.HandleFunc("GET /api/leagues/{id}/transactions", rosterH.GetTransactionLog)
+
 	// Schedule
 	mux.HandleFunc("POST /api/leagues/{id}/schedule/generate", scheduleH.Generate)
 	mux.HandleFunc("GET /api/leagues/{id}/schedule", scheduleH.GetAll)
@@ -103,6 +120,17 @@ func main() {
 	// Injuries
 	mux.HandleFunc("GET /api/leagues/{id}/injuries", injuriesH.GetInjuries)
 
+	// Team emails (commissioner only)
+	mux.HandleFunc("GET /api/leagues/{id}/teams", leagueH.GetTeams)
+	mux.HandleFunc("PATCH /api/leagues/{id}/teams/{teamId}/email", leagueH.UpdateTeamEmail)
+
+	// Dev-only: advance simulated season one week at a time.
+	if *dev {
+		devH := handlers.NewDev(st)
+		mux.HandleFunc("POST /api/dev/leagues/{id}/advance-week", devH.AdvanceWeek)
+		log.Println("dev mode: POST /api/dev/leagues/{id}/advance-week enabled")
+	}
+
 	// Cron jobs
 	loc, err := time.LoadLocation("America/New_York")
 	if err != nil {
@@ -110,8 +138,8 @@ func main() {
 		loc = time.UTC
 	}
 	c := cron.New(cron.WithLocation(loc))
-	c.AddFunc("0 2 * * *", func() { jobs.SyncStats(st) })    // 2AM ET daily
-	c.AddFunc("0 23 * * *", func() { jobs.DigestInjuries(st) }) // 11PM ET daily
+	c.AddFunc("0 2 * * *", func() { jobs.SyncStats(st, mailer) })     // 2AM ET daily
+	c.AddFunc("0 23 * * *", func() { jobs.DigestInjuries(st, mailer) }) // 11PM ET daily
 	c.Start()
 	defer c.Stop()
 

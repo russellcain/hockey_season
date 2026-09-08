@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query'
 import { useAuth, API_BASE, authHeaders } from '../context/AuthContext'
 
@@ -6,6 +7,13 @@ interface League {
   name: string
   status: string
   salaryCap: number
+}
+
+interface TeamEmailInfo {
+  id: number
+  name: string
+  manager: string
+  email: string
 }
 
 interface TradeDetail {
@@ -31,6 +39,67 @@ function nextStatus(current: string): SeasonStatus | null {
   const idx = SEASON_STATUSES.indexOf(current as SeasonStatus)
   if (idx < 0 || idx >= SEASON_STATUSES.length - 1) return null
   return SEASON_STATUSES[idx + 1]
+}
+
+function TeamEmailsSection({ token, leagueId }: { token: string | null; leagueId: string }) {
+  const qc = useQueryClient()
+  const [drafts, setDrafts] = useState<Record<number, string>>({})
+  const [saved, setSaved] = useState<Record<number, boolean>>({})
+
+  const { data: teams = [], isLoading } = useQuery<TeamEmailInfo[]>({
+    queryKey: ['team-emails', leagueId],
+    queryFn: () =>
+      fetch(`${API_BASE}/api/leagues/${leagueId}/teams`, { headers: authHeaders(token) })
+        .then(r => r.json()),
+    enabled: !!token,
+  })
+
+  const updateEmail = useMutation({
+    mutationFn: ({ teamId, email }: { teamId: number; email: string }) =>
+      fetch(`${API_BASE}/api/leagues/${leagueId}/teams/${teamId}/email`, {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json', ...authHeaders(token) },
+        body: JSON.stringify({ email }),
+      }).then(r => r.json()),
+    onSuccess: (_, { teamId }) => {
+      setSaved(s => ({ ...s, [teamId]: true }))
+      setTimeout(() => setSaved(s => ({ ...s, [teamId]: false })), 2000)
+      qc.invalidateQueries({ queryKey: ['team-emails'] })
+    },
+  })
+
+  if (isLoading) return <div className="text-slate-500 text-sm">Loading teams…</div>
+
+  return (
+    <div className="space-y-2">
+      {teams.map(team => {
+        const val = drafts[team.id] ?? team.email
+        const dirty = val !== team.email
+        return (
+          <div key={team.id} className="flex items-center gap-3 bg-slate-900 border border-slate-800 rounded-xl px-4 py-3">
+            <div className="flex-1 min-w-0">
+              <div className="text-sm font-semibold text-slate-100 truncate">{team.name}</div>
+              <div className="text-xs text-slate-500 truncate">{team.manager}</div>
+            </div>
+            <input
+              type="email"
+              placeholder="manager@example.com"
+              value={val}
+              onChange={e => setDrafts(d => ({ ...d, [team.id]: e.target.value }))}
+              className="w-56 px-3 py-1.5 text-xs bg-slate-800 border border-slate-700 rounded-lg text-slate-100 placeholder-slate-600 focus:outline-none focus:ring-1 focus:ring-blue-500"
+            />
+            <button
+              disabled={!dirty || updateEmail.isPending}
+              onClick={() => updateEmail.mutate({ teamId: team.id, email: val })}
+              className="px-3 py-1.5 text-xs font-semibold bg-blue-600 hover:bg-blue-500 disabled:opacity-30 text-white rounded-md transition-colors"
+            >
+              {saved[team.id] ? '✓ Saved' : 'Save'}
+            </button>
+          </div>
+        )
+      })}
+    </div>
+  )
 }
 
 export function AdminPage() {
@@ -140,6 +209,15 @@ export function AdminPage() {
             <div className="mt-3 text-xs text-red-400">Failed to generate schedule.</div>
           )}
         </div>
+      </section>
+
+      {/* Team emails */}
+      <section>
+        <h2 className="text-sm font-semibold text-slate-400 uppercase tracking-wider mb-3">Team Notification Emails</h2>
+        <p className="text-xs text-slate-500 mb-3">
+          Set an email address per manager to receive injury alerts and trade notifications.
+        </p>
+        <TeamEmailsSection token={token} leagueId={leagueId} />
       </section>
 
       {/* Pending trades */}

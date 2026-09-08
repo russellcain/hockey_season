@@ -183,6 +183,10 @@ func scoreToPoints(home, away float64) (homePoints, awayPoints int) {
 	return 1, 1
 }
 
+// FirstMondayOfOctober returns the first Monday on or after October 1 of year.
+// This is the canonical fantasy season start used for week-number calculations.
+func FirstMondayOfOctober(year int) time.Time { return firstMondayOfOctober(year) }
+
 func firstMondayOfOctober(year int) time.Time {
 	oct1 := time.Date(year, time.October, 1, 0, 0, 0, 0, time.UTC)
 	// weekday: 0=Sunday, 1=Monday, ...

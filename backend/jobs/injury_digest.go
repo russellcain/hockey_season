@@ -1,18 +1,20 @@
 package jobs
 
 import (
+	"fmt"
 	"log"
+	"strings"
 	"time"
 
+	"hockey_season/backend/email"
 	"hockey_season/backend/store"
 )
 
-// DigestInjuries queries injury-sub transactions from the last 24 hours and
-// logs a summary (email delivery is deferred to a future implementation).
-func DigestInjuries(st *store.Store) {
+// DigestInjuries is the nightly 11PM job.  It finds injury-sub transactions
+// from the past 24 hours, builds a digest, and emails it to the commissioner.
+func DigestInjuries(st *store.Store, mailer email.Sender) {
 	log.Println("[injury_digest] starting daily injury digest")
 	start := time.Now()
-
 	since := start.Add(-24 * time.Hour)
 
 	rows, err := st.DB().Query(`
@@ -31,16 +33,9 @@ func DigestInjuries(st *store.Store) {
 	}
 	defer rows.Close()
 
-	type entry struct {
-		teamID       int
-		droppedName  string
-		addedName    string
-		createdAt    string
-	}
-
-	var entries []entry
+	var entries []digestEntry
 	for rows.Next() {
-		var e entry
+		var e digestEntry
 		var dropID, addID int
 		if err := rows.Scan(&e.teamID, &dropID, &addID, &e.createdAt, &e.droppedName, &e.addedName); err != nil {
 			log.Printf("[injury_digest] scan: %v", err)
@@ -50,13 +45,79 @@ func DigestInjuries(st *store.Store) {
 	}
 
 	if len(entries) == 0 {
-		log.Printf("[injury_digest] no injury sub activity in last 24h — skipping digest")
+		log.Println("[injury_digest] no injury activity in last 24h")
 		return
 	}
 
-	log.Printf("[injury_digest] %d injury sub moves since %v:", len(entries), since.Format("2006-01-02 15:04"))
+	log.Printf("[injury_digest] %d injury-sub moves in last 24h — sending digest", len(entries))
+
+	// Find all leagues that had activity and email their commissioners.
+	leaguesSeen := map[int]bool{}
 	for _, e := range entries {
-		log.Printf("  [team %d] subbed out %s → in %s at %s", e.teamID, e.droppedName, e.addedName, e.createdAt)
+		// Determine which league this team belongs to.
+		var lid int
+		st.DB().QueryRow(
+			`SELECT COALESCE(league_id, 0) FROM fantasy_teams WHERE id = ?`, e.teamID,
+		).Scan(&lid)
+		if lid == 0 || leaguesSeen[lid] {
+			continue
+		}
+		leaguesSeen[lid] = true
+		sendDigestForLeague(st, mailer, lid, entries, since)
 	}
-	log.Printf("[email deferred] would send injury digest to all league members")
+}
+
+type digestEntry struct {
+	teamID      int
+	droppedName string
+	addedName   string
+	createdAt   string
+}
+
+func sendDigestForLeague(st *store.Store, mailer email.Sender, leagueID int, entries []digestEntry, since time.Time) {
+	teams, err := st.GetLeagueTeamEmails(leagueID)
+	if err != nil || len(teams) == 0 {
+		return
+	}
+	comm := teams[0]
+	if comm.Email == "" {
+		log.Printf("[injury_digest] league %d commissioner has no email set — skipping", leagueID)
+		return
+	}
+
+	var rows []string
+	for _, e := range entries {
+		// Only include entries that belong to this league.
+		var lid int
+		st.DB().QueryRow(`SELECT COALESCE(league_id,0) FROM fantasy_teams WHERE id = ?`, e.teamID).Scan(&lid)
+		if lid != leagueID {
+			continue
+		}
+		var teamName string
+		st.DB().QueryRow(`SELECT name FROM fantasy_teams WHERE id = ?`, e.teamID).Scan(&teamName)
+		rows = append(rows, fmt.Sprintf(
+			"<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>",
+			teamName, e.droppedName, e.addedName, e.createdAt[:16],
+		))
+	}
+	if len(rows) == 0 {
+		return
+	}
+
+	html := fmt.Sprintf(`
+<h2>Draftr — Daily Injury Digest</h2>
+<p>%d injury substitution(s) since %s:</p>
+<table border="1" cellpadding="6" style="border-collapse:collapse">
+  <thead><tr><th>Team</th><th>Injured (out)</th><th>Sub (in)</th><th>Time</th></tr></thead>
+  <tbody>%s</tbody>
+</table>
+<p>— Draftr</p>
+`, len(rows), since.Format("Jan 2, 3:04 PM"), strings.Join(rows, ""))
+
+	subject := fmt.Sprintf("[Draftr] Injury digest — %d move(s) today", len(rows))
+	if err := mailer.Send(comm.Email, subject, html); err != nil {
+		log.Printf("[injury_digest] send to %s: %v", comm.Email, err)
+	} else {
+		log.Printf("[injury_digest] digest sent to %s", comm.Email)
+	}
 }

@@ -5,6 +5,49 @@ import (
 	"time"
 )
 
+// GetRosterPlayerStats returns season-aggregate Stats keyed by player ID for
+// every player currently on a team's roster. Skaters get goals/assists/fp;
+// goalies get wins/otl/shutouts/fp.
+func (s *Store) GetRosterPlayerStats(leagueID, teamID int) (map[int]Stats, error) {
+	rows, err := s.db.Query(`
+		SELECT rs.player_id, np.position,
+		       COALESCE(SUM(gl.goals), 0),
+		       COALESCE(SUM(gl.assists), 0),
+		       COALESCE(SUM(gl.wins), 0),
+		       COALESCE(SUM(gl.otl), 0),
+		       COALESCE(SUM(gl.shutouts), 0),
+		       COUNT(gl.game_date)
+		FROM roster_slots rs
+		JOIN nhl_players np ON np.id = rs.player_id
+		LEFT JOIN player_game_logs gl ON gl.player_id = rs.player_id
+		WHERE rs.league_id = ? AND rs.team_id = ?
+		GROUP BY rs.player_id, np.position
+	`, leagueID, teamID)
+	if err != nil {
+		return nil, fmt.Errorf("GetRosterPlayerStats: %w", err)
+	}
+	defer rows.Close()
+
+	out := make(map[int]Stats)
+	for rows.Next() {
+		var playerID int
+		var pos string
+		var st Stats
+		if err := rows.Scan(&playerID, &pos,
+			&st.Goals, &st.Assists, &st.Wins, &st.OTL, &st.Shutouts, &st.GamesPlayed,
+		); err != nil {
+			return nil, err
+		}
+		if pos == "G" {
+			st.FP = float64(st.Wins)*2 + float64(st.OTL) + float64(st.Shutouts)
+		} else {
+			st.FP = float64(st.Goals + st.Assists)
+		}
+		out[playerID] = st
+	}
+	return out, rows.Err()
+}
+
 // UpsertGameLog inserts or replaces a player's game log entry for a date.
 func (s *Store) UpsertGameLog(playerID int, date string, goals, assists, wins, otl, shutouts int) error {
 	_, err := s.db.Exec(`

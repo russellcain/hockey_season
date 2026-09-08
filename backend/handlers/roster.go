@@ -56,6 +56,15 @@ func (h *RosterHandler) GetRoster(w http.ResponseWriter, r *http.Request) {
 		slots = []store.RosterSlot{}
 	}
 
+	// Merge season stats into each player.
+	if statsMap, err := h.store.GetRosterPlayerStats(leagueID, teamID); err == nil {
+		for i := range slots {
+			if st, ok := statsMap[slots[i].PlayerID]; ok {
+				slots[i].Player.Stats = st
+			}
+		}
+	}
+
 	capUsed, _ := h.store.GetTeamCapUsed(leagueID, teamID)
 	team, _ := h.store.GetTeam(teamID)
 	league, _ := h.store.GetLeague(leagueID)
@@ -167,6 +176,30 @@ func (h *RosterHandler) GetEligibleSubs(w http.ResponseWriter, r *http.Request) 
 	}
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(players)
+}
+
+// GetTransactionLog handles GET /api/leagues/{id}/transactions
+// Returns all elective + injury-sub transactions for the league, newest first.
+// Any authenticated member of the league can read this.
+func (h *RosterHandler) GetTransactionLog(w http.ResponseWriter, r *http.Request) {
+	if _, ok := h.authorise(w, r); !ok {
+		return
+	}
+	leagueID, err := strconv.Atoi(r.PathValue("id"))
+	if err != nil {
+		http.Error(w, "invalid id", http.StatusBadRequest)
+		return
+	}
+	records, err := h.store.GetLeagueTransactions(leagueID)
+	if err != nil {
+		http.Error(w, "query failed", http.StatusInternalServerError)
+		return
+	}
+	if records == nil {
+		records = []store.TransactionRecord{}
+	}
+	w.Header().Set("Content-Type", "application/json")
+	json.NewEncoder(w).Encode(records)
 }
 
 // CutPlayer handles POST /api/leagues/{id}/teams/{teamId}/cut
