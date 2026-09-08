@@ -1,4 +1,5 @@
-import { TEAMS, DRAFT_STATE, snakePickOrder, type Player } from '../../data/mockDraft'
+import { snakePickOrder, type Player } from '../../data/mockDraft'
+import { useDraft } from '../../context/DraftContext'
 
 const POS_BG: Record<string, string> = {
   F: 'bg-blue-500/20 text-blue-300',
@@ -37,13 +38,17 @@ function PickCell({ player, isCurrent, isPast }: {
 }
 
 export function DraftBoard() {
-  const { totalRounds, totalTeams, currentRound, currentPick } = DRAFT_STATE
+  const { draftState, teams } = useDraft()
+
+  if (!draftState || teams.length === 0) return null
+
+  const { totalRounds, totalTeams, currentRound, currentPick } = draftState
 
   return (
     <div className="overflow-x-auto">
       <div style={{ minWidth: `${totalTeams * 120 + 60}px` }}>
         <div className="flex gap-1 mb-1 pl-14">
-          {TEAMS.map(team => (
+          {teams.map(team => (
             <div key={team.id} className={[
               'flex-1 text-center text-xs font-medium truncate px-1',
               team.isMe ? 'text-amber-300' : 'text-slate-400',
@@ -71,9 +76,9 @@ export function DraftBoard() {
                 ].join(' ')}>
                   R{round}
                 </div>
-                {TEAMS.map((_, teamIdx) => {
+                {teams.map((_, teamIdx) => {
                   const pickPos = order.indexOf(teamIdx)
-                  const team = TEAMS[teamIdx]
+                  const team = teams[teamIdx]
                   const pickNumber = pickPos + 1
                   const player = team.picks[roundIdx] ?? null
 

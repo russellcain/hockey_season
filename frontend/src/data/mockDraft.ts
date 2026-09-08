@@ -24,7 +24,7 @@ export interface DraftState {
   totalTeams: number
   currentRound: number
   currentPick: number
-  status: 'in_progress'
+  status: 'in_progress' | 'complete'
   secondsRemaining: number
 }
 

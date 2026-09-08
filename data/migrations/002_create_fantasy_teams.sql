@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS fantasy_teams (
+  id        INTEGER PRIMARY KEY AUTOINCREMENT,
+  name      TEXT NOT NULL,
+  manager   TEXT NOT NULL,
+  code_hash TEXT NOT NULL UNIQUE,
+  cap_used  INTEGER NOT NULL DEFAULT 0
+);

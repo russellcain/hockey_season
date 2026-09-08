@@ -1,4 +1,5 @@
-import { TEAMS, CAP_LIMIT, DRAFT_STATE, SLOT_TARGETS, currentPickingTeamIndex, formatSalary, type Player } from '../../data/mockDraft'
+import { currentPickingTeamIndex, formatSalary, type Player } from '../../data/mockDraft'
+import { useDraft } from '../../context/DraftContext'
 import { POS_COLORS } from './shared'
 
 const SLOT_CONFIG = [
@@ -17,7 +18,7 @@ function FilledSlot({ player }: { player: Player }) {
           {player.team}
           {player.position !== 'G'
             ? ` · ${player.stats.goals}G ${player.stats.assists}A ${player.stats.goals + player.stats.assists}Pts`
-            : ` · ${player.stats.wins}W ${player.stats.gaa?.toFixed(2)} GAA`}
+            : ` · ${player.stats.wins ?? 0}W ${player.stats.gaa?.toFixed(2) ?? '—'} GAA`}
         </div>
       </div>
       <div className="text-xs font-mono text-slate-400 shrink-0">{formatSalary(player.salary)}</div>
@@ -36,16 +37,18 @@ function EmptySlot({ pos }: { pos: string }) {
 }
 
 export function MyTeamView() {
-  const me = TEAMS.find(t => t.isMe)!
-  const picks = me.picks.filter((p): p is Player => p !== null)
+  const { draftState, teams, capLimit, slotTargets } = useDraft()
 
-  const pickingIdx = currentPickingTeamIndex(DRAFT_STATE)
-  const isMyTurn = TEAMS[pickingIdx].isMe
+  const me = teams.find(t => t.isMe)
+  if (!me || !draftState) return null
+
+  const picks = me.picks.filter((p): p is Player => p !== null)
+  const isMyTurn = teams[currentPickingTeamIndex(draftState)]?.isMe ?? false
 
   const capUsed = me.capUsed
-  const capRemaining = CAP_LIMIT - capUsed
-  const capPct = capUsed / CAP_LIMIT
-  const totalPicks = DRAFT_STATE.totalRounds
+  const capRemaining = capLimit - capUsed
+  const capPct = capUsed / capLimit
+  const totalPicks = draftState.totalRounds
   const picksMade = picks.length
 
   return (
@@ -57,7 +60,6 @@ export function MyTeamView() {
         </div>
       )}
 
-      {/* Cap section */}
       <div className="shrink-0 mb-4 p-3 bg-slate-900/60 rounded-xl border border-slate-800">
         <div className="flex items-baseline justify-between mb-2">
           <span className="section-label text-slate-400">Cap Usage</span>
@@ -92,12 +94,11 @@ export function MyTeamView() {
           </div>
           <div>
             <div className="stat-text mb-0.5">Total</div>
-            <div className="text-sm font-mono font-semibold text-slate-400">{formatSalary(CAP_LIMIT)}</div>
+            <div className="text-sm font-mono font-semibold text-slate-400">{formatSalary(capLimit)}</div>
           </div>
         </div>
       </div>
 
-      {/* Picks progress */}
       <div className="shrink-0 flex items-center gap-2 mb-4 px-1">
         <div className="flex gap-0.5 flex-1">
           {Array.from({ length: totalPicks }, (_, i) => (
@@ -110,10 +111,9 @@ export function MyTeamView() {
         <span className="stat-text shrink-0 font-mono">{picksMade}/{totalPicks} picks</span>
       </div>
 
-      {/* Positional slots */}
       <div className="flex-1 overflow-y-auto space-y-4 pr-0.5">
         {SLOT_CONFIG.map(({ pos, label }) => {
-          const target = SLOT_TARGETS[pos]
+          const target = slotTargets[pos] ?? 0
           const filled = picks.filter(p => p.position === pos)
           const empty = Math.max(0, target - filled.length)
 

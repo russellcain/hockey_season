@@ -1,0 +1,50 @@
+services:
+
+  # ── Go API ────────────────────────────────────────────────────────────────
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    environment:
+      DRAFT_SECRET: ${DRAFT_SECRET}
+      DB_PATH: /data/hockey_season.db
+      MIGRATIONS_DIR: /data/migrations
+    volumes:
+      # Persistent SQLite database — survives image rebuilds and deploys.
+      - db_data:/data
+      # Migrations and seed data are read-only; sourced from the repo.
+      - ./data/migrations:/data/migrations:ro
+      - ./data/player-salaries.json:/data/player-salaries.json:ro
+    # Not exposed to the host — nginx is the only entry point.
+    expose:
+      - "8080"
+    healthcheck:
+      # TCP check — works without a dedicated /health endpoint.
+      # Replace with a real HTTP check once INFRA-001 lands a /api/health route.
+      test: ["CMD-SHELL", "timeout 1 bash -c 'cat < /dev/null > /dev/tcp/localhost/8080' || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+  # ── React frontend (nginx) ────────────────────────────────────────────────
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    volumes:
+      # Mount the nginx config so you can tweak it without rebuilding the image
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    ports:
+      # Expose to the host (or your Caddy/Traefik reverse proxy)
+      - "${FRONTEND_PORT:-3000}:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+
+volumes:
+  db_data:
+    # Named volume — Docker manages the path.
+    # To see where it lives: docker volume inspect hockey_season_db_data
